@@ -1,4 +1,7 @@
+
+
     <?php get_header(); ?>
+
     <div class="body-content">
         <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
@@ -7,7 +10,6 @@
         
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
-
 <style>
     .head-bg{
             background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
@@ -55,20 +57,15 @@
     });
 </script>
 
-<!-- Hoa start -->
-    <div>
-        
-        <div id="mini-action" class="callToAction">
-            <div onclick="ShowAction()" class = "eModal-1" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
-        </div>
-
-		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
-
+<div>
+    <div id="mini-action" class="callToAction">
+        <div class="form-support"><i class="fa fa-comments" aria-hidden="true"></i> <b>Miễn phí</b> tư vấn, hotline <b>0901 395 886</b></div>
+    </div>
 
     <div class="col-md-12" style="padding: 0px">
         <div id="banner2">
-            <div style="background-color:black; opacity:0.5; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
-            <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
+            <div class="banner-image" style=""></div>
+            <div id="ani-1" class="idani-1">
                 <div style="position: relative; left: -25%;">
                     <h1 id="toptext2">
                         <span>Magic Marketing</span>
@@ -83,8 +80,8 @@
     
 
     <div id="feature" class="col-md-12" style="color:#fff;  position:relative">
-        <div style="background-color:black; opacity:0.5; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
-        <div style="position:relative; z-index:200">
+        <div class="banner-image"></div>
+        <div style="position: relative; z-index:200">
             <div class="margin-detail col-md-12">
                 <h2>Các Dịch Vụ</h2>
             </div>
@@ -92,39 +89,39 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-md-10 col-md-offset-1">
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom hangmuc">
                                 <div class="benefit">
-                                    <div style="margin-bottom:15px">
+                                    <div class="icon-index">
                                         <i class="fa fa-fw fa-5x fa-cogs" aria-hidden="true"></i>
                                     </div>
                                     <h3>Chẩn đoán doanh nghiệp </h3>
                                 </div>
 
                             </div>
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom hangmuc">
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website" style="color: inherit">
                                     <div class="benefit">
-                                        <div style="margin-bottom:15px">
+                                        <div class="icon-index">
                                             <i class="fa fa-fw fa-5x fa-pencil-square-o" aria-hidden="true"></i>
                                         </div>
                                         <h3>Thiết Kế Website</h3>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom hangmuc">
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website" style="color: inherit">
                                     <div class="benefit">
-                                        <div style="margin-bottom:15px">
+                                        <div class="icon-index">
                                             <i class="fa fa-fw fa-5x fa-check-square-o" aria-hidden="true"></i>
                                         </div>
                                         <h3>Tư Vấn Cải Tiến Website</h3>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom hangmuc">
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo" style="color: inherit">
                                     <div class="benefit">
-                                        <div style="margin-bottom:15px">
+                                        <div class="icon-index">
                                             <i class="fa fa-fw fa-5x fa-list-ol" aria-hidden="true"></i>
                                         </div>
                                         <h3>SEO</h3>
@@ -132,10 +129,10 @@
                                 </a>
 
                             </div>
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom hangmuc">
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads" style="color: inherit">
                                     <div class="benefit">
-                                        <div style="margin-bottom:15px">
+                                        <div class="icon-index">
                                             <i class="fa fa-5x fa-fw fa-google" aria-hidden="true"></i>
                                         </div>
                                         <h3>Quảng Cáo Google</h3>
@@ -145,9 +142,9 @@
                             </div>
 
                             
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom hangmuc">
                                 <div class="benefit">
-                                    <div style="margin-bottom:15px">
+                                    <div class="icon-index">
                                         <i class="fa fa-fw fa-5x fa-facebook" aria-hidden="true"></i>
                                     </div>
                                     <h3>Quảng Cáo Facebook</h3>
@@ -167,27 +164,27 @@
 
 
 
-    <div id="whyus" class="col-md-12" style="background-color:#eee;">
+    <div id="whyus" class="col-md-12">
         <div class="col-md-12" style="padding: 50px 0;">
-            <h2 style="text-align:center; margin-top:0; margin-bottom:50px">Vấn đề hiện tại trên thị trường </h2>
+            <h2 class="title-index">Vấn đề hiện tại trên thị trường </h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
-                                    <div class="flip-container" style="height:250px">
+                                    <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img style="height:100%;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/tiemnang.jpg" tppabs="http://magica.top/Imgs/tiemnang.jpg" />
+                                                <div class="front-image-index">
+                                                    <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/tiemnang.jpg" tppabs="http://magica.top/Imgs/tiemnang.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:18px;margin-top: 15px;">
+                                                <div class="text-front">
                                                     Tiềm năng chưa được khai thác
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p style="padding-top:20px">Hầu hết các công ty chưa được trang bị đầy đủ kiến thức để khai thác tiềm năng khách hàng vô cùng lớn đến từ các kênh online trong thời đại hành vi mua hàng của xã hội dựa vào rất lớn vào các công cụ online như Google, Facebook</p>
+                                                <p class="text-back-index">Hầu hết các công ty chưa được trang bị đầy đủ kiến thức để khai thác tiềm năng khách hàng vô cùng lớn đến từ các kênh online trong thời đại hành vi mua hàng của xã hội dựa vào rất lớn vào các công cụ online như Google, Facebook</p>
                                             </div>
                                         </div>
                                     </div>
@@ -195,20 +192,20 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
-                                    <div class="flip-container" style="height:250px">
+                                    <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img style="height:100%;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/khongamhieu.jpg" tppabs="http://magica.top/Imgs/khongamhieu.jpg" />
+                                                <div class="front-image-index">
+                                                    <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/khongamhieu.jpg" tppabs="http://magica.top/Imgs/khongamhieu.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:18px;margin-top: 15px;">
+                                                <div class="text-front">
                                                     Người thực thi không am hiểu kinh doanh
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p style="padding-top:20px">Hầu hết các nhân sự triển khai website, marketing online đều là chuyên viên kỹ thuật, nên đa số các giải pháp hiện tại thị trường cung cấp thường không đồng nhất với chiến lược kinh doanh của doanh nghiệp và không thật sự hỗ trợ vào việc tăng doanh số bán hàng cho doanh nghiệp</p>
+                                                <p class="text-back-index">Hầu hết các nhân sự triển khai website, marketing online đều là chuyên viên kỹ thuật, nên đa số các giải pháp hiện tại thị trường cung cấp thường không đồng nhất với chiến lược kinh doanh của doanh nghiệp và không thật sự hỗ trợ vào việc tăng doanh số bán hàng cho doanh nghiệp</p>
                                             </div>
                                         </div>
                                     </div>
@@ -216,15 +213,15 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
-                                    <div class="flip-container" style="height:250px">
+                                    <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img style="height:100%;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" />
+                                                <div class="front-image-index">
+                                                    <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:18px;margin-top: 15px;">
+                                                <div class="text-front">
                                                     Tiết kiệm chi phí làm website
                                                 </div>
                                             </div>
@@ -237,15 +234,15 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
-                                    <div class="flip-container" style="height:250px">
+                                    <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img style="height:100%;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/chiphicao.jpg" tppabs="http://magica.top/Imgs/chiphicao.jpg" />
+                                                <div class="front-image-index">
+                                                    <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/chiphicao.jpg" tppabs="http://magica.top/Imgs/chiphicao.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:18px;margin-top: 15px;">
+                                                <div class="text-front">
                                                     Chi phí quá cao
                                                 </div>
                                             </div>
@@ -266,16 +263,16 @@
         </div>
 
     </div>
-    <div class="col-md-12" style="background-color:#45a16b;color:#fff; height:250px">
+    <div class="col-md-12 description-magic-div">
         <div class="container">
-            <div class="sub-text" style="text-align:center; font-size:20px;">Magic là một marketing agency ra đời để phục vụ cho các doanh nghiệp vừa và nhỏ cung cấp giải pháp toàn diện hướng đến một mục tiêu duy nhất là hiệu quả kinh doanh của khách hàng </div>
+            <div class="sub-text description-magic">Magic là một marketing agency ra đời để phục vụ cho các doanh nghiệp vừa và nhỏ cung cấp giải pháp toàn diện hướng đến một mục tiêu duy nhất là hiệu quả kinh doanh của khách hàng </div>
         </div>      
     </div>
-    <div class="col-md-12" style="background-color:#fff;color:#000;padding:50px 15px">
+    <div class="col-md-12 process-KH">
         <div class="row">
             <div class="container">
-                <div class="col-lg-8" style="position:relative; padding-right:0;">
-                    <div class="hide-arrow" style="position:absolute;height:100%; width:160px;padding:25px 0; right:20%;">
+                <div class="col-lg-8 div-process-img">
+                    <div class="hide-arrow arrow">
                         <img style="height:100%" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block8.png" tppabs="http://magica.top/Imgs/block8.png" />
                     </div>
                    
