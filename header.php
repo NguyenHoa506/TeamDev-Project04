@@ -66,10 +66,10 @@
                         <li class="dropdown tb-show">
                             <a class="hasSub">DỊCH VỤ</a>
                             <ul class="dropdown-menu">
-                                <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/magic/seo">SEO</a></li>
-                                <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
-                                <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
-                                <li style="padding-top:4px;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
+                                <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/magic/seo">SEO</a></li>
+                                <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
+                                <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
+                                <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
                             </ul>
                         </li>
 
@@ -77,12 +77,12 @@
                             <a class="hasSub" href="http://blog.magica.top/">SEO BLOG</a>
                             
                         </li>
-                        <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">TRANG CHỦ</a></li>
-                        <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo">SEO</a></li>
-                        <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
-                        <li class="tb-hide" style="padding:5px 0;"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
-                        <li class="tb-hide" style="padding:5px 0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
-                        <li class="tb-hide" style="padding:5px 0; margin-bottom:7px"><a href="http://blog.magica.top/">SEO BLOG</a></li>
+                        <li class="tb-hide menu-mobile-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">TRANG CHỦ</a></li>
+                        <li class="tb-hide menu-mobile-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo">SEO</a></li>
+                        <li class="tb-hide menu-mobile-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
+                        <li class="tb-hide menu-mobile-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
+                        <li class="tb-hide menu-mobile-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
+                        <li class="tb-hide menu-mobile-text" style=" margin-bottom:7px"><a href="http://blog.magica.top/">SEO BLOG</a></li>
                         <li>
                             <a href="#"><span class="top-hotline">
                                 <i class="fa fa-phone" aria-hidden="true">    
