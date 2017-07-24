@@ -1422,13 +1422,13 @@ div.col-md-4.col-sm-4.frame {
     font-size:20px; 
     cursor:pointer;
 }
-.pricediv{
+.bgrdfff{
     background-color:#fff;
 }
 .centdiv{
     text-align: center;
 }
-.bannerdiv{
+.bannerd{
     position:relative;
 }
 .paddingzero{
@@ -1488,7 +1488,7 @@ div.col-md-4.col-sm-4.frame {
     padding:15px; color:#fff;
     position:relative;
 }
-.whyusdiv{
+.bgrdeee{
     background-color:#eee;
 }
 .paddiv{
@@ -1502,6 +1502,42 @@ div.col-md-4.col-sm-4.frame {
     position:absolute;
     top:0; 
     left:0;
+}
+.nopaddiv{
+    display:inline-flex; 
+    margin-bottom:15px;
+    width:100%;
+}
+.imgcustomfdiv{
+    width:100%; 
+    height:150px;
+    text-align:center;
+}
+.customerdiv{
+    width:100%;
+    text-align:center;
+    font-size:21px;
+    margin-top: 15px;
+}
+.inspirediv{
+    height:500px; 
+    padding-top:30px;
+    background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.nopadldiv{
+    padding-left: 0;
+}
+.info1{
+    text-align:right; 
+    margin-bottom:10px;
+}
+.nopadrdiv{
+    padding-right: 0;
+}
+.borderccc{
+    border-bottom:1px solid #ccc;
 }
 
 /*...........HEADER..............*/
