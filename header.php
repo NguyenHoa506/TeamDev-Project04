@@ -29,7 +29,7 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery-2.2.3.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/respond.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js">
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" >
     </script>
     <script type="text/javascript" src="http://trainee.magica.top/wp-includes/js/jquery/jquery.js?ver=2.7.11.1"></script>
     <script type="text/javascript" src="http://trainee.magica.top/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-en.js?ver=2.7.11.1"></script>

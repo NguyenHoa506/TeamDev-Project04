@@ -3,10 +3,7 @@
         <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
-      
-        
 
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
 <style>
     .head-bg{
             background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
