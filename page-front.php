@@ -3,54 +3,6 @@
         <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
-
-<style>
-    .head-bg{
-            background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
-    }
-    .benefit{
-        background-color:transparent;
-    }
-    #feature{
-     background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-}
-    .strength{
-        background-color:#fff;
-        padding:15px;
-        font-size:17px;
-        position:relative;
-            box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
-    }
-    .strength:hover  .hidden-content{
-        display:block;
-    }
-    .hidden-content{
-        background-color:#000;
-        color:#fff;
-        opacity:0.9;
-        position:absolute;
-        width:100%;
-        display:none;
-        height:100%;
-        top: 0;
-        left: 0;
-        font-size:13px;
-        padding:15px;
-    }
-</style>
-<script>
-    $(document).ready(function () {
-        $("#banner2").css("height", $(window).height());
-        $("#toptext2").css("margin-top", $(window).height() * 0.4);
-    });
-</script>
-
   <!-- Hoa start -->
     <div>
         
@@ -77,7 +29,7 @@
     </div>
     
 
-    <div id="feature" class="col-md-12" style="color:#fff;  position:relative">
+    <div  class="col-md-12 feature" style="color:#fff;  position:relative">
         <div style="background-color:black; opacity:0.5; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
         <div style="position:relative; z-index:200">
             <div class="margin-detail col-md-12">

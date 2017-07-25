@@ -1919,7 +1919,7 @@ div#strength.col-md-12.our-power {
     .benefit{
         background-color:transparent;
     }
-    #feature{
+    .feature{
      background-image: url("../image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

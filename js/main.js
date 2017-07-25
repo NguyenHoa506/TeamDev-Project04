@@ -120,4 +120,10 @@ function ShowTemplate(id, htmlItem) {
 
       ga('create', 'UA-79228914-1', 'auto');
       ga('send', 'pageview');
+
+
+$(document).ready(function () {
+        $("#banner2").css("height", $(window).height());
+        $("#toptext2").css("margin-top", $(window).height() * 0.4);
+    });
 /*new*/

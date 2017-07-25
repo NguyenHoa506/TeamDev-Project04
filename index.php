@@ -1,8 +1,4 @@
 <?php get_header(); ?>
-
-
-
-
     <div class="body-content">
         <div id="action-banner" class="action-banner-class">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
