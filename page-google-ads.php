@@ -27,7 +27,7 @@
             <div class="head-bg-ads"></div>
             <div id="ani-1" class="ani-1-div">
                 <div class="topdiv">
-                    <h1 id="toptext">
+                    <h1 id="toptext" class="toptextdiv">
                         <span>LỰA CHỌN TỐI ƯU</span><br />
                         <span>CHO QUẢNG CÁO</span>
                     </h1>
@@ -47,15 +47,15 @@
             <div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="col-md-10 col-md-offset-1" style="padding-top:30px">
-                            <div class="col-md-4 package-ads should-margin-bottom">
+                        <div class="col-md-10 col-md-offset-1 padtdiv">
+                            <div class="col-md-4 package should-margin-bottom">
                                 <div class="border-round">
                                     <div class="header1">
-                                        <h3 style="margin-top:0;">Theo ngân sách</h3>
+                                        <h3 class="margintdiv2">Theo ngân sách</h3>
                                         <span class="sub">15 %</span>
-                                        <p style="margin-bottom:0; margin-top:10px; font-size:13px;">Phí quản lý trên tổng ngân sách đề ra</p>
+                                        <p class="svdiv">Phí quản lý trên tổng ngân sách đề ra</p>
                                     </div>
-                                    <div class="body">
+                                    <div class="body bodydiv2">
                                         <div class="first-part">
                                             <p>Ưu điểm: Gia tăng hiệu quả đối với các dự án dài hạn nhờ khả năng tối ưu hóa liên tục</p>
                                         </div>
@@ -71,11 +71,11 @@
                             <div class="col-md-4 package should-margin-bottom">
                                 <div class="border-round">
                                     <div class="header2">
-                                        <h3 style="margin-top:0;">Theo từ khóa</h3>
+                                        <h3 class="margintdiv2">Theo từ khóa</h3>
                                         <span class="sub">300,000 VNĐ/ tháng</span>
-                                        <p style="margin-bottom:0; margin-top:10px; font-size:13px;">Đối với các từ đơn giản. Chi phí theo mỗi từ khóa</p>
+                                        <p class="svdiv">Đối với các từ đơn giản. Chi phí theo mỗi từ khóa</p>
                                     </div>
-                                    <div class="body">
+                                    <div class="body bodydiv2">
                                         <div class="first-part">
                                             <p>Ưu điểm: Top 3 Google, 24/24. Dễ theo dõi kết quả & chi phí</p>
                                         </div>
@@ -91,11 +91,11 @@
                             <div class="col-md-4 package should-margin-bottom">
                                 <div class="border-round">
                                     <div class="header3">
-                                        <h3 style="margin-top:0;">Theo số click (CPC)</h3>
+                                        <h3 class="margintdiv2">Theo số click (CPC)</h3>
                                         <span class="sub">1,000 VNĐ/ click</span>
-                                        <p style="margin-bottom:0; margin-top:10px; font-size:13px;">Đối với các nhóm ngành ít cạnh tranh</p>
+                                        <p class="svdiv">Đối với các nhóm ngành ít cạnh tranh</p>
                                     </div>
-                                    <div class="body">
+                                    <div class="body bodydiv2">
                                         <div class="first-part">
                                             <p>Ưu điểm: Xác định, kiểm soát được chi phí để mời một khách hàng vào cửa hàng của bạn</p>
                                         </div>
@@ -170,31 +170,31 @@
                         <div class="row">
                             <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
-                                    <div style="margin-bottom:15px; height:165px">
-                                        <img style="height:150px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
+                                    <div class="help1">
+                                        <img class="heightdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
                                     </div>
                                     <h3>Hiểu về quảng cáo Google adwords</h3>
-                                    <p style="min-height:67px;margin-bottom:0; text-align:justify">Hiểu cách thức hoạt động, Cách đo đạc hiệu quả của Google Adwords đối với chiến lược kinh doanh, Mức độ hiệu quả của Google Adwords so với các cách thức quảng cáo khác</p>
+                                    <p class="help2"">Hiểu cách thức hoạt động, Cách đo đạc hiệu quả của Google Adwords đối với chiến lược kinh doanh, Mức độ hiệu quả của Google Adwords so với các cách thức quảng cáo khác</p>
                                 </div>
 
                             </div>
                             <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
-                                    <div style="margin-bottom:15px;height:165px">
-                                        <img style="height:150px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
+                                    <div class="help1">
+                                        <img class="heightdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
                                     </div>
                                     <h3>Luôn xuất hiện ở top kết quả tìm kiếm</h3>
-                                    <p style="min-height:67px;margin-bottom:0; text-align:justify">Xuất hiện trên đầu kết quả tìm kiếm gần như đảm bảo khách hàng tiềm năng sẽ ghé thăm cửa hàng, website của bạn</p>
+                                    <p class="help2">Xuất hiện trên đầu kết quả tìm kiếm gần như đảm bảo khách hàng tiềm năng sẽ ghé thăm cửa hàng, website của bạn</p>
                                 </div>
 
                             </div>
                             <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
-                                    <div style="margin-bottom:15px;height:165px">
-                                        <img style="height:150px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />
+                                    <div class="help1">
+                                        <img class="heightdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />
                                     </div>
                                     <h3>Đem khách hàng <br /> đến với bạn</h3>
-                                    <p style="min-height:67px;margin-bottom:0; text-align:justify">Công nghệ phát triển giúp xóa đi khoảng cách giữa khách hàng và nhà cung cấp sản phẩm, Magic sẽ giúp bạn tiếp cận với công nghệ và các ứng dụng mới nhất để chào đón khách hàng ngay hôm nay</p>
+                                    <p class="help2" ">Công nghệ phát triển giúp xóa đi khoảng cách giữa khách hàng và nhà cung cấp sản phẩm, Magic sẽ giúp bạn tiếp cận với công nghệ và các ứng dụng mới nhất để chào đón khách hàng ngay hôm nay</p>
                                 </div>
 
                             </div>
@@ -213,13 +213,13 @@
 
 
 
-    <div id="whyus" class="col-md-12 block" style="background-color:#63c1af; color: #fff">
-        <div class="col-md-12" style="padding: 20px 0;">
-            <h2 style="text-align:center; margin:15px 0;">Tại Sao Lại Chọn Chúng Tôi?</h2>
+    <div id="whyus" class="col-md-12 block bgrdus">
+        <div class="col-md-12 haspaddiv2">
+            <h2 class="centmargdiv">Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
-                    <div class="col-lg-6 col-md-6 hover-c-ads" style="position:relative">
-                        <div class="col-md-3" style="text-align:center; padding-top:25px">
+                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                        <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i>
                         </div>
                         <div class="col-md-9">
@@ -227,8 +227,8 @@
                             <p>Nhờ kinh nghiệm lâu năm, khả năng thấu hiểu khách hàng để quảng cáo đúng mục tiêu, khả năng xử lý dữ liệu lớn của Google</p>
                         </div>                       
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c position_rdiv">
-                        <div class="col-md-3" style="text-align:center; padding-top:25px">
+                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                        <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-line-chart" aria-hidden="true"></i>
                         </div>
                         <div class="col-md-9">
@@ -236,8 +236,8 @@
                             <p>Không đơn thuần là quảng cáo Google, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để quảng cáo Google phải đồng bộ với chiến lược kinh doanh của bạn</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c position_rdiv">
-                        <div class="col-md-3" style="text-align:center; padding-top:25px">
+                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                        <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-random" aria-hidden="true"></i>
                         </div>
                         <div class="col-md-9">
@@ -245,8 +245,8 @@
                             <p>Không đơn thuần là quảng cáo Google, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để quảng cáo Google phải đồng bộ với chiến lược kinh doanh của bạn</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c position_rdiv">
-                        <div class="col-md-3" style="text-align:center; padding-top:25px">
+                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                        <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-cogs" aria-hidden="true"></i>
                         </div>
                         <div class="col-md-9">
@@ -254,8 +254,8 @@
                             <p>Với kinh nghiệm lâu năm làm việc cùng Google và đội ngũ chuyên gia với các chuyên ngành công nghệ, toán, kỹ thuật, chúng tôi liên tục đưa ra những phương pháp mới để tối ưu hóa hệ thống dữ liệu khổng lồ đến từ Google. Hãy cho chúng tôi xem cách thức quảng cáo của bạn, chúng tôi sẽ chia sẻ với bạn những gì bạn cần cải tiến.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c" style="text-align:left; position:relative">
-                        <div class="col-md-3" style="text-align:center; padding-top:25px">
+                    <div class="col-lg-6 col-md-6 hover-c-ads leftrdiv"">
+                        <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i>
                         </div>
                         <div class="col-md-9">
@@ -274,17 +274,17 @@
     </div>
     
   
-      <div id="inspire" class="col-md-12" style="background-image: url(<?php bloginfo('template_directory'); ?>/image/glad.jpg); background-repeat:no-repeat; background-size:cover; padding-top:50px">
-        <h2 style="text-align:center; margin-top:0;margin-bottom:50px">Về Quảng Cáo Google</h2>
+      <div id="inspire" class="col-md-12 inspirediv2">
+        <h2 class="ggadsdiv">Về Quảng Cáo Google</h2>
           <div class="row">
-             <div class="col-md-10 col-md-offset-1" style="margin-bottom:50px;">
-                 <div class="col-md-6" style="text-align:right">
+             <div class="col-md-10 col-md-offset-1 marginbtdiv4">
+                 <div class="col-md-6 alignrdiv">
                      <div class="embed-responsive embed-responsive-16by9">
                          <iframe class="embed-responsive-item res-vid" width="100%" height="315" src="https://www.youtube.com/embed/_pZONkOCTPI" tppabs="https://www.youtube.com/embed/_pZONkOCTPI" frameborder="0" allowfullscreen></iframe>
                      </div>
                  </div>
                  <div class="col-md-6">
-                     <div style="font-size:17px; padding:15px;margin-top:120px;background-color: rgba(32, 32, 32, 0.52);color: #fff;">Bằng việc đưa website của bạn lên trên đầu kết quả tìm kiếm, quảng cáo Google Adwords giúp bạn ngay lập tức tiếp cận được khách hàng tiềm năng, người đang tìm kiếm sản phẩm, dịch vụ để phục vụ cho nhu cầu của họ</div>
+                     <div class="ggadsdiv2">Bằng việc đưa website của bạn lên trên đầu kết quả tìm kiếm, quảng cáo Google Adwords giúp bạn ngay lập tức tiếp cận được khách hàng tiềm năng, người đang tìm kiếm sản phẩm, dịch vụ để phục vụ cho nhu cầu của họ</div>
 
                  </div>
              </div>
@@ -293,7 +293,7 @@
         
     </div>
 
-    <div id="flow" class="col-md-12" style="background-color:rgb(0, 107, 156); color:#fff;">
+    <div id="flow" class="col-md-12 workdiv">
         <div class="col-md-12 centdiv">
             <h2 class="marginbtdiv2">Quy trình làm việc</h2>
             <div class="row">
@@ -306,10 +306,10 @@
                                         <div class="step1 step">
                                             <div>
                                                 <span class="fa-stack fa-5x">
-                                                    <span class="step-num-ads"><span>1</span></span>
+                                                    <span class="step-num"><span>1</span></span>
                                                     <i class="fa fa-circle fa-stack-2x colorfff"></i>
                                                     <i class="fa fa-circle-thin fa-stack-2x colorfff"></i>
-                                                    <i style="color:rgb(0, 107, 156)" class="fa fa-list-ul fa-stack-1x"></i>
+                                                    <i class="fa fa-list-ul fa-stack-1x workdiv2"></i>
                                                 </span>
 
                                             </div>
@@ -328,7 +328,7 @@
                                                     <span class="step-num"><span>2</span></span>
                                                     <i class="fa fa-circle fa-stack-2x colorfff"></i>
                                                     <i class="fa fa-circle-thin fa-stack-2x colorfff"></i>
-                                                    <i style="color:rgb(0, 107, 156)" class="fa fa-files-o fa-stack-1x"></i>
+                                                    <i class="fa fa-files-o fa-stack-1x workdiv2"></i>
                                                 </span>
                                             </div>
                                             <div class="fsizediv2">Thống nhất giải pháp</div>
@@ -346,7 +346,7 @@
                                                     <span class="step-num"><span>3</span></span>
                                                     <i class="fa fa-circle fa-stack-2x colorfff"></i>
                                                     <i class="fa fa-circle-thin fa-stack-2x colorfff"></i>
-                                                    <i style="color:rgb(0, 107, 156)" class="fa fa-rocket fa-stack-1x"></i>
+                                                    <i class="fa fa-rocket fa-stack-1x workdiv2"></i>
                                                 </span>
                                             </div>
                                             <div class="fsizediv2">Set mẫu quảng cáo ban đầu</div>
@@ -368,7 +368,7 @@
                                                     <span class="step-num"><span>4</span></span>
                                                     <i class="fa fa-circle fa-stack-2x colorfff"></i>
                                                     <i class="fa fa-circle-thin fa-stack-2x colorfff"></i>
-                                                    <i style="color:rgb(0, 107, 156)" class="fa fa-database fa-stack-1x"></i>
+                                                    <i class="fa fa-database fa-stack-1x workdiv2"></i>
                                                 </span>
                                             </div>
                                             <div class="fsizediv2">Tối ưu hóa mẫu quảng cáo</div>
@@ -386,7 +386,7 @@
                                                     <span class="step-num"><span>5</span></span>
                                                     <i class="fa fa-circle fa-stack-2x colorfff"></i>
                                                     <i class="fa fa-circle-thin fa-stack-2x colorfff"></i>
-                                                    <i style="color:rgb(0, 107, 156)" class="fa fa-bar-chart fa-stack-1x"></i>
+                                                    <i class="fa fa-bar-chart fa-stack-1x workdiv2"></i>
                                                 </span>
                                             </div>
                                             <div class="fsizediv2">Báo cáo định kỳ</div>
