@@ -146,21 +146,21 @@
 
     <div id="whyus" class="col-md-12" style="background-color:#eee;">
         <div class="col-md-12" style="padding: 50px 0;">
-            <h2 style="text-align:center; margin-top:0; margin-bottom:50px">Tại Sao Lại Chọn Chúng Tôi?</h2>
+            <h2 class="why-us-title">Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
                         
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding child-div-why-us">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img alt="Hình ảnh" style="height:100%;" src="<?php bloginfo('template_directory');?>/image/strategy.jpg" tppabs="http://magica.top/Imgs/strategy.jpg" />
+                                                <div class="div-logo-front">
+                                                    <img class="img-front" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/strategy.jpg" tppabs="http://magica.top/Imgs/strategy.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="div-title-front">
                                                     Tăng khả năng bán hàng của khách hàng
                                                 </div>
                                             </div>
@@ -173,15 +173,15 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding child-div-why-us">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img alt="Hình ảnh" style="height:100%;" src="<?php bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" />
+                                                <div class="div-logo-front">
+                                                    <img class="img-front" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="div-title-front">
                                                     Dịch vụ trọn gói
                                                 </div>
                                             </div>
@@ -194,15 +194,15 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding child-div-why-us">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <img alt="Hình ảnh" style="height:100%;" src="<?php bloginfo('template_directory');?>/image/professional.jpg" tppabs="http://magica.top/Imgs/professional.jpg" />
+                                                <div class="div-logo-front">
+                                                    <img class="img-front" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/professional.jpg" tppabs="http://magica.top/Imgs/professional.jpg" />
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="div-title-front">
                                                     Dịch vụ chuyên nghiệp
                                                 </div>
                                             </div>
@@ -224,19 +224,19 @@
 
     </div>
 
-    <div id="price" class="col-md-12 block" style="background-color:#fff;">
-        <div class="col-md-12" style="text-align:center;">
-            <h2 style="margin-bottom:50px">Giá Dịch Vụ</h2>
+    <div id="price price-service" class="col-md-12 block">
+        <div class="col-md-12 text-center">
+            <h2 class="title-price">Giá Dịch Vụ</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 no-padding">
                         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-sm-12 no-padding">
                             <div class="col-md-6 package should-margin-bottom">
                                 <div>
-                                    <div style="color: #fff; padding: 15px;background-color: #449d44;border-top-left-radius: 4px;border-top-right-radius: 4px;">
+                                    <div class="child-title child-title-left">
                                         <h3>Website theo mẫu có sẵn</h3>
                                     </div>
-                                    <div class="body" style="padding:50px 15px 15px 15px;border:1px solid #ccc;border-radius:0;height:224px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;">
+                                    <div class="body child-content padding-child-left">
                                         <h3>500,000 - 1,000,000 VND <small>/page/ website</small></h3>
                                     </div>
                                 </div>
@@ -244,12 +244,10 @@
                             </div>
                             <div class="col-md-6 package should-margin-bottom">
                                 <div>
-                                    <div style="color: #fff;border-top-left-radius: 4px;border-top-right-radius: 4px;
-    padding: 15px;
-    background-color: #337ab7">
+                                    <div class="child-title child-title-right">
                                         <h3>Website theo yêu cầu</h3>
                                     </div>
-                                    <div class="body" style="padding:15px;border:1px solid #ccc;border-radius:0; height:224px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;">
+                                    <div class="body child-content padding-child-right">
                                         <h3 style="margin-bottom:0">12 - 20 triệu</h3>
                                         <p style="font-size:18px; padding:0">đối với các website bán hàng, website thông tin cơ bản</p>
                                         <hr />
@@ -270,14 +268,11 @@
 
     </div>
 
-    <div class="col-md-12" style="color:#fff; padding:50px 0;background-image:url(<?php bloginfo('template_directory');?>/image/increasesale.jpg);    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;">
-        <div class="container" style="position:relative;background-color: rgba(32, 32, 32, 0.52);">
+    <div class="col-md-12 suggest-web-sale">
+        <div class="container div-content-suggest">
 
-            <div class="col-md-12" style="text-align:center;">
-                <h2 style="margin-bottom:50px">Các gợi ý giúp website có thể bán hàng</h2>
+            <div class="col-md-12 text-center">
+                <h2 class="margin-bot-50">Các gợi ý giúp website có thể bán hàng</h2>
             </div>
             <div  class="col-md-6 col-lg-6 col-sm-6" style="border-right:2px solid #fff; padding:20px">
                 <h3>Về nội dung</h3>
