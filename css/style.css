@@ -726,6 +726,7 @@ ul.arr li:before {
     }
     .smallH2{
         font-size:24px;
+        padding-left: 30%;
     }
     .align-right{
         text-align:center;
@@ -1750,7 +1751,7 @@ div.col-md-4.col-sm-4.frame {
 
 .banner-image {
     background-color:black; 
-    opacity:0.5; 
+    opacity:0.4; 
     position:absolute; 
     top:0;
     left:0;
@@ -1851,6 +1852,102 @@ img.img-process {
     top:0;
 }
 
+.title-right-process {
+    font-size:26px; 
+    text-align:justify;
+}
+.hr-title {
+    border-bottom: 2px solid #537ca0; 
+    margin: 5px 0 15px 0;
+}
+.content-right-process {
+   font-size:17px; 
+   text-align:justify;
+}
 
 
+div#strength.col-md-12.our-power {
+    padding:50px 0; 
+    color:#000; 
+    background-color:#eee;
+}
+.style-title {
+    margin-bottom:50px;
+    color: #000;
+}
+.img-our-power {
+    height: 100px;
+}
+.margin-title {
+    margin-top: 15px;
+}
 /*............END-INDEX...........*/
+
+/*............THIET-KE-WEBSITE......*/
+
+.pos-relative {
+    position: relativ
+}
+
+span.smalldeco.small-text {
+    position:absolute; 
+    left:0px; 
+    width:28%; 
+    bottom:0; 
+    text-align:right;
+}
+
+.h2-text {
+    padding-left: 30%;
+}
+.position-title-tkwebsite {
+    position: relative; 
+    left: -25%;
+    min-width:290px;
+}
+.current-problem { 
+    padding: 15px 0;
+}
+
+.content-2 {
+    margin-top:15px; 
+    margin-bottom:15px;
+}
+.img-problem {
+    height:70px;
+}
+.div-img-current-problem {
+    padding: 15px;
+}
+
+.measure-div {
+   background-color:#fff; 
+   padding:30px 15px; 
+}
+.text-center {
+    text-align: center;
+}
+.div-icon {
+    margin:0 auto;
+    border-radius:50%; 
+    background-color:#31b0d5; 
+    border:2px solid #269abc; 
+    height:120px; 
+    width:120px; 
+    padding:15px; 
+    color:#fff; 
+    position:relative
+}
+.icon-in {
+   margin-top:15px; 
+}
+.fontsize-content {
+    font-size: 18px;
+}
+
+
+
+
+
+
+/*...........END-THIET-KE-WEBSITE.....*/
