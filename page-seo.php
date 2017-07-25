@@ -3,6 +3,13 @@
         <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
+
+        
+
+        <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
+
+
+    
     
     <!-- Hoa start -->
     <div>
