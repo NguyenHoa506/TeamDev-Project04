@@ -95,7 +95,7 @@
                 <div class="container">
                     <div class="col-md-12 no-padding">
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" class="doi-tuong">
+                            <div class="col-sm-12 col-md-12 no-padding doi-tuong">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" class="doi-tuong">
+                            <div class="col-sm-12 col-md-12 no-padding doi-tuong">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
@@ -184,7 +184,7 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" class="doi-tuong">
+                            <div class="col-sm-12 col-md-12 no-padding doi-tuong">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
@@ -583,12 +583,10 @@
                                             <?php 
                                                 $image = get_field('dich-vu2');
                                                 if( !empty($image) ): 
-                                                            // vars
                                                 $url = $image['url'];
                                                 $title = $image['hinhanh'];
                                                 $alt = $image['alt'];
                                                 $caption = $image['caption'];
-                                                            // thumbnail
                                                 $size = 'thumbnail';
                                                 $thumb = $image['sizes'][ $size ];
                                                 $width = $image['150px'][ $size . '-width' ];
