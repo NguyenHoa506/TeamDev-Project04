@@ -1570,6 +1570,9 @@ div.col-md-4.col-sm-4.frame {
 div#price.col-md-12.block.bgrdfff{
     background-color:#fff;
 }
+div#price.col-md-12.block.bgrdeee{
+    background-color:#eee;
+}
 div#infor.col-md-12.bgrdfff{
     background-color:#fff;
 }
@@ -1612,6 +1615,9 @@ div#infor.col-md-12.bgrdfff{
 div#feature.col-md-12.bgrd{
     background-color:#eee;
 }
+div#feature.col-md-12.bgrdeee{
+    background-color:#eee;
+}
 .marginbtdiv{
     margin-bottom:15px;
 }
@@ -1621,8 +1627,14 @@ div#feature.col-md-12.bgrd{
 .marginbtdiv3{
     margin-bottom: 10px;
 }
+.marginbtdiv4{
+    margin-bottom: 50px;
+}
 .margintdiv{
     margin-top: 15px;
+}
+.margintdiv2{
+    margin-top: 0;
 }
 .fsizediv{
     font-size: 18px;
@@ -1657,6 +1669,9 @@ div#flow.col-md-12.bgrd63c1af{
 .paddiv{
     padding: 50px 0;
 }
+.padtdiv{
+    padding-top: 30px;
+}
 .achievementdiv{
     background-color: black; 
     opacity:0.7; 
@@ -1689,6 +1704,12 @@ div#inspire.col-md-12.inspirediv{
     background-repeat: no-repeat;
     background-size: cover;  
 }
+div#inspire.col-md-12.inspirediv2{
+    background-image: url(<?php bloginfo('template_directory'); ?>/image/glad.jpg); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+    padding-top:50px;
+}
 .nopadldiv{
     padding-left: 0;
 }
@@ -1720,6 +1741,9 @@ img.circleimg{
 .haspaddiv{
     padding: 20px 0 20px 0;
 }
+.haspaddiv2{
+    padding: 20px 0;
+}
 .whatdiv{
     padding-top:60px;
     color:#fff;
@@ -1739,10 +1763,17 @@ i.fa.fa-circle-thin.fa-stack-2x.colorfff{
 .widthdiv{
     width: 100px;
 }
+img.heightdiv{
+    height: 150px;
+}
 div.body.bodydiv{
     border-top-left-radius:0; 
     border-top-right-radius:0; 
     padding:0;
+}
+div.body.bodydiv2{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 .usdiv{
     text-align:center; 
@@ -1762,14 +1793,72 @@ div.body.bodydiv{
     font-size:13px;
     text-align:center;
 }
-
-/*...........HEADER..............*/
-.padding-text {
-    padding-top: 4px;
+h1#toptext.toptextdiv{
+    left: 0;
 }
-
-.menu-mobile-text {
-    padding: 5px 0;
+.svdiv{
+    margin-bottom:0; 
+    margin-top:10px; 
+    font-size:13px;
+}
+.help1{
+    margin-bottom:15px; 
+    height:165px;
+}
+.help2{
+    min-height:67px;
+    margin-bottom:0; 
+    text-align:justify;
+}
+div#whyus.col-md-12.block.bgrdus{
+    background-color:#63c1af; 
+    color: #fff;
+}
+.centmargdiv{
+    text-align:center; 
+    margin:15px 0;
+}
+.centmargdiv2{
+    text-align:center; 
+    padding-top:25px;
+}
+.leftrdiv{
+    text-align:left; 
+    position:relative;
+}
+.ggadsdiv{
+    text-align:center; 
+    margin-top:0;
+    margin-bottom:50px;
+}
+.ggadsdiv2{
+    font-size:17px; 
+    padding:15px;
+    margin-top:120px;
+    background-color: rgba(32, 32, 32, 0.52);
+    color: #fff;
+}
+.alignrdiv{
+    text-align: right;
+}
+div#flow.col-md-12.workdiv{
+    background-color:rgb(0, 107, 156); 
+    color:#fff;
+}
+i.fa.fa-list-ul.fa-stack-1x.workdiv2{
+    color:rgb(0, 107, 156);
+}
+i.fa.fa-files-o.fa-stack-1x.workdiv2{
+    color:rgb(0, 107, 156);
+}
+i.fa.fa-rocket.fa-stack-1x.workdiv2{
+    color:rgb(0, 107, 156);
+}
+i.fa.fa-database.fa-stack-1x.workdiv2{
+    color:rgb(0, 107, 156);
+}
+i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
+    color:rgb(0, 107, 156);
 }
 /*............END-HEADER..........*/
 
@@ -1916,6 +2005,7 @@ div#strength.col-md-12.our-power {
 .head-bg{
             background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
     }
+<<<<<<< HEAD
     .benefit{
         background-color:transparent;
     }
@@ -1928,6 +2018,8 @@ div#strength.col-md-12.our-power {
     background-size: cover;
     position:relative;
 }
+=======
+>>>>>>> e7c0d0765ae21e66a807521adb132af61ae359c7
     .strength{
         background-color:#fff;
         padding:15px;
