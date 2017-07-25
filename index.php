@@ -456,12 +456,12 @@
                 </div>
                 <div class="col-lg-4" style="color:#537ca0">
                     <div>
-                        <div style="font-size:26px; text-align:justify">
+                        <div class="title-right-process">
                             <p style="margin-bottom:0">Hành trình chinh</p>
                             <p>phục khách hàng</p>
                         </div>
-                        <div style="border-bottom: 2px solid #537ca0; margin: 5px 0 15px 0"></div>
-                        <div style="font-size:17px; text-align:justify">
+                        <div class="hr-title"></div>
+                        <div class="content-right-process">
                             Hiểu được hành trình này giúp bạn dễ dàng hơn trong việc phân bổ chi phí cho từng công đoạn trong doanh nghiệp và phát hiện ra vấn đề hiện tại khiến bạn chưa thể có thêm nhiều khách hàng
                         </div>
                     </div>
@@ -475,18 +475,18 @@
 
     </div>
 
-    <div id="strength" class="col-md-12" style="padding:50px 0; color:#000; background-color:#eee">
+    <div id="strength" class="col-md-12 our-power">
          <div class="col-md-12 textcenter">
-            <h2 style="margin-bottom:50px;color: #000">Sức Mạnh Của Chúng Tôi </h2>
+            <h2 class="style-title">Sức Mạnh Của Chúng Tôi </h2>
              <div class="container">
                  <div class="row">
                      <div class="col-md-12">
                          <div class="col-lg-3 col-md-3 col-sm-3 should-margin-bottom">
                              <div class="strength">
                                  <div>
-                                     <img style="height:100px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dbcl.png" tppabs="http://magica.top/Imgs/dbcl.png" />
+                                     <img class="img-our-power" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dbcl.png" tppabs="http://magica.top/Imgs/dbcl.png" />
                                  </div>
-                                 <div style="margin-top:15px">Chiến lược kinh doanh</div>
+                                 <div class="margin-title">Chiến lược kinh doanh</div>
                                  <div class="hidden-content">
                                      Tất cả các giải pháp của chúng tôi đều hướng đến một mục tiêu chung là giúp bạn có được khách hàng và có được một chiến lược thống nhất xuyên suốt ở từng bước, từng kênh bạn triển khai 
                                  </div>
@@ -496,9 +496,9 @@
                          <div class="col-lg-3 col-md-3 col-sm-3 should-margin-bottom">
                              <div class="strength">
                                  <div>
-                                     <img style="height:100px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/kntk.png" tppabs="http://magica.top/Imgs/kntk.png" />
+                                     <img class="img-our-power" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/kntk.png" tppabs="http://magica.top/Imgs/kntk.png" />
                                  </div>
-                                 <div style="margin-top:15px">Kinh nghiệm triển khai</div>
+                                 <div class="margin-title">Kinh nghiệm triển khai</div>
                                  <div class="hidden-content">
                                      Dựa trên kinh nghiệm đã triển khai hàng trăm khách hàng từ lớn đến nhỏ, chúng tôi đã xây dựng nên một bộ kiến thức khá toàn diện để triển khai cho hầu hết các khách hàng 
                                  </div>
@@ -507,9 +507,9 @@
                          <div class="col-lg-3 col-md-3 col-sm-3 should-margin-bottom">
                              <div class="strength">
                                  <div>
-                                     <img style="height:100px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dnsl.png" tppabs="http://magica.top/Imgs/dnsl.png" />
+                                     <img class="img-our-power" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dnsl.png" tppabs="http://magica.top/Imgs/dnsl.png" />
                                  </div>
-                                 <div style="margin-top:15px">Đội ngũ sáng lập</div>
+                                 <div class="margin-title">Đội ngũ sáng lập</div>
                                  <div class="hidden-content">
                                      Các sáng lập viên là những người đã thành công trong việc thiết lập các công ty và thành công cùng những ứng dụng mới của công nghệ 
                                  </div>
@@ -519,9 +519,9 @@
                          <div class="col-lg-3 col-md-3 col-sm-3 should-margin-bottom">
                              <div class="strength">
                                  <div>
-                                     <img style="height:100px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/kndd.png" tppabs="http://magica.top/Imgs/kndd.png" />
+                                     <img class="img-our-power" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/kndd.png" tppabs="http://magica.top/Imgs/kndd.png" />
                                  </div>
-                                 <div style="margin-top:15px">Kỹ năng đa dạng</div>
+                                 <div class="margin-title">Kỹ năng đa dạng</div>
                                  <div class="hidden-content">
                                      Chúng tôi sở hữu các kỹ năng khác nhau để tạo ra các giải pháp toàn diện cho các doanh nghiệp từ tư vấn chiến lược, thiết kế chiến dịch marketing, triển khai chiến dịch vào từng công cụ, đo lường và phân tích 
                                  </div>
