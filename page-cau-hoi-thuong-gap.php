@@ -12,7 +12,6 @@
         </div>
 
         <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
-
         <div class="col-md-12" id="banner-cau-hoi">
             <div id="banner">
                 <div class="head-bg-cau-hoi"></div>
