@@ -110,67 +110,10 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
     <div class="body-content">
         <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
-
-        
-
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
-<style>
-    .head-bg{
-            background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
-    }
-    .benefit{
-        background-color:transparent;
-    }
-    #feature{
-     background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-}
-    .strength{
-        background-color:#fff;
-        padding:15px;
-        font-size:17px;
-        position:relative;
-            box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
-    }
-    .strength:hover  .hidden-content{
-        display:block;
-    }
-    .hidden-content{
-        background-color:#000;
-        color:#fff;
-        opacity:0.9;
-        position:absolute;
-        width:100%;
-        display:none;
-        height:100%;
-        top: 0;
-        left: 0;
-        font-size:13px;
-        padding:15px;
-    }
-</style>
-<script>
-    $(document).ready(function () {
-        $("#banner2").css("height", $(window).height());
-        $("#toptext2").css("margin-top", $(window).height() * 0.4);
-    });
-</script>
-
 <div>
     <div id="mini-action" class="callToAction">
         <div class="form-support"><i class="fa fa-comments" aria-hidden="true"></i> <b>Miễn phí</b> tư vấn, hotline <b>0901 395 886</b></div>
@@ -213,7 +156,7 @@
 
                             </div>
                             <div class="col-md-4 should-margin-bottom hangmuc">
-                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website" style="color: inherit">
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website"  class="color-index">
                                     <div class="benefit">
                                         <div class="icon-index">
                                             <i class="fa fa-fw fa-5x fa-pencil-square-o" aria-hidden="true"></i>
@@ -223,7 +166,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4 should-margin-bottom hangmuc">
-                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website" style="color: inherit">
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website" class="color-index">
                                     <div class="benefit">
                                         <div class="icon-index">
                                             <i class="fa fa-fw fa-5x fa-check-square-o" aria-hidden="true"></i>
@@ -233,7 +176,7 @@
                                 </a>
                             </div>
                             <div class="col-md-4 should-margin-bottom hangmuc">
-                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo" style="color: inherit">
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/seo" class="color-index">
                                     <div class="benefit">
                                         <div class="icon-index">
                                             <i class="fa fa-fw fa-5x fa-list-ol" aria-hidden="true"></i>
@@ -244,7 +187,7 @@
 
                             </div>
                             <div class="col-md-4 should-margin-bottom hangmuc">
-                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads" style="color: inherit">
+                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads" class="color-index">
                                     <div class="benefit">
                                         <div class="icon-index">
                                             <i class="fa fa-5x fa-fw fa-google" aria-hidden="true"></i>
@@ -264,19 +207,13 @@
                                     <h3>Quảng Cáo Facebook</h3>
                                 </div>
                             </div>
-                            
-                            
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-    
     </div>
-
-
-
 
     <div id="whyus" class="col-md-12">
         <div class="col-md-12" style="padding: 50px 0;">
