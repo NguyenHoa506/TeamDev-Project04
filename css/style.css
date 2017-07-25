@@ -1498,8 +1498,7 @@ div.col-md-4.col-sm-4.frame {
     position:fixed;
     bottom:0; left:0;
     text-align:center;
-    background-
-    color:#6ab139; 
+    background-color:#6ab139; 
     color:#fff; 
     width:100%;
     padding:10px;
@@ -1517,7 +1516,7 @@ div.col-md-4.col-sm-4.frame {
 .centdiv{
     text-align: center;
 }
-.bannerd{
+.position_rdiv{
     position:relative;
 }
 .paddingzero{
@@ -1557,8 +1556,23 @@ div.col-md-4.col-sm-4.frame {
 .bgrd{
     background-color:#eee;
 }
-.margindiv{
+.marginbtdiv{
     margin-bottom:15px;
+}
+.marginbtdiv2{
+    margin-bottom: 20px;
+}
+.marginbtdiv3{
+    margin-bottom: 10px;
+}
+.margintdiv{
+    margin-top: 15px;
+}
+.fsizediv{
+    font-size: 18px;
+}
+.fsizediv2{
+    font-size: 20px;
 }
 .pdiv{
     min-height:67px;
@@ -1579,6 +1593,10 @@ div.col-md-4.col-sm-4.frame {
 }
 .bgrdeee{
     background-color:#eee;
+}
+.bgrd63c1af{
+    background-color:#63c1af; 
+    color:#fff;
 }
 .paddiv{
     padding: 50px 0;
@@ -1622,11 +1640,48 @@ div.col-md-4.col-sm-4.frame {
     text-align:right; 
     margin-bottom:10px;
 }
+.info2{
+    text-align:center; 
+    margin-top:15px; 
+    margin-bottom:50px;
+}
 .nopadrdiv{
     padding-right: 0;
 }
 .borderccc{
     border-bottom:1px solid #ccc;
+}
+.circleimg{
+    height:150px; 
+    width:150px; 
+    border-radius:50%;
+}
+.why{
+    text-align:center; 
+    margin-top:0; 
+    margin-bottom:50px;
+}
+.haspadtdiv{
+    padding-top: 70px;
+}
+.haspaddiv{
+    padding: 20px 0 20px 0;
+}
+.whatdiv{
+    padding-top:60px;
+    color:#fff;
+}
+.justdiv{
+    text-align: justify;
+}
+.colorfff{
+    color: #fff;
+}
+.color63c1af{
+    color: #63c1af;
+}
+.widthdiv{
+    width: 100px;
 }
 
 /*...........HEADER..............*/
