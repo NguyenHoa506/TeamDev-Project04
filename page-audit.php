@@ -87,31 +87,27 @@
     <!-- Hoa end -->
 
     
-    <!-- Huong start -->
+    <!-- Huong start 1-->
     <div id="whyus" class="col-md-12" >
-        <div class="col-md-12" style="padding: 50px 0;">
-            <h2 style="text-align:center; margin-top:0; margin-bottom:50px">Đối tượng áp dụng</h2>
+        <div class="col-md-12" id="doi-tuong-audit">
+            <h2 id="h2-doi-tuong">Đối tượng áp dụng</h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding doi-tuong">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/target.jpg" tppabs="http://magica.top/Imgs/target.jpg" /> -->
-
+                                                <div class="img-doi-tuong">
                                                     <?php 
                                                         $image = get_field('doanh-nghiep1');
                                                         if( !empty($image) ): 
-                                                            // vars
                                                             $url = $image['url'];
                                                             $title = $image['hinhanh'];
                                                             $alt = $image['alt'];
                                                             $caption = $image['caption'];
-                                                            // thumbnail
                                                             $size = 'thumbnail';
                                                             $thumb = $image['sizes'][ $size ];
                                                             $width = $image['150px'][ $size . '-width' ];
@@ -127,14 +123,13 @@
                                                                 </div>
                                                             <?php endif; ?>
                                                     <?php endif; ?>
-
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="ten-doi-tuong">
                                                     Doanh nghiệp đang triển khai
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p style="padding-top: 0; vertical-align: middle; display: table-cell;">
+                                                <p class="noi-dung-doi-tuong">
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis nobis rerum sunt, optio suscipit! Consequatur, molestias consequuntur. Possimus, obcaecati quisquam dolores ab.
                                                 </p>
                                             </div>
@@ -144,24 +139,19 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding doi-tuong">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                    <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/strategy.jpg" tppabs="http://magica.top/Imgs/strategy.jpg" /> -->
-
-
+                                                <div class="img-doi-tuong">
                                                     <?php 
                                                         $image = get_field('team-seo');
                                                         if( !empty($image) ): 
-                                                            // vars
                                                             $url = $image['url'];
                                                             $title = $image['hinhanh'];
                                                             $alt = $image['alt'];
                                                             $caption = $image['caption'];
-                                                            // thumbnail
                                                             $size = 'thumbnail';
                                                             $thumb = $image['sizes'][ $size ];
                                                             $width = $image['150px'][ $size . '-width' ];
@@ -179,12 +169,12 @@
                                                     <?php endif; ?>
 
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="ten-doi-tuong">
                                                     Các team SEO
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p style="padding-top:0;">
+                                                <p class="noi-dung-doi-tuong">
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni dignissimos quae sint praesentium nam doloribus, autem adipisci expedita asperiores nostrum sunt, in minima. Placeat.
                                                 </p>
                                             </div>
@@ -194,14 +184,12 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding doi-tuong">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
-                                                   <!--  <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" /> -->
-
+                                                <div class="img-doi-tuong">
                                                     <?php 
                                                         $image = get_field('doanh-nghiep2');
                                                         if( !empty($image) ): 
@@ -226,15 +214,13 @@
                                                                 </div>
                                                             <?php endif; ?>
                                                     <?php endif; ?>
-
-
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="ten-doi-tuong">
                                                     Doanh nghiệp đang triển khai
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p style="padding-top:0;">
+                                                <p class="noi-dung-doi-tuong">
                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptate repellat doloremque aperiam aliquid necessitatibus vero id est dolorem eius?
                                                 </p>
                                             </div>
@@ -248,7 +234,7 @@
             </div>
         </div>
     </div>
-
+<!-- huong end 1-->
 
     <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; padding-bottom: 4em;">
         <h2 class="title-audit">Các hạng mục audit</h2>
@@ -303,7 +289,6 @@
                                 </div>
                         </div>
                     </div>
-                    
                 </div>
 
                 <div class="col-md-4 col-sm-4 frame">
@@ -315,8 +300,7 @@
                                 <h3 class="h3-lam">Keyword</h3>
                                 <h3 class="h3-lam">Landing page</h3>
                             </div>
-                            <div class="back keyword back-img">
-                                
+                            <div class="back keyword back-img">      
                                 </div>
                                 <div class="back keyword overlay">
 
@@ -328,16 +312,11 @@
                                 </div>
                         </div>
                     </div>
-                    
                 </div>
- 
-
             </div>
 
             <div class="row">
-
                 <div class="col-md-4 col-sm-4 frame">
-
                     <div class="flip-container border-flip">
                         <div class="flipper">
                             <div class="front keyword ux ">
@@ -357,7 +336,6 @@
                                 </div>
                         </div>
                     </div>
-                    
                 </div>
 
                 <div class="col-md-4 col-sm-4 frame">
@@ -547,7 +525,7 @@
 
     
     
-<!-- huong start -->
+<!-- huong start 2-->
     <div id="price" class="col-md-12 block" >
         <div class="col-md-12" >
             <h2 class="h2-huong">Chi tiết dịch vụ</h2>
@@ -557,7 +535,7 @@
                 2 triệu/lần bao gồm
             </h3>
         </div>
-        <div class="col-md-12" style="text-align:center;">
+        <div class="col-md-12" id="dich-vu-audit">
             <div>
                 <div class="row">
                     <div class="container">
@@ -569,12 +547,10 @@
                                             <?php 
                                                 $image = get_field('dich-vu1');
                                                 if( !empty($image) ): 
-                                                            // vars
                                                 $url = $image['url'];
-                                                $title = $image['hinhanh'];
+                                                $title = $image['dichvu1'];
                                                 $alt = $image['alt'];
-                                                $caption = $image['caption'];
-                                                            // thumbnail
+                                                $caption = $image['dich'];
                                                 $size = 'thumbnail';
                                                 $thumb = $image['sizes'][ $size ];
                                                 $width = $image['size'][ $size . '-width' ];
@@ -590,9 +566,8 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                          <!--   <p><span class="sub">1 triệu/ lần</span></p> -->
                                         </div>
-                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
+                                        <div class="body noi-dung-dich-vu-audit" >
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facilis veritatis beatae molestiae, a dignissimos? Et, exercitationem, natus. Asperiores est accusamus voluptate, ducimus distinctio nobis!
                                             </p>
@@ -601,19 +576,6 @@
 
                                 </div>
                             </div>
-
-
-                            <!-- <div class="col-md-4">
-                                <div style=" background-image: url("<?php bloginfo('template_directory');?>/image/diamond.png ;");">
-                                    <div class="h2-huong">
-                                        <h2 style="margin-top: 12rem;padding: 2rem 1rem 2rem 1rem ;">
-                                            2 triệu/lần
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div> -->
-
-
                             <div class="col-md-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
@@ -621,12 +583,10 @@
                                             <?php 
                                                 $image = get_field('dich-vu2');
                                                 if( !empty($image) ): 
-                                                            // vars
                                                 $url = $image['url'];
                                                 $title = $image['hinhanh'];
                                                 $alt = $image['alt'];
                                                 $caption = $image['caption'];
-                                                            // thumbnail
                                                 $size = 'thumbnail';
                                                 $thumb = $image['sizes'][ $size ];
                                                 $width = $image['150px'][ $size . '-width' ];
@@ -642,9 +602,8 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                            <!-- <p ><span class="sub">1 triệu/lần</span></p> -->
                                         </div>
-                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
+                                        <div class="body noi-dung-dich-vu-audit">
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit placeat sint voluptatum rem, magni in ad veniam eveniet cupiditate natus quas incidunt suscipit, earum quis?
                                             </p>
@@ -658,26 +617,8 @@
             </div>
         </div>
     </div>
-    <!-- Huong end -->
-
-
-   
+    <!-- Huong end 2-->
     <?php get_footer(); ?>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-79228914-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script>
-        $(document).ready(function () {
-            $("#banner2").css("height", $(window).height());
-            $("#toptext2").css("margin-top", $(window).height() * 0.4);
-        });
-    </script>
 </body>
 </html>

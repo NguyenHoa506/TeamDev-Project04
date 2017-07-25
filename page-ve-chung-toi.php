@@ -12,11 +12,13 @@
             </div>
         </div>
 		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
-        <div class="col-md-12" style="padding: 0px">
-            <div id="banner" style="position:relative">
-                <div class="head-bg-chung-toi"></div>
-                <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
-                    <div style="position: relative; left: -25%;">
+        <div class="col-md-12" id="banner-ve-chung-toi">
+            <div id="banner" >
+                <div class="head-bg-chung-toi">
+                    
+                </div>
+                <div id="ani-1" class="content-banner-about-us">
+                    <div id="toptext-about-us">
                         <h1 id="toptext">
                             <span>Về chúng tôi</span>
                         </h1>
@@ -25,7 +27,7 @@
             </div>
         </div>
 
-        <div class="col-md-12" style="background-color:#fff; padding:30px 15px;">
+        <div class="col-md-12" id="content-abour-us">
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
                     <br /><strong>Công ty Seo Magic là ai?</strong>
@@ -40,7 +42,7 @@
                     <br />- Với các phương pháp làm việc khoa học nhất website của bạn sẽ được quảng cáo rộng rãi trên khắp các phương tiện truyền thông để tạo tiền để đảm bảo chắc chắn thứ hạng từ khóa xuất hiện với thứ hạng cao nhất và ổn định lâu dài nhất
                     <br />Với chúng tôi internet là niềm đam mê và hạnh phúc là khi được góp một phần vào sự thành công của quý khách bạn hoàn toàn có thể kiểm chứng hiệu quả công việc của chúng tôi bằng cách xem những gì chúng tôi đã đạt được đối với những khách hàng trong quá khứ tại đây hoặc có thể yêu cầu chúng tôi cung cấp bất kì thông tin nào của khách hàng để tự mình chứng thực.
                     <br />Bạn đã sẵn sàng làm việc với một công ty SEO hàng đầu chưa? Hãy gọi cho chúng tôi theo hotline 0901 395 886 ngay hôm nay hoặc gửi yêu cầu cho chúng tôi theo form dưới đây để chúng tôi hỗ trợ bạn được nhanh nhất. Sẽ là tuyệt với nhất nếu như bạn có thể bớt chút thời gian mô tả về những dự định của bạn. Càng biết được nhiều thông tin chúng tôi càng dễ dàng hơn trong việc đưa ra các giải pháp tối ưu nhất cho bạn.
-                    <div style="display:none;">
+                    <!-- <div style="display:none;">
                         <br />NHẬN BÁO GIÁ SEO MIẾN PHÍ
                         <br />Họ trên bạn ( bắt buộc)
                         <br />Công ty ( bắt buộc)
@@ -48,7 +50,7 @@
                         <br />Điện thoại: ( Bắt buộc)
                         <br />Hãy cho chúng tôi biết ngân sách hàng tháng của bạn cho dự án này là bao nhiêu ( tùy chọn)
                         <br />Hãy cho chúng tôi biết rõ yêu cầu và ý tưởng của bạn.
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
