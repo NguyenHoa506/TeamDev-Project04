@@ -1490,10 +1490,7 @@ div.col-md-4.col-sm-4.frame {
     font-size:20px; 
     cursor:pointer;
 }
-div#price.col-md-12.block.bgrdfff{
-    background-color:#fff;
-}
-div#infor.col-md-12.bgrdfff{
+.bgrdfff{
     background-color:#fff;
 }
 .centdiv{
@@ -1526,13 +1523,17 @@ div#infor.col-md-12.bgrdfff{
     position: relative; 
     left: -25%;
 }
-
+.bodydiv{
+    border-top-left-radius:0; 
+    border-top-right-radius:0; 
+    padding:0;
+}
 .bodydiv_h{
     border-top-left-radius:0; 
     border-top-right-radius:0; 
     height:160px;
 }
-div#feature.col-md-12.bgrd{
+.bgrd{
     background-color:#eee;
 }
 .marginbtdiv{
@@ -1570,10 +1571,10 @@ div#feature.col-md-12.bgrd{
     padding:15px; color:#fff;
     position:relative;
 }
-div#whyus.col-md-12.bgrdeee{
+.bgrdeee{
     background-color:#eee;
 }
-div#flow.col-md-12.bgrd63c1af{
+.bgrd63c1af{
     background-color:#63c1af; 
     color:#fff;
 }
@@ -1605,7 +1606,7 @@ div#flow.col-md-12.bgrd63c1af{
     font-size:21px;
     margin-top: 15px;
 }
-div#inspire.col-md-12.inspirediv{
+.inspirediv{
     height:500px; 
     padding-top:30px;
     background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    
@@ -1630,7 +1631,7 @@ div#inspire.col-md-12.inspirediv{
 .borderccc{
     border-bottom:1px solid #ccc;
 }
-img.circleimg{
+.circleimg{
     height:150px; 
     width:150px; 
     border-radius:50%;
@@ -1639,6 +1640,9 @@ img.circleimg{
     text-align:center; 
     margin-top:0; 
     margin-bottom:50px;
+}
+.haspadtdiv{
+    padding-top: 70px;
 }
 .haspaddiv{
     padding: 20px 0 20px 0;
@@ -1650,10 +1654,7 @@ img.circleimg{
 .justdiv{
     text-align: justify;
 }
-i.fa.fa-circle.fa-stack-2x.colorfff{
-    color: #fff;
-}
-i.fa.fa-circle-thin.fa-stack-2x.colorfff{
+.colorfff{
     color: #fff;
 }
 .color63c1af{
@@ -1661,29 +1662,6 @@ i.fa.fa-circle-thin.fa-stack-2x.colorfff{
 }
 .widthdiv{
     width: 100px;
-}
-div.body.bodydiv{
-    border-top-left-radius:0; 
-    border-top-right-radius:0; 
-    padding:0;
-}
-.usdiv{
-    text-align:center; 
-    margin-bottom: 40px;
-}
-.nhaydiv{
-    text-align:center; 
-    color:#6ab139;
-    margin:10px;
-}
-.lastname{
-    text-align:center; 
-    margin-bottom:0;
-}
-.company{
-    color:#ccc; 
-    font-size:13px;
-    text-align:center;
 }
 
 /*...........HEADER..............*/
@@ -1698,7 +1676,7 @@ div.body.bodydiv{
 
 /*............INDEX...............*/
 .form-support {
-    text-align:center; 
+    text-align:center;z 
     font-size:20px; 
     cursor:pointer;
 }
