@@ -8,18 +8,6 @@
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
 
-        
-
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
-
-
-<script>
-    $(document).ready(function () {
-        $("#banner2").css("height", $(window).height());
-        $("#toptext2").css("margin-top", $(window).height() * 0.4);
-    });
-</script>
-
 <div>
     <div id="mini-action" class="callToAction">
         <div class="form-support"><i class="fa fa-comments" aria-hidden="true"></i> <b>Miễn phí</b> tư vấn, hotline <b>0901 395 886</b></div>
