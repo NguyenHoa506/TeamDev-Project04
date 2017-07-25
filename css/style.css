@@ -1566,7 +1566,10 @@ div.col-md-4.col-sm-4.frame {
     font-size:20px; 
     cursor:pointer;
 }
-.bgrdfff{
+div#price.col-md-12.block.bgrdfff{
+    background-color:#fff;
+}
+div#infor.col-md-12.bgrdfff{
     background-color:#fff;
 }
 .centdiv{
@@ -1599,17 +1602,13 @@ div.col-md-4.col-sm-4.frame {
     position: relative; 
     left: -25%;
 }
-.bodydiv{
-    border-top-left-radius:0; 
-    border-top-right-radius:0; 
-    padding:0;
-}
+
 .bodydiv_h{
     border-top-left-radius:0; 
     border-top-right-radius:0; 
     height:160px;
 }
-.bgrd{
+div#feature.col-md-12.bgrd{
     background-color:#eee;
 }
 .marginbtdiv{
@@ -1647,10 +1646,10 @@ div.col-md-4.col-sm-4.frame {
     padding:15px; color:#fff;
     position:relative;
 }
-.bgrdeee{
+div#whyus.col-md-12.bgrdeee{
     background-color:#eee;
 }
-.bgrd63c1af{
+div#flow.col-md-12.bgrd63c1af{
     background-color:#63c1af; 
     color:#fff;
 }
@@ -1682,7 +1681,7 @@ div.col-md-4.col-sm-4.frame {
     font-size:21px;
     margin-top: 15px;
 }
-.inspirediv{
+div#inspire.col-md-12.inspirediv{
     height:500px; 
     padding-top:30px;
     background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    
@@ -1707,7 +1706,7 @@ div.col-md-4.col-sm-4.frame {
 .borderccc{
     border-bottom:1px solid #ccc;
 }
-.circleimg{
+img.circleimg{
     height:150px; 
     width:150px; 
     border-radius:50%;
@@ -1716,9 +1715,6 @@ div.col-md-4.col-sm-4.frame {
     text-align:center; 
     margin-top:0; 
     margin-bottom:50px;
-}
-.haspadtdiv{
-    padding-top: 70px;
 }
 .haspaddiv{
     padding: 20px 0 20px 0;
@@ -1730,7 +1726,10 @@ div.col-md-4.col-sm-4.frame {
 .justdiv{
     text-align: justify;
 }
-.colorfff{
+i.fa.fa-circle.fa-stack-2x.colorfff{
+    color: #fff;
+}
+i.fa.fa-circle-thin.fa-stack-2x.colorfff{
     color: #fff;
 }
 .color63c1af{
@@ -1738,6 +1737,29 @@ div.col-md-4.col-sm-4.frame {
 }
 .widthdiv{
     width: 100px;
+}
+div.body.bodydiv{
+    border-top-left-radius:0; 
+    border-top-right-radius:0; 
+    padding:0;
+}
+.usdiv{
+    text-align:center; 
+    margin-bottom: 40px;
+}
+.nhaydiv{
+    text-align:center; 
+    color:#6ab139;
+    margin:10px;
+}
+.lastname{
+    text-align:center; 
+    margin-bottom:0;
+}
+.company{
+    color:#ccc; 
+    font-size:13px;
+    text-align:center;
 }
 
 /*...........HEADER..............*/
