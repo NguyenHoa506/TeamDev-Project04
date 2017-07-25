@@ -40,11 +40,11 @@
 <div class="col-md-12 dao-tao-ctv">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="text-align:center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 benefit-ctv">
                 <img src="<?php bloginfo('template_directory');?>/image/finance-benefits-icon.png" tppabs="http://magica.top/Imgs/finance-benefits-icon.png" />
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                <h2 class="inmobile" style="margin:15px 0px;">Quyền lợi</h2>
+                <h2 class="inmobile quyen-loi-ctv">Quyền lợi</h2>
                 <p><i class="fa fa-fw fa-lg fa-line-chart" aria-hidden="true"></i> 20% giá trị dự án được phân bổ cho khâu bán hàng, trong đó:</p>
                 <ul>
                     <li>5% cho việc giới thiệu khách hàng có nhu cầu</li>
@@ -59,57 +59,57 @@ Chỉ cần tiếp cận được đúng khách hàng đang có nhu cầu, thờ
     </div>
 
 </div>
-<div class="col-md-12" style="padding: 0px; background-color:#fff;padding:30px 15px">
+<div class="col-md-12 noi-dung-dao-tao-ctv">
     <div class="row">
         <div class="margin-detail col-md-12">
             <h2>Bạn sẽ được đào tạo </h2>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div>
-                <img style="height:120px" src="<?php bloginfo('template_directory');?>/image/aboutarea.png" tppabs="http://magica.top/Imgs/aboutarea.png" />
+                <img class="img-dao-tao-ctv" src="<?php bloginfo('template_directory');?>/image/aboutarea.png" tppabs="http://magica.top/Imgs/aboutarea.png" />
             </div>
             <div class="trainning">Đào tạo về ngành</div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
             <div >
-                <img style="height:120px" src="<?php bloginfo('template_directory');?>/image/aboutproduct.png" tppabs="http://magica.top/Imgs/aboutproduct.png" />
+                <img class="img-dao-tao-ctv" src="<?php bloginfo('template_directory');?>/image/aboutproduct.png" tppabs="http://magica.top/Imgs/aboutproduct.png" />
             </div>
             <div class="trainning">Đào tạo về sản phẩm</div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
             <div >
-                <img style="height:120px" src="<?php bloginfo('template_directory');?>/image/aboutskill.png" tppabs="http://magica.top/Imgs/aboutskill.png" />
+                <img class="img-dao-tao-ctv" src="<?php bloginfo('template_directory');?>/image/aboutskill.png" tppabs="http://magica.top/Imgs/aboutskill.png" />
             </div>
             <div class="trainning">Kỹ năng bán hàng hiện đại</div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" >
             <div >
-                <img style="height:120px" src="<?php bloginfo('template_directory');?>/image/aboutchannel.png" tppabs="http://magica.top/Imgs/aboutchannel.png" />
+                <img class="img-dao-tao-ctv" src="<?php bloginfo('template_directory');?>/image/aboutchannel.png" tppabs="http://magica.top/Imgs/aboutchannel.png" />
             </div>
             <div class="trainning">Nhận diện các kênh bán hàng</div>
         </div>
     </div>
 </div>
 
-<div class="col-md-12" style="padding: 0px; background-color:#eee;padding:30px 15px">
+<div class="col-md-12 nhan-vien-sale">
     <div class="row">
         <div class="margin-detail col-md-12">
             <h2>Nhân viên sales là ai?</h2>
         </div>
-        <div class="container" style="max-width:800px">
+        <div class="container max-width-sale">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-pr">
                 <div class="staff-des">
                     Khách hàng luôn là đối tượng quan trọng nhất, là dòng máu để nuôi công ty. Nên phòng sales luôn đóng vai trò quan trọng bật nhất cho bất kỳ công ty, ngành nghề nào, và người bán hàng trở thành một mắt xích vô cùng quan trọng trong công ty. 
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div style="text-align:center">
-                    <img style="width:300px" src="<?php bloginfo('template_directory');?>/image/staff_img.png" tppabs="http://magica.top/Imgs/staff_img.png" />
+                <div class="noi-dung-sale">
+                    <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/staff_img.png" tppabs="http://magica.top/Imgs/staff_img.png" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div style="text-align:center">
-                    <img style="width:300px" src="<?php bloginfo('template_directory');?>/image/keysuccess.png" tppabs="http://magica.top/Imgs/keysuccess.png" />
+                <div class="noi-dung-sale">
+                    <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/keysuccess.png" tppabs="http://magica.top/Imgs/keysuccess.png" />
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-pl">

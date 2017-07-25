@@ -1404,6 +1404,35 @@ div.col-md-4.col-sm-4.frame {
     background-color:#eee;
     padding:30px ;
 }
+.benefit-ctv{
+    text-align:center;
+}
+.quyen-loi-ctv{
+    margin:15px 0px;
+}
+.img-dao-tao-ctv{
+    height: 120px;
+}
+.noi-dung-dao-tao-ctv{
+    padding: 0px; 
+    background-color:#fff;
+    padding:30px 15px;
+    text-align: center;
+}
+.nhan-vien-sale{
+    padding: 0px; 
+    background-color:#eee;
+    padding:30px 15px;
+}
+.img-nhan-vien-sale{
+    width: 300px;
+}
+.noi-dung-sale{
+    text-align: center;
+}
+.max-width-sale{
+    max-width: 800px;
+}
 /*huong end*/
 
 .bannerdiv{
