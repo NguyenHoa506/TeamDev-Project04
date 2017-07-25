@@ -618,6 +618,7 @@
         </div>
     </div>
     <!-- Huong end 2-->
+    
     <?php get_footer(); ?>
     </div>
 </body>
