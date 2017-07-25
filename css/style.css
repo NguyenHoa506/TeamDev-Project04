@@ -1561,5 +1561,17 @@ div.hide-arrow.arrow {
     right:20%;
 }
 
+.textcenter {
+    text-align: center;
+}
+
+img.img-process {
+    width:200px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+
 
 /*............END-INDEX...........*/
