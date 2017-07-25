@@ -1,6 +1,6 @@
   <?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
+        <div id="action-banner bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
 
@@ -16,17 +16,17 @@
         
         <div>
     <div id="mini-action" class="callToAction"  >
-        <div onclick="ShowAction()" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+        <div onclick="ShowAction()" class="minidiv"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
     </div>
 
-		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
     
-    <div class="col-md-12" style="padding:0px">
-        <div id="banner" style="position:relative">
-            <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+    <div class="col-md-12 paddingzero">
+        <div id="banner" class="bannerd">
+            <div class="vonghia"></div>
             <div class="head-bg-ads"></div>
-            <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
-                <div style="position: relative; left: -25%;">
+            <div id="ani-1" class="ani-1-div">
+                <div class="topdiv">
                     <h1 id="toptext">
                         <span>LỰA CHỌN TỐI ƯU</span><br />
                         <span>CHO QUẢNG CÁO</span>
@@ -41,8 +41,8 @@
     
     
     
-    <div id="price" class="col-md-12 block" style="background-color:#eee;">
-        <div class="col-md-12" style="text-align:center;">
+    <div id="price" class="col-md-12 block bgrdeee">
+        <div class="col-md-12 centdiv">
             <h2 style="margin-bottom:20px">Các Gói Dịch Vụ</h2>
             <div>
                 <div class="row">
@@ -59,7 +59,7 @@
                                         <div class="first-part">
                                             <p>Ưu điểm: Gia tăng hiệu quả đối với các dự án dài hạn nhờ khả năng tối ưu hóa liên tục</p>
                                         </div>
-                                        <div style="border-bottom:1px solid #ccc;"></div>
+                                        <div class="borderccc"></div>
                                         <div class="second-part">
                                             <p>Cách thức triển khai: Khách hàng đề ra ngân sách quảng cáo hàng tháng, Magic sẽ tối ưu hóa quảng cáo liên tục và gửi báo cáo hàng tháng</p>
                                         </div>
@@ -79,7 +79,7 @@
                                         <div class="first-part">
                                             <p>Ưu điểm: Top 3 Google, 24/24. Dễ theo dõi kết quả & chi phí</p>
                                         </div>
-                                        <div style="border-bottom:1px solid #ccc;"></div>
+                                        <div class="borderccc"></div>
                                         <div class="second-part">
                                             <p>Cách thức triển khai: Gởi chúng tôi bộ từ khóa bạn muốn chạy để nhận báo giá</p>
                                         </div>
@@ -99,7 +99,7 @@
                                         <div class="first-part">
                                             <p>Ưu điểm: Xác định, kiểm soát được chi phí để mời một khách hàng vào cửa hàng của bạn</p>
                                         </div>
-                                        <div style="border-bottom:1px solid #ccc;"></div>
+                                        <div class="borderccc"></div>
                                         <div class="second-part">
                                             <p>Cách thức triển khai: Gởi chúng tôi bộ từ khóa bạn muốn chạy để nhận báo giá</p>
                                         </div>
@@ -118,37 +118,37 @@
 
     </div>
 
-    <div id="measurement" class="col-md-12" style="background-color:#fff; padding:30px 15px;">
+    <div id="measurement" class="col-md-12 measurementdiv">
         <div class="row">
             <div class="margin-detail col-md-12">
                 <h2>Chỉ số đo lường thành công của dự án</h2>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+                <div class="meas">
                     <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>
                 </div>
                 <h4 style="font-size:18px">
                     Doanh thu
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+                <div class="meas">
                     <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
                 </div>
                 <h4 style="font-size:18px">
                     Tỷ lệ chuyển đổi khách hàng
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+                <div class="meas">
                     <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-user-plus" aria-hidden="true"></i></p>
                 </div>
                 <h4 style="font-size:18px">
                     Số khách hàng tiềm năng truy cập
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+                <div class="meas">
                     <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-hand-pointer-o" aria-hidden="true"></i></p>
                 </div>
                 <h4 style="font-size:18px">
@@ -159,7 +159,6 @@
 
     </div>
 
-
     <div id="feature" class="col-md-12" style="background-color:#eee">
         <div class="margin-detail col-md-12">
             <h2 class="prof">Chúng Tôi Sẽ Giúp Bạn</h2>
@@ -169,7 +168,7 @@
                 <div class="col-md-12">
                     <div id="parentB" class="col-md-10 col-md-offset-1">
                         <div class="row">
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
                                     <div style="margin-bottom:15px; height:165px">
                                         <img style="height:150px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
@@ -179,7 +178,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
                                     <div style="margin-bottom:15px;height:165px">
                                         <img style="height:150px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
@@ -189,7 +188,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 should-margin-bottom" style="text-align:center">
+                            <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
                                     <div style="margin-bottom:15px;height:165px">
                                         <img style="height:150px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />
@@ -295,7 +294,7 @@
     </div>
 
     <div id="flow" class="col-md-12" style="background-color:rgb(0, 107, 156); color:#fff;">
-        <div class="col-md-12" style="text-align:center">
+        <div class="col-md-12 centdiv">
             <h2 style="margin-bottom:20px">Quy trình làm việc</h2>
             <div class="row">
                 <div class="col-md-12">
@@ -412,8 +411,8 @@
     
     
     <div id="achievement" class="col-md-12">
-        <div style="background-color: black; opacity:0.7; height:100%; width:100%; position:absolute;top:0; left:0"></div>
-        <div class="col-md-12" style="text-align:center">
+        <div class="achievementdiv"></div>
+        <div class="col-md-12 centdiv">
             <div style="margin-bottom:20px">
                 <h2>Thành Tích Của Chúng Tôi</h2>
                 <h4><small>GIẢI PHÁP QUẢNG CÁO HOÀN HẢO DÀNH CHO BẠN</small></h4>
@@ -454,7 +453,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div style="text-align:center">
+                <div class="centdiv">
                     <img style="height:150px; width:150px; border-radius:50%" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
                 </div>
                 <div style="text-align:center;color:#6ab139;margin:10px">
@@ -467,7 +466,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div style="text-align:center">
+                <div class="centdiv">
                     <img style="height:150px; width:150px; border-radius:50%" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
                 </div>
                 <div style="text-align:center;color:#6ab139; margin:10px">
