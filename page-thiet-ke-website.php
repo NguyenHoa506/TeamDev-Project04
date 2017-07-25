@@ -1,6 +1,6 @@
       <?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
+        <div id="action-banner" class="action-banner-class">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
     </div>
 
@@ -15,7 +15,7 @@
     <div>
         
         <div id="mini-action" class="callToAction">
-            <div onclick="ShowAction()" class = "eModal-1" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+            <div onclick="ShowAction()" class = "eModal-1 emodal"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
         </div>
 
 		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
@@ -23,7 +23,7 @@
 
     
    
-    <div class="col-md-12" style="padding: 0px">
+    <div class="col-md-12 padding-0">
         <div id="banner" class="pos-relative">
             <div class="banner-image"></div>
             <div class="head-bg-thiet-ke"></div>
@@ -56,7 +56,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left">
-                            <p class="current-problem" style="text-align: right;">Hầu hết các website hiện tại không có khả năng bán hàng</p>
+                            <p class="current-problem text-right">Hầu hết các website hiện tại không có khả năng bán hàng</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right div-img-current-problem">
                             <img class="img-problem" src="<?php bloginfo('template_directory');?>/image/badsale.png" tppabs="http://magica.top/Imgs/badsale.png" alt="Hình ảnh" />
@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left">
-                            <p class="current-problem" style="text-align:right;"">Hầu hết các website được xây dựng dựa trên các mẫu có sẵn, nên thường không nêu bật được sự khác biệt của mỗi công ty và nội dung cần truyền tải của mỗi ngành nghề</p>
+                            <p class="current-problem text-right">Hầu hết các website được xây dựng dựa trên các mẫu có sẵn, nên thường không nêu bật được sự khác biệt của mỗi công ty và nội dung cần truyền tải của mỗi ngành nghề</p>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right div-img-current-problem">
                             <img class="img-problem" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dnsl.png" tppabs="http://magica.top/Imgs/dnsl.png" />
@@ -331,7 +331,7 @@
             </div>
             
         </div>
-        <div class="container" style="margin-top:40px">
+        <div class="container mar-top-40">
             <div id="data-1" class="col-md-12 template page-sample">
                 <div class="row mar-bot-15">
                     <div class="col-lg-4 col-md-4 col-sm-4">
@@ -743,7 +743,7 @@
     </div>
 
 
-    <div class="col-md-12 block" style="background-color:#fff;padding:50px 0">
+    <div class="col-md-12 block unit-process">
         <div class="col-md-12 text-center">
             <h2 class="margin-bot-50">Quy trình làm việc</h2>
         </div>
@@ -800,7 +800,7 @@
             </div>
             <div class="col-md-12 text-center">
                 <div class="row">
-                    <div style="width:12.5%; float:left;position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;    box-sizing: border-box;"></div>
+                    <div class="unit-nothing"></div>
                     <div class="col-lg-3 col-md-3 col-sm-3 text-center">
                         <div class="order-content unit-5">
                             <div class="order-num">

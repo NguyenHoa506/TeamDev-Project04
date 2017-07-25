@@ -1955,7 +1955,26 @@ div#strength.col-md-12.our-power {
 /*............END-INDEX...........*/
 
 /*............THIET-KE-WEBSITE......*/
-
+.action-banner-class {
+    position:fixed; 
+    bottom:0; 
+    left:0;
+    text-align:center;
+    background-color:#6ab139; 
+    color:#fff; 
+    width:100%;
+    padding:10px;
+    z-index:10000;
+    font-size:15px;
+}
+.emodal {
+    text-align:center; 
+    font-size:20px; 
+    cursor:pointer;
+}
+.padding-0 {
+    padding: 0;
+}
 .pos-relative {
     position: relativ
 }
@@ -2141,7 +2160,8 @@ div.body.child-content {
 }
 
 .unit-process {
-
+    background-color:#fff;
+    padding:50px 0;
 }
 .order-num {
     position:absolute; 
@@ -2197,5 +2217,20 @@ div.body.child-content {
 }
 .font-18 {
     font-size: 18px;
+}
+.unit-nothing {
+    width:12.5%; 
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;    
+    box-sizing: border-box;
+}
+.mar-top-40 {
+    margin-top: 40px;
+}
+.text-right {
+    text-align: right;
 }
 /*...........END-THIET-KE-WEBSITE.....*/
