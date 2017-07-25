@@ -1540,6 +1540,14 @@ div.col-md-4.col-sm-4.frame {
     vertical-align: middle; 
     display: table-cell;
 }
+#dich-vu-audit{
+    text-align:center;
+}
+.noi-dung-dich-vu-audit{
+    border-top-left-radius:0; 
+    border-top-right-radius:0; 
+    height:90px;
+}
 /*huong end*/
 
 .bannerdiv{

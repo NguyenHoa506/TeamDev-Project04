@@ -535,7 +535,7 @@
                 2 triệu/lần bao gồm
             </h3>
         </div>
-        <div class="col-md-12" style="text-align:center;">
+        <div class="col-md-12" id="dich-vu-audit">
             <div>
                 <div class="row">
                     <div class="container">
@@ -547,12 +547,10 @@
                                             <?php 
                                                 $image = get_field('dich-vu1');
                                                 if( !empty($image) ): 
-                                                            // vars
                                                 $url = $image['url'];
-                                                $title = $image['hinhanh'];
+                                                $title = $image['dichvu1'];
                                                 $alt = $image['alt'];
-                                                $caption = $image['caption'];
-                                                            // thumbnail
+                                                $caption = $image['dich'];
                                                 $size = 'thumbnail';
                                                 $thumb = $image['sizes'][ $size ];
                                                 $width = $image['size'][ $size . '-width' ];
@@ -568,9 +566,8 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                          <!--   <p><span class="sub">1 triệu/ lần</span></p> -->
                                         </div>
-                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
+                                        <div class="body noi-dung-dich-vu-audit" >
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facilis veritatis beatae molestiae, a dignissimos? Et, exercitationem, natus. Asperiores est accusamus voluptate, ducimus distinctio nobis!
                                             </p>
@@ -607,9 +604,8 @@
                                                 </div>
                                                 <?php endif; ?>
                                             <?php endif; ?>
-                                            <!-- <p ><span class="sub">1 triệu/lần</span></p> -->
                                         </div>
-                                        <div class="body" style="border-top-left-radius:0; border-top-right-radius:0; height:90px">
+                                        <div class="body noi-dung-dich-vu-audit">
                                             <p>
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit placeat sint voluptatum rem, magni in ad veniam eveniet cupiditate natus quas incidunt suscipit, earum quis?
                                             </p>
