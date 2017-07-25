@@ -21,7 +21,7 @@
         <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
 
         <div class="col-md-12 paddingzero">
-            <div id="banner" class="bannerdiv">
+            <div id="banner" class="bannerd">
                 <div class="vonghia"></div>
                 <div class="head-bg-seo"></div>
                 <div id="ani-1" class="ani-1-div">
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-    <div id="price" class="col-md-12 block pricediv">
+    <div id="price" class="col-md-12 block bgrdfff">
         <div class="col-md-12 centdiv">
             <h2 style="margin-bottom:20px">Các gói dịch vụ</h2>
             <div>
@@ -286,19 +286,19 @@
 
 
 
-    <div id="whyus" class="col-md-12 whyusdiv">
+    <div id="whyus" class="col-md-12 bgrdeee">
         <div class="col-md-12 paddiv">
             <h2 style="text-align:center; margin-top:0; margin-bottom:50px">Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
+                                                <div class="imgcustomfdiv">
                                                     <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/target.jpg" tppabs="http://magica.top/Imgs/target.jpg" /> -->
 
                                                     <?php 
@@ -327,7 +327,7 @@
                                                     <?php endif; ?>
 
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="customerdiv">
                                                     Tiếp cận đúng khách hàng
                                                 </div>
                                             </div>
@@ -340,12 +340,12 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
+                                                <div class="imgcustomfdiv">
                                                     <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/strategy.jpg" tppabs="http://magica.top/Imgs/strategy.jpg" /> -->
 
 
@@ -375,7 +375,7 @@
                                                     <?php endif; ?>
 
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="customerdiv">
                                                     Đồng bộ chiến lược kinh doanh
                                                 </div>
                                             </div>
@@ -388,12 +388,12 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
+                                                <div class="imgcustomfdiv">
                                                    <!--  <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" /> -->
 
                                                     <?php 
@@ -423,7 +423,7 @@
 
 
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="customerdiv">
                                                     Tối ưu ROI
                                                 </div>
                                             </div>
@@ -438,12 +438,12 @@
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="col-sm-12 col-md-12 no-padding" style="display:inline-flex; margin-bottom:15px;width:100%">
+                            <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div style="width:100%; height:150px;text-align:center">
+                                                <div class="imgcustomfdiv">
                                                     <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php// bloginfo('template_directory');?>/image/professional.jpg" tppabs="http://magica.top/Imgs/professional.jpg" /> -->
 
 
@@ -473,7 +473,7 @@
                                                     <?php endif; ?>
 
                                                 </div>
-                                                <div style="width:100%;text-align:center;font-size:21px;margin-top: 15px;">
+                                                <div class="customerdiv">
                                                     Dịch vụ chuyên nghiệp
                                                 </div>
                                             </div>
@@ -498,8 +498,7 @@
     </div>
 
 
-    <div id="inspire" class="col-md-12" style="height:500px; padding-top:30px;background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    background-repeat: no-repeat;
-    background-size: cover;">
+    <div id="inspire" class="col-md-12 inspirediv">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
@@ -520,14 +519,14 @@
 
 
 
-    <div id="infor" class="col-md-12" style="background-color:#fff;">
+    <div id="infor" class="col-md-12 bgrdfff">
         <div class="col-md-12" style="padding: 20px 0 20px 0">
             <h2 style="text-align:center; margin-top:15px; margin-bottom:50px;">SEO hiện đại và mối liên hệ đến doanh nghiệp</h2>
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
-                    <div class="col-md-12 no-padding" style="margin-bottom:15px;">
-                        <div class="col-md-6 col-sm-12" style="padding-left:0;">
-                            <div class="info" style="text-align:right; margin-bottom:10px">
+                    <div class="col-md-12 no-padding margindiv">
+                        <div class="col-md-6 col-sm-12 nopadldiv">
+                            <div class="info info1">
                                 <div class="cnt">
                                     <p>SEO hiện đại phải dẫn khách hàng đến sản phẩm, gian hàng của bạn, không phải dẫn đến bài viết hay blog </p>
                                 </div>
@@ -536,7 +535,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12" style="padding-right:0;">
+                        <div class="col-md-6 col-sm-12 nopadrdiv">
                             <div class="info" style="margin-bottom:10px">
                                 <div class="img-i2">
                                     <img style="width:100px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf2.png" tppabs="http://magica.top/Imgs/inf2.png" />
@@ -549,8 +548,8 @@
 
                     </div>
                     <div class="col-md-12 no-padding">
-                        <div class="col-md-6" style="padding-left:0;">
-                            <div class="info" style="text-align:right; margin-bottom:10px">
+                        <div class="col-md-6 nopadldiv">
+                            <div class="info info1">
                                 <div class="cnt">
                                     <p>Thành công lâu dài, bền vững của SEO phải đến từ cách trình bày website, cách tổ chức sản phẩm, gian hàng, chứ không phải đến từ kỹ thuật spam</p>
                                 </div>
@@ -559,7 +558,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6" style="padding-right:0">
+                        <div class="col-md-6 nopadrdiv">
                             <div class="info">
                                 <div class="img-i2">
                                     <img style="width:100px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf4.png" tppabs="http://magica.top/Imgs/inf4.png" />

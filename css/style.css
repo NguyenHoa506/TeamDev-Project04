@@ -601,6 +601,7 @@ ul.arr li:before {
   font-size: 18px;
   line-height: 1.2;
   text-align: center;  
+  padding: 0 10em;
 }
 .trainning{
     padding:10px;
@@ -1352,6 +1353,57 @@ div.col-md-4.col-sm-4.frame {
     display: none;
 }
 
+
+.phone-form {
+    position:fixed; bottom:0; 
+    left:0;text-align:center;
+    background-color:#6ab139; 
+    color:#fff; width:100%;
+    padding:10px;
+    z-index:10000;
+    font-size:15px;
+}
+
+.form-hidden{
+    text-align: center; 
+    font-size:   20px; 
+    cursor: pointer;
+}
+.ctv-banner{
+    padding: 0px;
+    position:relative;
+}
+#toptext {
+    position: relative; 
+    left: -50%;
+}
+#toptext span{
+    font-size: 40px;
+}
+#ani-4{
+    position: 
+    absolute; 
+    left: 0;
+    color: #fff; 
+    z-index: 200;
+    top:0;
+}
+
+.thong-diep-ctv{
+    padding: 0em 10em; 
+    background-color:#45a16b;
+    color:#fff;
+}
+
+.container .thong-diep-ctv{
+    max-width:600px
+}
+
+.dao-tao-ctv{
+    padding: 0px; 
+    background-color:#eee;
+    padding:30px ;
+}
 /*huong end*/
 
 .bannerdiv{
@@ -1370,13 +1422,13 @@ div.col-md-4.col-sm-4.frame {
     font-size:20px; 
     cursor:pointer;
 }
-.pricediv{
+.bgrdfff{
     background-color:#fff;
 }
 .centdiv{
     text-align: center;
 }
-.bannerdiv{
+.bannerd{
     position:relative;
 }
 .paddingzero{
@@ -1436,7 +1488,7 @@ div.col-md-4.col-sm-4.frame {
     padding:15px; color:#fff;
     position:relative;
 }
-.whyusdiv{
+.bgrdeee{
     background-color:#eee;
 }
 .paddiv{
@@ -1450,6 +1502,42 @@ div.col-md-4.col-sm-4.frame {
     position:absolute;
     top:0; 
     left:0;
+}
+.nopaddiv{
+    display:inline-flex; 
+    margin-bottom:15px;
+    width:100%;
+}
+.imgcustomfdiv{
+    width:100%; 
+    height:150px;
+    text-align:center;
+}
+.customerdiv{
+    width:100%;
+    text-align:center;
+    font-size:21px;
+    margin-top: 15px;
+}
+.inspirediv{
+    height:500px; 
+    padding-top:30px;
+    background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.nopadldiv{
+    padding-left: 0;
+}
+.info1{
+    text-align:right; 
+    margin-bottom:10px;
+}
+.nopadrdiv{
+    padding-right: 0;
+}
+.borderccc{
+    border-bottom:1px solid #ccc;
 }
 
 /*...........HEADER..............*/

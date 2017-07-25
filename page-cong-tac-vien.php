@@ -1,41 +1,33 @@
     <?php get_header(); ?> 
     
     <div class="body-content">
-        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
+        <div id="action-banner" class="phone-form">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
-
-
-
-<!-- Hoa start -->
     <div>
         
         <div id="mini-action" class="callToAction">
-            <div onclick="ShowAction()" class = "eModal-1" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+            <div onclick="ShowAction()" class = "eModal-1" class="form-hidden"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
         </div>
 
 		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
 
 
-<div class="col-md-12" style="padding: 0px">
-    <div id="banner" style="position:relative">
-        <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+<div class="col-md-12 ctv-banner">
+    <div id="banner">
         <div class="head-bg-cong-tac-vien"></div>
-        <div id="ani-4" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
-            <div style="position: relative; left: -50%;">
-                <h2 id="toptext">
-                    <span style="font-size:40px;">Cộng tác viên kinh doanh tại Magic </span>
+        <div id="ani-4">
+            <div id="toptext">
+                <h2 >
+                    <span >Cộng tác viên kinh doanh tại Magic </span>
                 </h2>
             </div>
         </div>
     </div>
-
-
-
 </div>
 
-<div class="col-md-12" style="padding: 0px; background-color:#45a16b;color:#fff">
-    <div class="container" style="max-width:600px">
+<div class="col-md-12 thong-diep-ctv">
+    <div class="container ">
         <div class="quote">
             <div class="my-blockquote">
                 <div>
@@ -44,9 +36,8 @@
             </div>
         </div>
     </div>
-  
 </div>
-<div class="col-md-12" style="padding: 0px; background-color:#eee;padding:30px 0">
+<div class="col-md-12 dao-tao-ctv">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="text-align:center">
@@ -132,13 +123,5 @@ Chỉ cần tiếp cận được đúng khách hàng đang có nhu cầu, thờ
 
         <?php get_footer(); ?>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-79228914-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 </body>
 </html>

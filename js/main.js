@@ -112,3 +112,6 @@ function ShowTemplate(id, htmlItem) {
     $(id).show();
 }
 
+/*new*/
+
+/*new*/
