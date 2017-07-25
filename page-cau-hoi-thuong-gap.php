@@ -1,13 +1,17 @@
             <?php get_header(); ?>
-            <div class="body-content">
-                <div id="action-banner" class="phone-form">
-                    <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
-                </div>
-                <div id="mini-action" class="callToAction">
-                    <div onclick="ShowAction()" class = "eModal-1" class="form-hidden"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
-                </div>
+    <div class="body-content">
+        <div id="action-banner" class="phone-form">
+            <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
+        </div>
+        <div id="mini-action" class="callToAction">
+            <div onclick="ShowAction()" class = "eModal-1" class="form-hidden">
+                <i class="fa fa-comments" aria-hidden="true">    
+                </i> 
+                Miễn phí tư vấn
+            </div>
+        </div>
 
-        		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
 
         <div class="col-md-12" id="banner-cau-hoi">
             <div id="banner">
@@ -16,12 +20,10 @@
                     <div >
                         <h1 id="toptext">
                             <span>Câu hỏi thường gặp</span>
-                        </h1>
-                        
+                        </h1>                
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="col-md-12" id="noi-dung-cau-hoi">
@@ -60,5 +62,5 @@
         </div>
         <?php get_footer(); ?>
         </div>
-        </body>
-        </html>
+    </body>
+</html>
