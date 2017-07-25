@@ -2005,18 +2005,6 @@ div#strength.col-md-12.our-power {
 .head-bg{
             background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
     }
-    .benefit{
-        background-color:transparent;
-    }
-    #feature{
-     background-image: url("../image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-}
     .strength{
         background-color:#fff;
         padding:15px;
