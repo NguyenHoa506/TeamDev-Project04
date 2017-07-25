@@ -1492,6 +1492,24 @@ div.col-md-4.col-sm-4.frame {
     background-color:#fff; 
     padding:30px 15px;
 }
+#banner-dieu-khoan{
+    padding: 0px;
+    position:relative
+}
+.noi-dung-banner-dieu-khoan{
+    position: absolute; 
+    left: 0;
+    color: #fff; 
+    z-index: 200;
+    top:0;
+}
+#toptext-dieu-khoan{
+    position: relative; left: -20%;
+}
+#noi-dung-dieu-khoan{
+    background-color:#fff; 
+    padding:30px 15px;
+}
 /*huong end*/
 
 .bannerdiv{
