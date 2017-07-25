@@ -3,6 +3,13 @@
         <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
+
+        
+
+        <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
+
+
+    
     
     <!-- Hoa start -->
     <div>
@@ -60,7 +67,7 @@
                                             <h3>Gói 2</h3>
                                             <span class="sub">1,200,000 VNĐ</span>
                                         </div>
-                                        <div class="body bodydiv">
+                                        <div class="bodydiv body">
                                             <p class="gray">Số lượng: 1 từ</p>
                                             <p class="gray">Cạnh tranh: thấp</p>
                                             <p class="gray">Top 5</p>
@@ -75,7 +82,7 @@
                                             <h3>Gói 3</h3>
                                             <span class="sub">1,600,000 VNĐ</span>
                                         </div>
-                                        <div class="body bodydiv">
+                                        <div class="bodydiv body">
 
                                             <p class="gray">Số lượng: 1 từ</p>
                                             <p class="gray">Cạnh tranh: thấp</p>
@@ -94,7 +101,7 @@
                                             <h3 class="marginbtdiv">Gói 4</h3>
                                             <p><span class="sub">Liên hệ để nhận báo giá</span></p>
                                         </div>
-                                        <div class="body bodydiv_h">
+                                        <div class="bodydiv_h body">
                                             <p>Số từ: 50 - 200 từ tùy theo yêu cầu và ngành nghề của khách hàng</p>
                                         </div>
                                     </div>
@@ -325,7 +332,7 @@
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p class="haspadtdiv">SEO đã thay đổi rất nhiều kể từ ngày mới xuất hiện, hầu hết các đơn vị truyền thống vẫn chỉ tìm cách đưa traffic vào website của bạn nhưng không giúp bạn bán hàng</p>
+                                                <p>SEO đã thay đổi rất nhiều kể từ ngày mới xuất hiện, hầu hết các đơn vị truyền thống vẫn chỉ tìm cách đưa traffic vào website của bạn nhưng không giúp bạn bán hàng</p>
                                             </div>
                                         </div>
                                     </div>
@@ -373,7 +380,7 @@
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p class="haspadtdiv">Không đơn thuần là SEO, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để SEO phải đồng bộ với chiến lược kinh doanh của bạn</p>
+                                                <p>Không đơn thuần là SEO, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để SEO phải đồng bộ với chiến lược kinh doanh của bạn</p>
                                             </div>
                                         </div>
                                     </div>
@@ -421,7 +428,7 @@
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p class="haspadtdiv">
+                                                <p>
                                                     Dựa trên công nghệ SEO được cập nhật liên tục, và nền tảng khách hàng mà chúng tôi đã hệ thống được sau 8 năm kinh nghiệm, chúng tôi có thể giúp bạn tối ưu hiệu quả trên tổng số tiền đầu tư
                                                 </p>
                                             </div>
@@ -471,7 +478,7 @@
                                                 </div>
                                             </div>
                                             <div class="back">
-                                                <p class="haspadtdiv">
+                                                <p>
                                                     Tại Magic chúng tôi áp dụng quy trình kỹ thuật nghiêm ngặt, đội ngũ nhân viên làm việc dựa trên tinh thần hợp tác nhằm mang đến lợi ích cao nhất cho khách hàng
 
                                                 </p>
@@ -729,48 +736,48 @@
 
     </div>
 
-    <div id="testimonial" class="col-md-12 block" style="background-color:#fff; padding-top:40px">
-        <div class="col-md-10 col-lg-offset-1" style="padding-bottom:15px">
-            <h2 style="text-align:center; margin-bottom: 40px">Mọi Người Nói Gì Về Chúng Tôi</h2>
+    <div id="testimonial" class="col-md-12 block testimonialdiv">
+        <div class="col-md-10 col-lg-offset-1 padbtdiv">
+            <h2 class="usdiv">Mọi Người Nói Gì Về Chúng Tôi</h2>
             <div class="col-md-4">
                 <div class="centdiv">
                     <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t1.jpg" tppabs="http://magica.top/Imgs/t1.jpg" />
                 </div>
-                <div style="text-align:center; color:#6ab139;margin:10px">
+                <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
                 </div>
                 <div>
                     <p class="justdiv">Doanh thu của chúng tôi tăng rõ rệt sau khi chạy SEO các từ khóa xây dựng</p>
-                    <h4 style="text-align:center; margin-bottom:0">
+                    <h4 class="lastname">
                         Chị Thúy Hà
                     </h4>
-                    <p style="color:#ccc; font-size:13px;text-align:center">Cty Xây Dựng MTV</p>
+                    <p class="company">Cty Xây Dựng MTV</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
                     <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t2.jpg" tppabs="http://magica.top/Imgs/t2.jpg" />
                 </div>
-                <div style="text-align:center;color:#6ab139;margin:10px">
+                <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
                 </div>
                 <div>
                     <p class="justdiv">Chi phí marketing giảm đáng kể sau khi sử dụng dịch vụ SEO của công ty Magic</p>
-                    <h4 style="text-align:center;margin-bottom:0">Chị Kim Na</h4>
-                    <p style="color:#ccc; font-size:13px;text-align:center">Cty Sửa xe Kim Tiến</p>
+                    <h4 class="lastname">Chị Kim Na</h4>
+                    <p class="company">Cty Sửa xe Kim Tiến</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
                     <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t3.png" tppabs="http://magica.top/Imgs/t3.png" />
                 </div>
-                <div style="text-align:center;color:#6ab139; margin:10px">
+                <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
                 </div>
                 <div>
                     <p class="justdiv">Sau khi sử dụng dịch vụ, kiến thức SEO của tôi được cải thiện. Giờ đây tôi có thể điều chỉnh chi phí marketing cho riêng mình</p>
-                    <h4 style="text-align:center; margin-bottom:0">Anh Tiến</h4>
-                    <p style="color:#ccc; font-size:13px;text-align:center">Trưởng phòng kinh doanh Cty WonderWood</p>
+                    <h4 class="lastname">Anh Tiến</h4>
+                    <p class="company">Trưởng phòng kinh doanh Cty WonderWood</p>
                 </div>
             </div>
         </div>
