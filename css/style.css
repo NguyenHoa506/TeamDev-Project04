@@ -2049,4 +2049,112 @@ div.body.child-content {
 .margin-bot-50 {
     margin-bottom: 50px;
 }
+.content-left-suggest {
+    border-right:2px solid #fff; 
+    padding:20px;
+}
+.content-right-suggest {
+    padding:20px;
+}
+.pad-left-15 {
+    padding-left: 15px;
+}
+
+.div-sample-website {
+    background-color:#eee;
+    padding:50px 0;
+}
+
+.list-web {
+    margin: 0 auto;
+    padding:20px 0px;
+}
+.div-sale {
+
+}
+.mar-bot-15 {
+    margin-bottom: 15px;
+}
+
+.img-size-w100 {
+    width: 100%;
+}
+.a-color {
+    color: #000;
+}
+.style-title-link {
+    font-size:17px; 
+    margin-top:10px;
+}
+.page-sample {
+    text-align:center;
+    display:block;
+}
+.page-hiden {
+   text-align:center;
+   display:none; 
+}
+
+.mar-bot-30 {
+    margin-bottom: 30px;
+}
+
+.unit-process {
+
+}
+.order-num {
+    position:absolute; 
+    width:55px; 
+    height:55px; 
+    border-radius:50%; 
+    background-color:#4a4a4a;
+    top:-30px;
+    left:57.5px;
+    padding-top:12px; 
+    font-weight:bold; 
+    font-size:20px;
+}
+.order-content {
+    margin:0 auto ;
+    border-radius:50%;  
+    height:170px; 
+    width:170px; 
+    padding:15px; 
+    color:#fff; 
+    position:relative;
+}
+.unit-1 {
+    background-color:#31b0d5; 
+    border:2px solid #269abc;
+}
+.unit-2 {
+    background-color:#ec971f; 
+    border:2px solid #d58512;
+}
+.unit-3 {
+   background-color:#337ab7; 
+   border:2px solid #2e6da4; 
+}
+.unit-4 {
+    background-color:#449d44; 
+    border:2px solid #398439;
+}
+.unit-5 {
+    background-color:#6ab139; 
+    border:2px solid #56902f;
+}
+.unit-6 {
+    background-color:#b8b8b9; 
+    border:2px solid #949494;
+}
+.unit-7 {
+    background-color:#c9302c; 
+    border:2px solid #ac2925;
+}
+.mar-top-20 {
+    margin-top: 20px;
+}
+.font-18 {
+    font-size: 18px;
+}
 /*...........END-THIET-KE-WEBSITE.....*/
