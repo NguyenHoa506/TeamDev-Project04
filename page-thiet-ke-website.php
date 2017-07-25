@@ -24,19 +24,19 @@
     
    
     <div class="col-md-12" style="padding: 0px">
-        <div id="banner" style="position:relative">
-            <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+        <div id="banner" class="pos-relative">
+            <div class="banner-image"></div>
             <div class="head-bg-thiet-ke"></div>
-            <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0;width:75%">
-                <div style="position: relative; left: -25%;min-width:290px">
+            <div id="ani-1" class="idani-1" style="width:75%">
+                <div class="position-title-tkwebsite">
                     <div id="toptext2">
-                        <div style="position:relative">
-                            <span class="smalldeco" style="position:absolute; left:0px; width:28%; bottom:0; text-align:right">Không chỉ là</span>
-                            <h2 class="smallH2" style="padding-left:30%">Thiết kế website</h2>                           
+                        <div class="pos-relative">
+                            <span class="smalldeco small-text">Không chỉ là</span>
+                            <h2 class="smallH2">Thiết kế website</h2>                           
                         </div>
-                        <div style="position:relative">
-                            <span class="smalldeco" style=" position:absolute; left:0px; width:28%; bottom:0; text-align:right">Chúng tôi muốn giúp bạn</span>
-                            <h2 class="smallH2" style="padding-left:30%">Thiết kế cửa hàng <br /> Có khả năng bán hàng</h2>
+                        <div class="pos-relative">
+                            <span class="smalldeco small-text">Chúng tôi muốn giúp bạn</span>
+                            <h2 class="smallH2">Thiết kế cửa hàng <br /> Có khả năng bán hàng</h2>
                         </div>
                       
                     </div>
@@ -44,10 +44,9 @@
                 </div>
             </div>
         </div>
-
-
-
     </div>
+
+
     <div id="feature" class="col-md-12 block" style="background-color:#eee">
         <div class="margin-detail col-md-12">
             <h2>Vấn đề với các website hiện tại </h2>
@@ -57,30 +56,30 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left">
-                            <p style="text-align:right; padding: 15px 0">Hầu hết các website hiện tại không có khả năng bán hàng</p>
+                            <p class="current-problem" style="text-align: right;">Hầu hết các website hiện tại không có khả năng bán hàng</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right" style="padding:15px">
-                            <img style="height:70px" src="<?php bloginfo('template_directory');?>/image/badsale.png" tppabs="http://magica.top/Imgs/badsale.png" alt="Hình ảnh" />
+                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right div-img-current-problem">
+                            <img class="img-problem" src="<?php bloginfo('template_directory');?>/image/badsale.png" tppabs="http://magica.top/Imgs/badsale.png" alt="Hình ảnh" />
                         </div>
                     </div>
                 </div>
-                <div class="row" style="margin-top:15px; margin-bottom:15px;">
+                <div class="row content-2">
                     <div class="col-md-12">
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left align-right" style="padding: 15px;">
-                            <img  style="height:70px" src="<?php bloginfo('template_directory');?>/image/prelist.png" tppabs="http://magica.top/Imgs/prelist.png" alt="Hình ảnh" />
+                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left align-right div-img-current-problem">
+                            <img  class="img-problem" src="<?php bloginfo('template_directory');?>/image/prelist.png" tppabs="http://magica.top/Imgs/prelist.png" alt="Hình ảnh" />
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right" >
-                            <p style="padding: 15px 0">Hầu hết các website được xây dựng bởi dân kỹ thuật chuyên về thiết kế website chứ không phải được xây dựng bởi 1 người am hiểu về kinh doanh, có khả năng thiết kế 1 gian hàng có khả năng bán hàng </p>
+                            <p class="current-problem">Hầu hết các website được xây dựng bởi dân kỹ thuật chuyên về thiết kế website chứ không phải được xây dựng bởi 1 người am hiểu về kinh doanh, có khả năng thiết kế 1 gian hàng có khả năng bán hàng </p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left">
-                            <p style="text-align:right;padding: 15px 0">Hầu hết các website được xây dựng dựa trên các mẫu có sẵn, nên thường không nêu bật được sự khác biệt của mỗi công ty và nội dung cần truyền tải của mỗi ngành nghề</p>
+                            <p class="current-problem" style="text-align:right;"">Hầu hết các website được xây dựng dựa trên các mẫu có sẵn, nên thường không nêu bật được sự khác biệt của mỗi công ty và nội dung cần truyền tải của mỗi ngành nghề</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right" style="padding: 15px">
-                            <img style="height:70px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dnsl.png" tppabs="http://magica.top/Imgs/dnsl.png" />
+                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right div-img-current-problem">
+                            <img class="img-problem" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dnsl.png" tppabs="http://magica.top/Imgs/dnsl.png" />
                         </div>
                     </div>
 
@@ -94,48 +93,48 @@
 
     </div>
 
-    <div id="measurement" class="col-md-12" style="background-color:#fff; padding:30px 15px;">
+    <div id="measurement" class="col-md-12 measure">
         <div class="row">
             <div class="margin-detail col-md-12">
                 <h2>Chỉ số đo lường thành công của dự án</h2>
             </div>
-            <div class="col-5" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
-                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>                    
+            <div class="col-5 text-center">
+                <div class="div-icon">
+                    <p class="icon-in"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>                    
                 </div>
-                <h4 style="font-size:18px">
+                <h4 class="fontsize-content">
                     Doanh thu
                 </h4>
             </div>
-            <div class="col-5" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
-                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
+            <div class="col-5 text-center">
+                <div class="div-icon">
+                    <p class="icon-in"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
                 </div>
-                <h4 style="font-size:18px">
+                <h4 class="fontsize-content">
                     Tỷ lệ chuyển đổi khách hàng
                 </h4>
             </div>
-            <div class="col-5" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
-                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-refresh" aria-hidden="true"></i></p>
+            <div class="col-5 text-center">
+                <div class="div-icon">
+                    <p class="icon-in"><i class="fa fa-fw fa-4x fa-refresh" aria-hidden="true"></i></p>
                 </div>
-                <h4 style="font-size:18px">
+                <h4 class="fontsize-content">
                     Tỷ lệ khách quay lại website
                 </h4>
             </div>
-            <div class="col-5" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
-                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-share" aria-hidden="true"></i></p>
+            <div class="col-5 text-center">
+                <div class="div-icon">
+                    <p class="icon-in"><i class="fa fa-fw fa-4x fa-share" aria-hidden="true"></i></p>
                 </div>
-                <h4 style="font-size:18px">
+                <h4 class="fontsize-content">
                     Tỷ lệ bỏ trang (bounce rate)
                 </h4>
             </div>
-            <div class="col-5" style="text-align:center">
-                <div style="margin:0 auto ;border-radius:50%; background-color:#31b0d5; border:2px solid #269abc; height:120px; width:120px; padding:15px; color:#fff; position:relative">
-                    <p style="margin-top:15px"><i class="fa fa-fw fa-4x fa-clock-o" aria-hidden="true"></i></p>
+            <div class="col-5 text-center">
+                <div class="div-icon">
+                    <p class="icon-in"><i class="fa fa-fw fa-4x fa-clock-o" aria-hidden="true"></i></p>
                 </div>
-                <h4 style="font-size:18px">
+                <h4 class="fontsize-content">
                     Thời gian trên trang
                 </h4>
             </div>
