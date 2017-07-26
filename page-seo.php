@@ -531,14 +531,14 @@
                                     <p>SEO hiện đại phải dẫn khách hàng đến sản phẩm, gian hàng của bạn, không phải dẫn đến bài viết hay blog </p>
                                 </div>
                                 <div class="img-i">
-                                    <img class="widthdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf1.png" tppabs="http://magica.top/Imgs/inf1.png" />
+                                    <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf1.png" tppabs="http://magica.top/Imgs/inf1.png" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 nopadrdiv">
                             <div class="info marginbtdiv3">
                                 <div class="img-i2">
-                                    <img class="widthdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf2.png" tppabs="http://magica.top/Imgs/inf2.png" />
+                                    <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf2.png" tppabs="http://magica.top/Imgs/inf2.png" />
                                 </div>
                                 <div class="cnt2">
                                     <p>SEO phải đi từ hiểu biết về sản phẩm, dịch vụ, chiến lược của doanh nghiệp, không thể tách rời được</p>
@@ -554,14 +554,14 @@
                                     <p>Thành công lâu dài, bền vững của SEO phải đến từ cách trình bày website, cách tổ chức sản phẩm, gian hàng, chứ không phải đến từ kỹ thuật spam</p>
                                 </div>
                                 <div class="img-i">
-                                    <img class="widthdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf3.png" tppabs="http://magica.top/Imgs/inf3.png" />
+                                    <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf3.png" tppabs="http://magica.top/Imgs/inf3.png" />
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 nopadrdiv">
                             <div class="info">
                                 <div class="img-i2">
-                                    <img class="widthdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf4.png" tppabs="http://magica.top/Imgs/inf4.png" />
+                                    <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf4.png" tppabs="http://magica.top/Imgs/inf4.png" />
                                 </div>
                                 <div class="cnt2">
                                     <p>Hiệu quả của SEO phải đo lường từ doanh số bán hàng, chứ không phải số lượng người vào website</p>
