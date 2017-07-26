@@ -1,15 +1,12 @@
     <?php get_header(); ?>
     <div class="body-content">
-       <div id="action-banner" class="phone-form">
+        <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
-        </div>
-    <div>
-        
+        </div>        
         <div id="mini-action" class="callToAction">
-            <div onclick="ShowAction()" class = "eModal-1" class="form-hidden"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+            <div onclick="ShowAction()" class = "eModal-1 minidiv"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
         </div>
-
-		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
 
 
     <div id="banner" class="banner-lien-he">
