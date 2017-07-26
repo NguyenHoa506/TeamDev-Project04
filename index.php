@@ -4,54 +4,6 @@
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
 
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
-
-<style>
-    .head-bg{
-            background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
-    }
-    .benefit{
-        background-color:transparent;
-    }
-    #feature{
-     background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-}
-    .strength{
-        background-color:#fff;
-        padding:15px;
-        font-size:17px;
-        position:relative;
-            box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
-    }
-    .strength:hover  .hidden-content{
-        display:block;
-    }
-    .hidden-content{
-        background-color:#000;
-        color:#fff;
-        opacity:0.9;
-        position:absolute;
-        width:100%;
-        display:none;
-        height:100%;
-        top: 0;
-        left: 0;
-        font-size:13px;
-        padding:15px;
-    }
-</style>
-<script>
-    $(document).ready(function () {
-        $("#banner2").css("height", $(window).height());
-        $("#toptext2").css("margin-top", $(window).height() * 0.4);
-    });
-</script>
 <div>
     <div id="mini-action" class="callToAction">
         <div class="form-support"><i class="fa fa-comments" aria-hidden="true"></i> <b>Miễn phí</b> tư vấn, hotline <b>0901 395 886</b></div>
@@ -419,14 +371,6 @@
 </div>
     <?php get_footer(); ?>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-79228914-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 </body>
 </html>
