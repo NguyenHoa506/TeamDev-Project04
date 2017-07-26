@@ -120,7 +120,7 @@
 
     </div>
 
-    <div id="feature" class="col-md-12 bgrd">
+    <div class="col-md-12 bgrd" style="background-color: #eee;">
         <div class="margin-detail col-md-12">
             <h2 class="prof">MAGIC Sẽ Giúp Bạn</h2>
         </div>
@@ -129,9 +129,9 @@
                 <div class="col-md-12">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="col-md-4 should-margin-bottom centdiv">
-                            <div class="benefit">
+                            <div class="benefit bg-color-fff">
                                 <div class="marginbtdiv">
-                                    <!-- <img style="height:150px" alt="Hình ảnh" src="<?php  //bloginfo('template_directory');?>/image/timhieuseo.png" tppabs="http://magica.top/Imgs/timhieuseo.png" /> -->
+                                    
 
                                     <?php 
                                         $image = get_field('hieu-ve-seo');
@@ -164,7 +164,7 @@
 
                         </div>
                         <div class="col-md-4 should-margin-bottom centdiv">
-                            <div class="benefit">
+                            <div class="benefit bg-color-fff">
                                 <div class="marginbtdiv">
                                     <!-- <img style="height:150px" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/tuvan.png" tppabs="http://magica.top/Imgs/tuvan.png" /> -->
 
@@ -200,7 +200,7 @@
 
                         </div>
                         <div class="col-md-4 should-margin-bottom centdiv">
-                            <div class="benefit">
+                            <div class="benefit bg-color-fff">
                                 <div class="marginbtdiv">
                                     <!-- <img style="height:150px" alt="Hình ảnh" src="<?php// bloginfo('template_directory');?>/image/topseo.png" tppabs="http://magica.top/Imgs/topseo.png" /> -->
 

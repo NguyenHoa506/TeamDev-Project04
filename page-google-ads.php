@@ -159,7 +159,7 @@
 
     </div>
 
-    <div id="feature" class="col-md-12 bgrdeee">
+    <div class="col-md-12 bgrdeee" style="background-color: #eee;">
         <div class="margin-detail col-md-12">
             <h2 class="prof">Chúng Tôi Sẽ Giúp Bạn</h2>
         </div>
@@ -169,7 +169,7 @@
                     <div id="parentB" class="col-md-10 col-md-offset-1">
                         <div class="row">
                             <div class="col-md-4 should-margin-bottom centdiv">
-                                <div class="benefit">
+                                <div class="benefit bg-color-fff">
                                     <div class="help1">
                                         <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
                                     </div>
@@ -179,7 +179,7 @@
 
                             </div>
                             <div class="col-md-4 should-margin-bottom centdiv">
-                                <div class="benefit">
+                                <div class="benefit bg-color-fff">
                                     <div class="help1">
                                         <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
                                     </div>
@@ -189,7 +189,7 @@
 
                             </div>
                             <div class="col-md-4 should-margin-bottom centdiv">
-                                <div class="benefit">
+                                <div class="benefit bg-color-fff">
                                     <div class="help1">
                                         <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />
                                     </div>
