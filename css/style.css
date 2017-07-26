@@ -1860,6 +1860,14 @@ i.fa.fa-database.fa-stack-1x.workdiv2{
 i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     color:rgb(0, 107, 156);
 }
+.testimonialdiv2{
+    background-color:#fff;
+    padding-top:10px;
+}
+.usdiv2{
+    text-align:center;
+    margin: 40px 0;
+}
 /*............END-HEADER..........*/
 
 /*............INDEX...............*/
@@ -2002,6 +2010,7 @@ div#strength.col-md-12.our-power {
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
 .head-bg{
             background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
     }
@@ -2042,6 +2051,8 @@ div#strength.col-md-12.our-power {
         font-size:13px;
         padding:15px;
     }
+=======
+>>>>>>> 805d20f63fe259f7c1e9eb0d0b5a3227ea7d477f
 
 
 /*............END-INDEX...........*/

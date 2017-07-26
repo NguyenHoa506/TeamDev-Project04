@@ -1,4 +1,4 @@
-   <?php get_header(); ?>
+﻿   <?php get_header(); ?>
     <div class="body-content">
         <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
@@ -26,7 +26,7 @@
                 <div class="head-bg-seo"></div>
                 <div id="ani-1" class="ani-1-div">
                     <div class="topdiv">
-                        <h1 id="toptext">
+                        <h1 id="toptext" class="toptextdiv">
                             <span>Dịch vụ SEO</span>
                         </h1>
                         <h4>
