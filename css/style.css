@@ -1860,6 +1860,14 @@ i.fa.fa-database.fa-stack-1x.workdiv2{
 i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     color:rgb(0, 107, 156);
 }
+.testimonialdiv2{
+    background-color:#fff;
+    padding-top:10px;
+}
+.usdiv2{
+    text-align:center;
+    margin: 40px 0;
+}
 /*............END-HEADER..........*/
 
 /*............INDEX...............*/
@@ -2002,47 +2010,6 @@ div#strength.col-md-12.our-power {
     margin-top: 15px;
 }
 
-.head-bg{
-            background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
-    }
-<<<<<<< HEAD
-    .benefit{
-        background-color:transparent;
-    }
-    .feature{
-     background-image: url("../image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-}
-=======
->>>>>>> e7c0d0765ae21e66a807521adb132af61ae359c7
-    .strength{
-        background-color:#fff;
-        padding:15px;
-        font-size:17px;
-        position:relative;
-            box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
-    }
-    .strength:hover  .hidden-content{
-        display:block;
-    }
-    .hidden-content{
-        background-color:#000;
-        color:#fff;
-        opacity:0.9;
-        position:absolute;
-        width:100%;
-        display:none;
-        height:100%;
-        top: 0;
-        left: 0;
-        font-size:13px;
-        padding:15px;
-    }
 
 
 /*............END-INDEX...........*/
