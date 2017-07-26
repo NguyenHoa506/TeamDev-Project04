@@ -1,18 +1,74 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner" class="action-banner-class">
+        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
 
-<div>
-    <div id="mini-action" class="callToAction">
-        <div class="form-support"><i class="fa fa-comments" aria-hidden="true"></i> <b>Miễn phí</b> tư vấn, hotline <b>0901 395 886</b></div>
-    </div>
+        
+
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
+
+<style>
+    .head-bg{
+            background-image: url("<?php bloginfo('template_directory');?>/image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
+    }
+    .benefit{
+        background-color:transparent;
+    }
+    #feature{
+     background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+    .strength{
+        background-color:#fff;
+        padding:15px;
+        font-size:17px;
+        position:relative;
+            box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
+    }
+    .strength:hover  .hidden-content{
+        display:block;
+    }
+    .hidden-content{
+        background-color:#000;
+        color:#fff;
+        opacity:0.9;
+        position:absolute;
+        width:100%;
+        display:none;
+        height:100%;
+        top: 0;
+        left: 0;
+        font-size:13px;
+        padding:15px;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        $("#banner2").css("height", $(window).height());
+        $("#toptext2").css("margin-top", $(window).height() * 0.4);
+    });
+</script>
+
+<!-- Hoa start -->
+    <div>
+        
+        <div id="mini-action" class="callToAction">
+            <div onclick="ShowAction()" class = "eModal-1" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+        </div>
+
+		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
+
 
     <div class="col-md-12" style="padding: 0px">
         <div id="banner2">
-            <div class="banner-image" style=""></div>
-            <div id="ani-1" class="idani-1">
+            <div style="background-color:black; opacity:0.5; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+            <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
                 <div style="position: relative; left: -25%;">
                     <h1 id="toptext2">
                         <span>Magic Marketing</span>
@@ -26,7 +82,7 @@
     </div>
     
 
-    <div id="feature" class="col-md-12" style="color:#fff;  position:relative">
+     <div id="feature" class="col-md-12" style="color:#fff;  position:relative">
         <div class="banner-image"></div>
         <div style="position: relative; z-index:200">
             <div class="margin-detail col-md-12">
@@ -123,7 +179,7 @@
                                     <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div class="front-image-index">
+                                                <div class="front-image-index textcenter">
                                                     <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/tiemnang.jpg" tppabs="http://magica.top/Imgs/tiemnang.jpg" />
                                                 </div>
                                                 <div class="text-front">
@@ -144,7 +200,7 @@
                                     <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div class="front-image-index">
+                                                <div class="front-image-index textcenter">
                                                     <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/khongamhieu.jpg" tppabs="http://magica.top/Imgs/khongamhieu.jpg" />
                                                 </div>
                                                 <div class="text-front">
@@ -165,7 +221,7 @@
                                     <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div class="front-image-index">
+                                                <div class="front-image-index textcenter">
                                                     <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" />
                                                 </div>
                                                 <div class="text-front">
@@ -186,7 +242,7 @@
                                     <div class="flip-container height-vd-hientai">
                                         <div class="flipper">
                                             <div class="front">
-                                                <div class="front-image-index">
+                                                <div class="front-image-index textcenter">
                                                     <img class="img-vd-hientai" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/chiphicao.jpg" tppabs="http://magica.top/Imgs/chiphicao.jpg" />
                                                 </div>
                                                 <div class="text-front">
