@@ -1248,7 +1248,7 @@ div.col-md-4.col-sm-4.frame {
     background-color:transparent;
 }
 #feature-audit{
-    background-image: url("<?php bloginfo('template_directory');?>/image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
+    background-image: url("../image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -2034,6 +2034,10 @@ div#strength.col-md-12.our-power {
     padding:10px;
     z-index:10000;
     font-size:15px;
+}
+
+#toptext2 {
+    margin-top: 100px;
 }
 .emodal {
     text-align:center; 
