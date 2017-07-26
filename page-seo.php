@@ -579,7 +579,7 @@
 
     </div>
 
-    <div id="flow" class="col-md-12 bgrd63c1af">
+    <div  id="flow" class="col-md-12 bgrd63c1af" >
         <div class="col-md-12 centdiv">
             <h2 class="marginbtdiv2">Quy trình làm việc</h2>
             <div class="row">
@@ -602,7 +602,7 @@
                                             <div class="fsizediv2">Chẩn đoán miễn phí</div>
                                         </div>
                                         <div class="step-desc">
-                                            <p>Chẩn đoán: Nội dung, trải nghiệm người dùng, On-page, Off-page, Tình hình sức khỏe SEO hiện tại, Giới thiệu về các từ khóa/gốc từ khóa của ngành</p>
+                                            <p>Chẩn đoán: Nội  dung, trải nghiệm người dùng, On-page, Off-page, Tình hình sức khỏe SEO hiện tại, Giới thiệu về các từ khóa/gốc từ khóa của ngành</p>
                                         </div>
                                     </div>
                                 </div>
