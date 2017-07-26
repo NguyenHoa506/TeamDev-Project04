@@ -31,7 +31,7 @@
                 <div class="position-title-tkwebsite">
                     <div id="toptext2">
                         <div class="pos-relative">
-                            <span class="smalldeco small-text">Không chỉ là</span>
+                            <span class="smalldeco" style="position:absolute; left:0px; width:28%; bottom: 87px; text-align:right;">Không  chỉ là</span>
                             <h2 class="smallH2 h2-text">Thiết kế website</h2>                           
                         </div>
                         <div class="pos-relative">

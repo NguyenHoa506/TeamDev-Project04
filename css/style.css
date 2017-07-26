@@ -2046,8 +2046,14 @@ div#strength.col-md-12.our-power {
 .pos-relative {
     position: relative;
 }
-
-span.smalldeco.small-text {
+.small-text-t {
+    position:absolute; 
+    left:0px; 
+    width:28%; 
+    bottom: 85px; 
+    text-align:right;
+}
+.small-text {
     position:absolute; 
     left:0px; 
     width:28%; 
