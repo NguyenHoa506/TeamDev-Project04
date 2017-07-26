@@ -29,9 +29,9 @@
             <div class="head-bg-thiet-ke"></div>
             <div id="ani-1" class="idani-1" style="width:75%">
                 <div class="position-title-tkwebsite">
-                    <div id="toptext2">
+                    <div class="top-text">
                         <div class="pos-relative">
-                            <span class="smalldeco" style="position:absolute; left:0px; width:28%; bottom: 87px; text-align:right;">Không  chỉ là</span>
+                            <span class="smalldeco small-text" >Không  chỉ là</span>
                             <h2 class="smallH2 h2-text">Thiết kế website</h2>                           
                         </div>
                         <div class="pos-relative">
@@ -93,7 +93,7 @@
 
     </div>
 
-    <div id="measurement" class="col-md-12 measure">
+    <div id="measurement" class="col-md-12 measure-div">
         <div class="row">
             <div class="margin-detail col-md-12">
                 <h2>Chỉ số đo lường thành công của dự án</h2>
