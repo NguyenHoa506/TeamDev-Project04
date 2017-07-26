@@ -434,48 +434,48 @@
         </div>
 
     </div>
-    <div id="testimonial" class="col-md-12 block" style="background-color:#fff;padding-top:10px">
+    <div id="testimonial" class="col-md-12 block testimonialdiv2">
         <div class="col-md-10 col-lg-offset-1">
-            <h2 style="text-align:center; margin: 40px 0;">Mọi Người Nói Gì Về Chúng Tôi</h2>
+            <h2 class="usdiv2">Mọi Người Nói Gì Về Chúng Tôi</h2>
             <div class="col-md-4">
                 <div class="centdiv">
                     <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
                 </div>
-                <div style="text-align:center; color:#6ab139;margin:10px">
+                <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
                 </div>
                 <div>
                     <p class="justdiv">Sau khi chạy quảng cáo, lượng khách hàng của tôi tăng lên rõ rệt. Tôi không còn phải lo lắng về chiến lược quảng cáo.</p>               
-                    <h4 style="text-align:center; margin-bottom:0">
+                    <h4 class="lastmane">
                         Anh Lê Khang
                     </h4>
-                    <p style="color:#ccc; font-size:13px;text-align:center">Cty CP Vật Tư Nông Thôn Mới</p>
+                    <p class="company" ">Cty CP Vật Tư Nông Thôn Mới</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
                     <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
                 </div>
-                <div style="text-align:center;color:#6ab139;margin:10px">
+                <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
                 </div>
                 <div>
                     <p class="justdiv">Nhờ có quảng cáo Google, công ty đã giúp tôi có lượng khách hàng ổn định trong thời gian dài, giúp giảm chi phí</p>
-                    <h4 style="text-align:center;margin-bottom:0">Chị Oanh Trần</h4>
-                    <p style="color:#ccc; font-size:13px;text-align:center">Cty CP FirstA Web</p>
+                    <h4 class="lastmane">Chị Oanh Trần</h4>
+                    <p class="company">Cty CP FirstA Web</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
                     <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
                 </div>
-                <div style="text-align:center;color:#6ab139; margin:10px">
+                <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
                 </div>
                 <div>
                     <p class="justdiv">Giá rẻ nhưng lại rất hiệu quả. Cám ơn công ty Magic</p>
-                    <h4 style="text-align:center; margin-bottom:0">Anh Phúc</h4>
-                    <p style="color:#ccc; font-size:13px;text-align:center">Cty CP Xe Hơi Toàn Năng</p>
+                    <h4 class="lastmane">Anh Phúc</h4>
+                    <p class="company">Cty CP Xe Hơi Toàn Năng</p>
                 </div>
             </div>
 
