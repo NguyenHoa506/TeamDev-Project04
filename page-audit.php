@@ -1,6 +1,6 @@
-    <?php get_header(); ?>
+<?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
+        <div id="action-banner bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
     </div>
 
@@ -15,19 +15,19 @@
     <div>
         
         <div id="mini-action" class="callToAction">
-            <div onclick="ShowAction()" class = "eModal-1" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
+           <div onclick="ShowAction()" class="minidiv"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
         </div>
 
-		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
 
         <div class="col-md-12">
             <div class="row">
-                <div id="banner" style="position:relative">
-                    <div style="background-color:black; opacity:0.3; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
+                <div id="banner" class="position_rdiv">
+                    <div class="vonghia"></div>
                     <div class="head-bg-audit"></div>
-                    <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
-                        <div style="position: relative; left: -25%;">
-                            <h1 id="toptext">
+                    <div id="ani-1" class="ani-1-div">
+                        <div class="topdiv">
+                            <h1 id="toptext" class="toptextdiv">
                                 <span>SEO Audit</span>
                             </h1>
                             <h4>
@@ -48,10 +48,10 @@
                     <div class="col-md-12 col-xs-12">
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="col-md-12">
-                                <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
+                                <div class="circleimg2">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
                                 </div>
-                                <div class="div-cach" style="text-align: justify;">
+                                <div class="div-cach justdiv">
                                     <h5>Có cái nhìn khách quan từ bên ngoài về tình trạng SEO hiện tại</h5>
                                 </div>
                             </div>
@@ -59,10 +59,10 @@
 
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="col-md-12">
-                                <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
+                                <div class="circleimg2">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
                                 </div>
-                                <div class="div-cach" style="text-align:  justify;">
+                                <div class="div-cach justdiv">
                                      <h5>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h5>                       
                                 </div>
                             </div>
@@ -70,10 +70,10 @@
 
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="col-md-12">
-                                <div style="margin:0 auto ;border-radius:50%; background-color:white; height:150px; width:150px; padding:15px; color:#fff; position:relative">
+                                <div class="circleimg2">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
                                 </div>
-                                <div class="div-cach" style="text-align: justify;">
+                                <div class="div-cach justdiv">
                                     <h5>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h5>
                                 </div>
                             </div>
