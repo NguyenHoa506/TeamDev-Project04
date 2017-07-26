@@ -67,8 +67,8 @@
 
     <div class="col-md-12" style="padding: 0px">
         <div id="banner2">
-            <div style="background-color:black; opacity:0.5; position:absolute; top:0;left:0;width:100%;height:100%;z-index:100;"></div>
-            <div id="ani-1" style="position: absolute; left: 0;color: #fff; z-index: 200;top:0">
+            <div class="title-index-op"></div>
+            <div id="ani-1">
                 <div style="position: relative; left: -25%;">
                     <h1 id="toptext2">
                         <span>Magic Marketing</span>

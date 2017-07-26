@@ -2019,6 +2019,25 @@ div#strength.col-md-12.our-power {
     margin-top: 15px;
 }
 
+.title-index-op {
+    background-color:black; 
+    opacity:0.5;
+    position:absolute; 
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:100;
+}
+
+#ani-1 {
+    position: absolute; 
+    left: 0;
+    color: #fff; 
+    z-index: 200;
+    top:0;
+}
+
 
 /*............END-INDEX...........*/
 
@@ -2036,8 +2055,8 @@ div#strength.col-md-12.our-power {
     font-size:15px;
 }
 
-#toptext2 {
-    margin-top: 100px;
+.top-text {
+    margin-top: 127.6px;
 }
 .emodal {
     text-align:center; 
