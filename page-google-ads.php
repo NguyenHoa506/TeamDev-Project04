@@ -1,6 +1,6 @@
   <?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner bannerdiv">
+        <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
 
@@ -439,7 +439,7 @@
             <h2 class="usdiv2">Mọi Người Nói Gì Về Chúng Tôi</h2>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
@@ -454,7 +454,7 @@
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
@@ -467,7 +467,7 @@
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
