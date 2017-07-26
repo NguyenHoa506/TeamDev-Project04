@@ -1,6 +1,6 @@
   <?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner bannerdiv">
+        <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
 
@@ -171,7 +171,7 @@
                             <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
                                     <div class="help1">
-                                        <img class="heightdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
+                                        <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
                                     </div>
                                     <h3>Hiểu về quảng cáo Google adwords</h3>
                                     <p class="help2"">Hiểu cách thức hoạt động, Cách đo đạc hiệu quả của Google Adwords đối với chiến lược kinh doanh, Mức độ hiệu quả của Google Adwords so với các cách thức quảng cáo khác</p>
@@ -181,7 +181,7 @@
                             <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
                                     <div class="help1">
-                                        <img class="heightdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
+                                        <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
                                     </div>
                                     <h3>Luôn xuất hiện ở top kết quả tìm kiếm</h3>
                                     <p class="help2">Xuất hiện trên đầu kết quả tìm kiếm gần như đảm bảo khách hàng tiềm năng sẽ ghé thăm cửa hàng, website của bạn</p>
@@ -191,7 +191,7 @@
                             <div class="col-md-4 should-margin-bottom centdiv">
                                 <div class="benefit">
                                     <div class="help1">
-                                        <img class="heightdiv"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />
+                                        <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />
                                     </div>
                                     <h3>Đem khách hàng <br /> đến với bạn</h3>
                                     <p class="help2" ">Công nghệ phát triển giúp xóa đi khoảng cách giữa khách hàng và nhà cung cấp sản phẩm, Magic sẽ giúp bạn tiếp cận với công nghệ và các ứng dụng mới nhất để chào đón khách hàng ngay hôm nay</p>
@@ -439,7 +439,7 @@
             <h2 class="usdiv2">Mọi Người Nói Gì Về Chúng Tôi</h2>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
@@ -454,7 +454,7 @@
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
@@ -467,7 +467,7 @@
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>

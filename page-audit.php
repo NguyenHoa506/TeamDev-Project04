@@ -1,6 +1,6 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
     <div class="body-content">
-        <div id="action-banner bannerdiv">
+        <div id="action-banner" class="bannerdiv">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
     </div>
 

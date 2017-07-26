@@ -1700,12 +1700,12 @@ div#flow.col-md-12.bgrd63c1af{
 div#inspire.col-md-12.inspirediv{
     height:500px; 
     padding-top:30px;
-    background-image:url(<?php bloginfo('template_directory');?>/image/inspire.jpg);    
+    background-image:url(../image/inspire.jpg);    
     background-repeat: no-repeat;
     background-size: cover;  
 }
 div#inspire.col-md-12.inspirediv2{
-    background-image: url(<?php bloginfo('template_directory'); ?>/image/glad.jpg); 
+    background-image: url(../image/glad.jpg); 
     background-repeat:no-repeat; 
     background-size:cover;
     padding-top:50px;
