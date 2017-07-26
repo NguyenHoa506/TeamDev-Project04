@@ -3,6 +3,15 @@
         <div id="action-banner" style="position:fixed; bottom:0; left:0;text-align:center;background-color:#6ab139; color:#fff; width:100%;padding:10px;z-index:10000;font-size:15px">
             <i class="fa fa-phone" aria-hidden="true"></i> Miễn phí tư vấn <b>0901 395 886</b>
         </div>
+      
+<!--     
+<script>
+    $(document).ready(function () {
+        $("#banner2").css("height", $(window).height());
+        $("#toptext2").css("margin-top", $(window).height() * 0.4);
+    });
+</script> -->
+
   <!-- Hoa start -->
     <div>
         
@@ -374,14 +383,5 @@
 </div>
     <?php get_footer(); ?>
     </div>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-79228914-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 </body>
 </html>

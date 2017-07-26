@@ -1868,6 +1868,15 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     text-align:center;
     margin: 40px 0;
 }
+
+.circleimg2{
+    margin:0 auto ;
+    border-radius:50%; 
+    background-color:white; 
+    height:150px; width:150px; 
+    padding:15px; color:#fff; 
+    position:relative;
+}
 /*............END-HEADER..........*/
 
 /*............INDEX...............*/
@@ -2009,7 +2018,6 @@ div#strength.col-md-12.our-power {
 .margin-title {
     margin-top: 15px;
 }
-
 
 
 /*............END-INDEX...........*/
