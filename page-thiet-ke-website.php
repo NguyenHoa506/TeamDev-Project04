@@ -32,11 +32,11 @@
                     <div id="toptext2">
                         <div class="pos-relative">
                             <span class="smalldeco small-text">Không chỉ là</span>
-                            <h2 class="smallH2">Thiết kế website</h2>                           
+                            <h2 class="smallH2 h2-text">Thiết kế website</h2>                           
                         </div>
                         <div class="pos-relative">
                             <span class="smalldeco small-text">Chúng tôi muốn giúp bạn</span>
-                            <h2 class="smallH2">Thiết kế cửa hàng <br /> Có khả năng bán hàng</h2>
+                            <h2 class="smallH2 h2-text">Thiết kế cửa hàng <br /> Có khả năng bán hàng</h2>
                         </div>
                       
                     </div>
