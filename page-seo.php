@@ -741,7 +741,7 @@
             <h2 class="usdiv">Mọi Người Nói Gì Về Chúng Tôi</h2>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t1.jpg" tppabs="http://magica.top/Imgs/t1.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t1.jpg" tppabs="http://magica.top/Imgs/t1.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
@@ -756,7 +756,7 @@
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t2.jpg" tppabs="http://magica.top/Imgs/t2.jpg" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t2.jpg" tppabs="http://magica.top/Imgs/t2.jpg" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
@@ -769,7 +769,7 @@
             </div>
             <div class="col-md-4">
                 <div class="centdiv">
-                    <img class="circleimg"> alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t3.png" tppabs="http://magica.top/Imgs/t3.png" />
+                    <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t3.png" tppabs="http://magica.top/Imgs/t3.png" />
                 </div>
                 <div class="nhaydiv">
                     <i class="fa fa-fw fa-2x fa-quote-right"></i>
