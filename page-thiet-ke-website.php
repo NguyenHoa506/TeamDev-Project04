@@ -52,39 +52,41 @@
             <h2>Vấn đề với các website hiện tại </h2>
         </div>
         <div class="container">
-            <div class="col-md-12">
+            
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-left">
                             <p class="current-problem text-right">Hầu hết các website hiện tại không có khả năng bán hàng</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right div-img-current-problem">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-right div-img-current-problem">
                             <img class="img-problem" src="<?php bloginfo('template_directory');?>/image/badsale.png" tppabs="http://magica.top/Imgs/badsale.png" alt="Hình ảnh" />
                         </div>
                     </div>
                 </div>
                 <div class="row content-2">
                     <div class="col-md-12">
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left align-right div-img-current-problem">
-                            <img  class="img-problem" src="<?php bloginfo('template_directory');?>/image/prelist.png" tppabs="http://magica.top/Imgs/prelist.png" alt="Hình ảnh" />
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right" >
-                            <p class="current-problem">Hầu hết các website được xây dựng bởi dân kỹ thuật chuyên về thiết kế website chứ không phải được xây dựng bởi 1 người am hiểu về kinh doanh, có khả năng thiết kế 1 gian hàng có khả năng bán hàng </p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-left align-right div-img-current-problem">
+                                <img  class="img-problem" src="<?php bloginfo('template_directory');?>/image/prelist.png" tppabs="http://magica.top/Imgs/prelist.png" alt="Hình ảnh" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-right" >
+                                <p class="current-problem">Hầu hết các website được xây dựng bởi dân kỹ thuật chuyên về thiết kế website chứ không phải được xây dựng bởi 1 người am hiểu về kinh doanh, có khả năng thiết kế 1 gian hàng có khả năng bán hàng </p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-left">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-left">
                             <p class="current-problem text-right">Hầu hết các website được xây dựng dựa trên các mẫu có sẵn, nên thường không nêu bật được sự khác biệt của mỗi công ty và nội dung cần truyền tải của mỗi ngành nghề</p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 w3-animate-right div-img-current-problem">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-right div-img-current-problem">
                             <img class="img-problem" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/dnsl.png" tppabs="http://magica.top/Imgs/dnsl.png" />
                         </div>
                     </div>
 
                 </div>
-            </div>
+            
         </div>
         
 
@@ -742,7 +744,7 @@
             <h2 class="margin-bot-50">Quy trình làm việc</h2>
         </div>
         <div class="container">
-            <div class="col-md-12 text-center mar-bot-30">
+            <div class="col-md-12 text-center">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-3 text-center">
                         <div class="order-content unit-1">
