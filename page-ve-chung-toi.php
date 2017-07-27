@@ -14,8 +14,8 @@
                     
                 </div>
                 <div id="ani-1" class="content-banner-about-us">
-                    <div id="toptext-about-us">
-                        <h1 id="toptext">
+                    <div id="toptext">
+                        <h1 id="toptext-about-us">
                             <span>Về chúng tôi</span>
                         </h1>
                     </div>
