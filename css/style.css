@@ -182,17 +182,7 @@ h4{
 }
 .body-content{
   background-color: #DBDBDB;
-  width: 100%;
-  display: block;
-  overflow-x: hidden;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  margin-right: 0;
-  padding-right: 0;
-  margin-top: 0;
-  padding-top: 0;
+  
 }
 /* Set padding to keep content from hitting the edges */
 
