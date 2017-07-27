@@ -2447,7 +2447,7 @@ div.body.child-content {
     margin-bottom: 2em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     #action-banner {
         display: block;
     }
