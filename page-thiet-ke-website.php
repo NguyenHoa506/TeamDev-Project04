@@ -52,17 +52,17 @@
             <h2>Vấn đề với các website hiện tại </h2>
         </div>
         <div class="container">
-            
+            <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-left">
-                            <p class="current-problem text-right">Hầu hết các website hiện tại không có khả năng bán hàng</p>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-right div-img-current-problem">
-                            <img class="img-problem" src="<?php bloginfo('template_directory');?>/image/badsale.png" tppabs="http://magica.top/Imgs/badsale.png" alt="Hình ảnh" />
-                        </div>
+                    
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-left">
+                        <p class="current-problem text-right">Hầu hết các website hiện tại không có khả năng bán hàng</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-right div-img-current-problem">
+                        <img class="img-problem" src="<?php bloginfo('template_directory');?>/image/badsale.png" tppabs="http://magica.top/Imgs/badsale.png" alt="Hình ảnh" />
                     </div>
                 </div>
+            </div>
                 <div class="row content-2">
                     <div class="col-md-12">
                         <div class="row">
@@ -100,7 +100,7 @@
             <div class="margin-detail col-md-12">
                 <h2>Chỉ số đo lường thành công của dự án</h2>
             </div>
-            <div class="col-5 text-center">
+            <div class="col-5 text-center space-bottom">
                 <div class="div-icon">
                     <p class="icon-in"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>                    
                 </div>
@@ -108,7 +108,7 @@
                     Doanh thu
                 </h4>
             </div>
-            <div class="col-5 text-center">
+            <div class="col-5 text-center space-bottom">
                 <div class="div-icon">
                     <p class="icon-in"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
                 </div>
@@ -116,7 +116,7 @@
                     Tỷ lệ chuyển đổi khách hàng
                 </h4>
             </div>
-            <div class="col-5 text-center">
+            <div class="col-5 text-center space-bottom">
                 <div class="div-icon">
                     <p class="icon-in"><i class="fa fa-fw fa-4x fa-refresh" aria-hidden="true"></i></p>
                 </div>
@@ -124,7 +124,7 @@
                     Tỷ lệ khách quay lại website
                 </h4>
             </div>
-            <div class="col-5 text-center">
+            <div class="col-5 text-center space-bottom">
                 <div class="div-icon">
                     <p class="icon-in"><i class="fa fa-fw fa-4x fa-share" aria-hidden="true"></i></p>
                 </div>
@@ -132,7 +132,7 @@
                     Tỷ lệ bỏ trang (bounce rate)
                 </h4>
             </div>
-            <div class="col-5 text-center">
+            <div class="col-5 text-center space-bottom">
                 <div class="div-icon">
                     <p class="icon-in"><i class="fa fa-fw fa-4x fa-clock-o" aria-hidden="true"></i></p>
                 </div>
@@ -146,9 +146,9 @@
     </div>
 
 
-    <div id="whyus" class="col-md-12" style="background-color:#eee;">
-        <div class="col-md-12" style="padding: 50px 0;">
-            <h2 class="why-us-title">Tại Sao Lại Chọn Chúng Tôi?</h2>
+    <div id="whyus alignment-div" class="col-md-12" style="background-color:#eee;">
+        <div class="col-md-12">
+            <h2>Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">

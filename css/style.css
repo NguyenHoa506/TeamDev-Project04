@@ -2423,7 +2423,7 @@ div.body.child-content {
 }
 
 #alignment-div {
-    padding: 30px 15px 30px 15px ;
+    padding: 30px 15px;
 }
 
 .size-img-30 {
@@ -2432,5 +2432,14 @@ div.body.child-content {
 .size-img-70 {
     height: 70px;
 }
+.space-bottom {
+    margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+    #action-banner {
+        display: block;
+    }
+} 
 /*...........END-THIET-KE-WEBSITE.....*/
 
