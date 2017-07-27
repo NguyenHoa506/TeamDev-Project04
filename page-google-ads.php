@@ -129,7 +129,7 @@
             <div class="margin-detail col-md-12">
                 <h2>Chỉ số đo lường thành công của dự án</h2>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>
                 </div>
@@ -137,7 +137,7 @@
                     Doanh thu
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
                 </div>
@@ -145,7 +145,7 @@
                     Tỷ lệ chuyển đổi khách hàng
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-user-plus" aria-hidden="true"></i></p>
                 </div>
@@ -153,7 +153,7 @@
                     Số khách hàng tiềm năng truy cập
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-hand-pointer-o" aria-hidden="true"></i></p>
                 </div>
@@ -165,7 +165,7 @@
 
     </div>
 
-    <div id="alignment-div" class="col-md-12 bgrdeee" style="background-color: #eee;">
+    <div class="col-md-12 bgrdeee alignment-div" style="background-color: #eee;">
         <div class="margin-detail col-md-12">
             <h2 class="prof">Chúng Tôi Sẽ Giúp Bạn</h2>
         </div>
@@ -219,8 +219,8 @@
 
 
 
-    <div id="whyus" class="col-md-12 block bgrdus">
-        <div class="col-md-12 haspaddiv2">
+    <div id="whyus" class="col-md-12 block bgrdus alignment-div">
+        <div class="col-md-12">
             <h2 class="centmargdiv">Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
@@ -299,7 +299,7 @@
         
     </div>
 
-    <div id="flow" class="col-md-12 workdiv">
+    <div id="flow" class="col-md-12 workdiv text-center">
         <div class="col-md-12 centdiv">
             <h2 class="marginbtdiv2">Quy trình làm việc</h2>
             <div class="row">
@@ -322,7 +322,7 @@
                                             <div class="fsizediv2">Nhận yêu cầu</div>
                                         </div>
                                         <div class="step-desc">
-                                            <p>Nhận yêu cầu. Giới thiệu tổng quan về quảng cáo Google Adwords. Giới thiệu tổng quan về nhu cầu tìm kiếm online của ngành nghề khách hàng, hiệu quả ước tính từ Google Adwords</p>
+                                            <p class="text-center">Nhận yêu cầu. Giới thiệu tổng quan về quảng cáo Google Adwords. Giới thiệu tổng quan về nhu cầu tìm kiếm online của ngành nghề khách hàng, hiệu quả ước tính từ Google Adwords</p>
                                         </div>
                                     </div>
                                 </div>
@@ -340,7 +340,7 @@
                                             <div class="fsizediv2">Thống nhất giải pháp</div>
                                         </div>
                                         <div class="step-desc">
-                                            <p>Tư vấn khách hàng về giải pháp. Thống nhát từ khóa. Thống nhất ngân sách</p>
+                                            <p class="text-center">Tư vấn khách hàng về giải pháp. Thống nhát từ khóa. Thống nhất ngân sách</p>
                                         </div>
                                     </div>
                                 </div>
@@ -358,7 +358,7 @@
                                             <div class="fsizediv2">Set mẫu quảng cáo ban đầu</div>
                                         </div>
                                         <div class="step-desc">
-                                            <p>Set hiển thị của quảng cáo. Set tính năng bên trong của mẫu quảng cáo</p>
+                                            <p class="text-center">Set hiển thị của quảng cáo. Set tính năng bên trong của mẫu quảng cáo</p>
                                         </div>
                                     </div>
                                 </div>
@@ -380,7 +380,7 @@
                                             <div class="fsizediv2">Tối ưu hóa mẫu quảng cáo</div>
                                         </div>
                                         <div class="step-desc">
-                                            <p>Dựa trên dữ liệu liên tục được trả về từ Google. Việc tối ưu hóa có thể giúp tăng 2 - 5 lần hiệu quả theo thời gian</p>
+                                            <p class="text-center">Dựa trên dữ liệu liên tục được trả về từ Google. Việc tối ưu hóa có thể giúp tăng 2 - 5 lần hiệu quả theo thời gian</p>
                                         </div>
                                     </div>
                                 </div>
@@ -398,7 +398,7 @@
                                             <div class="fsizediv2">Báo cáo định kỳ</div>
                                         </div>
                                         <div class="step-desc">
-                                            <p>Báo cáo theo tháng. Báo cáo về chi phí, số lượng click, tỷ lệ click vào website, số lượng chuyển đổi (nếu có), ...</p>
+                                            <p class="text-center">Báo cáo theo tháng. Báo cáo về chi phí, số lượng click, tỷ lệ click vào website, số lượng chuyển đổi (nếu có), ...</p>
                                         </div>
                                     </div>
                                 </div>
@@ -416,7 +416,7 @@
     </div>
     
     
-    <div id="achievement" class="col-md-12">
+    <div id="achievement" class="col-md-12 alignment-div">
         <div class="achievementdiv"></div>
         <div class="col-md-12 centdiv">
             <div class="marginbtdiv2">
@@ -424,15 +424,15 @@
                 <h4><small>GIẢI PHÁP QUẢNG CÁO HOÀN HẢO DÀNH CHO BẠN</small></h4>
             </div>
             <div class="col-md-10 col-md-offset-1">
-                <div class="col-md-4 achive">
+                <div class="col-md-4 col-sm-4 achive">
                     <div class="h2">+1000</div>
                     Khách hàng
                 </div>
-                <div class="col-md-4 achive">
+                <div class="col-md-4 col-sm-4 achive">
                     <div class="h2">+10000</div>
                     Từ khóa
                 </div>
-                <div class="col-md-4 achive">
+                <div class="col-md-4 col-sm-4 achive">
                     <div class="h2">300%</div>
                     Lượng khách hàng tăng sau khi chạy quảng cáo
                 </div>
@@ -442,8 +442,8 @@
     </div>
     <div id="testimonial" class="col-md-12 block testimonialdiv2">
         <div class="col-md-10 col-lg-offset-1">
-            <h2 class="usdiv2">Mọi Người Nói Gì Về Chúng Tôi</h2>
-            <div class="col-md-4">
+            <h2 class="textcenter">Mọi Người Nói Gì Về Chúng Tôi</h2>
+            <div class="col-md-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
                 </div>
@@ -458,7 +458,7 @@
                     <p class="company" ">Cty CP Vật Tư Nông Thôn Mới</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
                 </div>
@@ -471,7 +471,7 @@
                     <p class="company">Cty CP FirstA Web</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
                 </div>

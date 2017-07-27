@@ -47,7 +47,7 @@
     </div>
 
 
-    <div id="alignment-div"  class="col-md-12 block" style="background-color:#eee;">
+    <div  class="col-md-12 block alignment-div" style="background-color:#eee;">
         <div class="margin-detail col-md-12">
             <h2>Vấn đề với các website hiện tại </h2>
         </div>
@@ -66,10 +66,10 @@
                 <div class="row content-2">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-left align-right div-img-current-problem">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4 w3-animate-left align-right div-img-current-problem"  >
                                 <img  class="img-problem" src="<?php bloginfo('template_directory');?>/image/prelist.png" tppabs="http://magica.top/Imgs/prelist.png" alt="Hình ảnh" />
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-right" >
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8 w3-animate-right">
                                 <p class="current-problem">Hầu hết các website được xây dựng bởi dân kỹ thuật chuyên về thiết kế website chứ không phải được xây dựng bởi 1 người am hiểu về kinh doanh, có khả năng thiết kế 1 gian hàng có khả năng bán hàng </p>
                             </div>
                         </div>
@@ -146,9 +146,9 @@
     </div>
 
 
-    <div id="whyus alignment-div" class="col-md-12" style="background-color:#eee;">
+    <div class="col-md-12 text-center alignment-div"  style="background-color:#eee;">
         <div class="col-md-12">
-            <h2>Tại Sao Lại Chọn Chúng Tôi?</h2>
+            <h2 class="title-price">Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
@@ -226,7 +226,7 @@
 
     </div>
 
-    <div id="price price-service" class="col-md-12 block">
+    <div id="price price-service" class="col-md-12 block alignment-div">
         <div class="col-md-12 text-center">
             <h2 class="title-price">Giá Dịch Vụ</h2>
             <div>
@@ -264,7 +264,7 @@
     </div>
 
 
-    <div class="col-md-12 suggest-web-sale">
+    <div class="col-md-12 suggest-web-sale alignment-div">
         <div class="container div-content-suggest">
 
             <div class="col-md-12 text-center">
@@ -294,7 +294,7 @@
 
     </div>
 
-    <div class="col-md-12 block div-sample-website">
+    <div class="col-md-12 block div-sample-website alignment-div">
         <div class="col-md-12 text-center">
             <h2>Các website mẫu</h2>
             <div class="list-web">
@@ -739,7 +739,7 @@
     </div>
 
 
-    <div class="col-md-12 block unit-process">
+    <div class="col-md-12 block unit-process alignment-div">
         <div class="col-md-12 text-center">
             <h2 class="margin-bot-50">Quy trình làm việc</h2>
         </div>

@@ -1,4 +1,4 @@
-        <div id="customer" class="col-md-12 col-sm-12 col-md-12 div-footer">
+        <div id="customer" class="col-md-12 col-sm-12 col-md-12 div-footer alignment-div">
             <div class="margin-detail col-md-12">
                 <h2 style="color:#6ab139">Khách Hàng Của Chúng Tôi</h2>
             </div>

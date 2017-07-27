@@ -235,7 +235,7 @@
     </div>
 <!-- huong end 1-->
 
-    <div id="customer" class="col-md-12 text-center lg-screen" style="padding-top:2em; padding-bottom: 4em;">
+    <div id="customer" class="col-md-12 text-center lg-screen alignment-div">
         <h2 class="title-audit">Các hạng mục audit</h2>
 
         <div class="col-md-10 col-md-offset-1">
@@ -527,7 +527,7 @@
 <!-- huong start 2-->
     <div id="price" class="col-md-12 block" >
         <div class="col-md-12" >
-            <h2 class="h2-huong">Chi tiết dịch vụ</h2>
+            <h2 class="text-center">Chi tiết dịch vụ</h2>
         </div>
         <div class="col-md-12" >
             <h3 class="h3-huong">

@@ -182,6 +182,17 @@ h4{
 }
 .body-content{
   background-color: #DBDBDB;
+  width: 100%;
+  display: block;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 0;
+  padding-top: 0;
   
 }
 /* Set padding to keep content from hitting the edges */
@@ -526,7 +537,7 @@ footer{
     background-position: 70% 50%;
 }*/
 #achievement{
-    padding: 75px 0 0 0; 
+    padding: 30px 0 0 0; 
     height:400px; 
     color:#fff; 
     background-image: url('../image/successful.png');
@@ -843,7 +854,7 @@ ul.arr li:before {
         padding: 15px 0 0 0; 
         color:#fff; 
         height:auto;
-                background-image:none;
+        background-image: none;
     }
     .footerlogo{
         text-align:center;
@@ -1903,8 +1914,11 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     color:rgb(0, 107, 156);
 }
 .testimonialdiv2{
-    background-color:#fff;
+    background-color:#eee;
     padding-top:30px;
+}
+.space-div-talk {
+    padding: 15px 10px;
 }
 .usdiv2{
     text-align:center;
@@ -2314,7 +2328,7 @@ div.body.child-content {
 }
 
 .div-sample-website {
-    background-color:#eee;
+    background-color:#fff;
     padding:50px 0;
 }
 
@@ -2353,7 +2367,7 @@ div.body.child-content {
 }
 
 .unit-process {
-    background-color:#fff;
+    background-color:#eee;
     padding:50px 0;
 }
 .order-num {
@@ -2427,7 +2441,7 @@ div.body.child-content {
     text-align: right;
 }
 
-#alignment-div {
+.alignment-div {
     padding: 30px 15px;
 }
 
@@ -2441,7 +2455,7 @@ div.body.child-content {
     margin-bottom: 2em;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     #action-banner {
         display: block;
     }
