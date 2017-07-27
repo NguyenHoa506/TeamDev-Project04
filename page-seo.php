@@ -120,7 +120,7 @@
 
     </div>
 
-    <div id="alignment-div" class="col-md-12 bgrd" style="background-color: #eee;">
+    <div class="col-md-12 bgrd alignment-div" style="background-color: #eee;">
         <div class="margin-detail col-md-12">
             <h2 class="prof">MAGIC Sẽ Giúp Bạn</h2>
         </div>
@@ -248,7 +248,7 @@
             <div class="margin-detail col-md-12">
                 <h2>Chỉ số đo lường thành công của dự án</h2>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i></p>
                 </div>
@@ -256,7 +256,7 @@
                     Doanh thu
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i></p>
                 </div>
@@ -264,7 +264,7 @@
                     Tỷ lệ chuyển đổi khách hàng
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-user-plus" aria-hidden="true"></i></p>
                 </div>
@@ -272,7 +272,7 @@
                     Số khách hàng tiềm năng truy cập
                 </h4>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 centdiv space-div-talk">
                 <div class="meas">
                     <p class="margintdiv"><i class="fa fa-fw fa-4x fa-hand-pointer-o" aria-hidden="true"></i></p>
                 </div>
@@ -525,7 +525,7 @@
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
                     <div class="col-md-12 no-padding marginbtdiv">
-                        <div class="col-md-6 col-sm-12 nopadldiv">
+                        <div class="col-md-6 col-sm-12 nopadldiv space-div-talk">
                             <div class="info info1">
                                 <div class="cnt">
                                     <p>SEO hiện đại phải dẫn khách hàng đến sản phẩm, gian hàng của bạn, không phải dẫn đến bài viết hay blog </p>
@@ -535,7 +535,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 nopadrdiv">
+                        <div class="col-md-6 col-sm-12 nopadrdiv space-div-talk">
                             <div class="info marginbtdiv3">
                                 <div class="img-i2">
                                     <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf2.png" tppabs="http://magica.top/Imgs/inf2.png" />
@@ -548,7 +548,7 @@
 
                     </div>
                     <div class="col-md-12 no-padding">
-                        <div class="col-md-6 nopadldiv">
+                        <div class="col-md-6 nopadldiv space-div-talk">
                             <div class="info info1">
                                 <div class="cnt">
                                     <p>Thành công lâu dài, bền vững của SEO phải đến từ cách trình bày website, cách tổ chức sản phẩm, gian hàng, chứ không phải đến từ kỹ thuật spam</p>
@@ -558,7 +558,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 nopadrdiv">
+                        <div class="col-md-6 nopadrdiv space-div-talk">
                             <div class="info">
                                 <div class="img-i2">
                                     <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf4.png" tppabs="http://magica.top/Imgs/inf4.png" />
@@ -587,7 +587,7 @@
                     <div class="col-md-10 col-md-offset-1">
                         <div class="row">
                             <div class="col-md-12 no-padding">
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -606,7 +606,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -624,7 +624,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -646,7 +646,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 no-padding">
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -664,7 +664,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -682,7 +682,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -719,15 +719,15 @@
                 <h4><small>GIẢI PHÁP SEO HOÀN HẢO DÀNH CHO BẠN</small></h4>
             </div>
             <div class="col-md-10 col-md-offset-1">
-                <div class="col-md-4 achive">
+                <div class="col-md-4 col-sm-4 achive">
                     <div class="h2">+1000</div>
                     Khách hàng đã SEO
                 </div>
-                <div class="col-md-4 achive">
+                <div class="col-md-4 col-sm-4 achive">
                     <div class="h2">+10000</div>
                     Từ khóa lên TOP
                 </div>
-                <div class="col-md-4 achive">
+                <div class="col-md-4 col-sm-4 achive">
                     <div class="h2">300%</div>
                     Lượng khách hàng tăng sau SEO
                 </div>
@@ -739,7 +739,8 @@
     <div id="testimonial" class="col-md-12 block testimonialdiv2">
         <div class="col-md-10 col-lg-offset-1 padbtdiv">
             <h2 class="usdiv">Mọi Người Nói Gì Về Chúng Tôi</h2>
-            <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t1.jpg" tppabs="http://magica.top/Imgs/t1.jpg" />
                 </div>
@@ -754,7 +755,7 @@
                     <p class="company">Cty Xây Dựng MTV</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t2.jpg" tppabs="http://magica.top/Imgs/t2.jpg" />
                 </div>
@@ -767,7 +768,7 @@
                     <p class="company">Cty Sửa xe Kim Tiến</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/t3.png" tppabs="http://magica.top/Imgs/t3.png" />
                 </div>
@@ -780,6 +781,8 @@
                     <p class="company">Trưởng phòng kinh doanh Cty WonderWood</p>
                 </div>
             </div>
+            </div>
+            
         </div>
     </div>
 </div>

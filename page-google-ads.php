@@ -443,7 +443,7 @@
     <div id="testimonial" class="col-md-12 block testimonialdiv2">
         <div class="col-md-10 col-lg-offset-1">
             <h2 class="textcenter">Mọi Người Nói Gì Về Chúng Tôi</h2>
-            <div class="col-md-4 space-div-talk">
+            <div class="col-md-4 col-sm-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p1.jpg" tppabs="http://magica.top/Imgs/p1.jpg" />
                 </div>
@@ -458,7 +458,7 @@
                     <p class="company" ">Cty CP Vật Tư Nông Thôn Mới</p>
                 </div>
             </div>
-            <div class="col-md-4 space-div-talk">
+            <div class="col-md-4 col-sm-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p2.jpg" tppabs="http://magica.top/Imgs/p2.jpg" />
                 </div>
@@ -471,7 +471,7 @@
                     <p class="company">Cty CP FirstA Web</p>
                 </div>
             </div>
-            <div class="col-md-4 space-div-talk">
+            <div class="col-md-4 col-sm-4 space-div-talk">
                 <div class="centdiv">
                     <img class="circleimg" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/p3.jpg" tppabs="http://magica.top/Imgs/p3.jpg" />
                 </div>
