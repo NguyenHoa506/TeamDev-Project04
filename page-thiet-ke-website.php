@@ -227,7 +227,7 @@
     <div id="price price-service" class="col-md-12 block">
         <div class="col-md-12 text-center">
             <h2 class="title-price">Giá Dịch Vụ</h2>
-            <div class="container">
+            <div>
                 <div class="row">
                     <div class="col-md-12 no-padding">
                         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-sm-12 no-padding">
@@ -240,7 +240,6 @@
                                         <h3>500,000 - 1,000,000 VND <small>/page/ website</small></h3>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="col-md-6 package should-margin-bottom">
                                 <div>
@@ -254,19 +253,14 @@
                                         <h4>Báo giá theo yêu cầu đối với các website có nhiều tính năng </h4>
                                     </div>
                                 </div>
-
                             </div>
-                            
                         </div>
                     </div>
-
-
                 </div>
             </div>
-
         </div>
-
     </div>
+
 
     <div class="col-md-12 suggest-web-sale">
         <div class="container div-content-suggest">
