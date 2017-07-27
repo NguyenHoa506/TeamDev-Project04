@@ -181,7 +181,18 @@ h4{
     font-size:30px;
 }
 .body-content{
-      background-color: #DBDBDB;
+  background-color: #DBDBDB;
+  width: 100%;
+  display: block;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 /* Set padding to keep content from hitting the edges */
 
@@ -659,6 +670,7 @@ ul.arr li:before {
     }
 /* small desktop */
 @media all and (max-width: 1200px) {
+
     body{
         padding-bottom:0;
     }
@@ -831,7 +843,7 @@ ul.arr li:before {
     }
     h1{
         font-size:2.5rem;
-        margin-top:70px;
+        margin-top:133px;
     }
 
     .step2{
@@ -855,13 +867,21 @@ ul.arr li:before {
     }
 
 
-             .header1 .sub,  .header2 .sub,  .header3 .sub{
-                 font-size:1.5em;
-             }
-             #carousel-example-generic, .carousel-inner, .carousel, .carousel-inner > .item, .carousel-inner > .item > img{
-                 height:200px;
-                 width:100%;
-             }
+    .header1 .sub,  .header2 .sub,  .header3 .sub{
+       font-size:1.5em;
+   }
+   #carousel-example-generic, .carousel-inner, .carousel, .carousel-inner > .item, .carousel-inner > .item > img{
+       height:200px;
+       width:100%;
+   }
+
+   #toptext span{
+    font-size: 2.5rem;
+}
+.gg-ad-mobile {
+    font-size: 2.5rem;
+}
+
 
 
 }
@@ -1387,9 +1407,7 @@ div.col-md-4.col-sm-4.frame {
     position: relative; 
     left: -50%;
 }
-#toptext span{
-    font-size: 40px;
-}
+
 #ani-4{
     position: 
     absolute; 
@@ -2425,3 +2443,4 @@ div.body.child-content {
     height: 70px;
 }
 /*...........END-THIET-KE-WEBSITE.....*/
+

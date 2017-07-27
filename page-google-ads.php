@@ -21,23 +21,29 @@
 
         <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
     
+
+
+
+
+
     <div class="col-md-12 paddingzero">
-        <div id="banner" class="position_rdiv">
-            <div class="vonghia"></div>
-            <div class="head-bg-ads"></div>
-            <div id="ani-1" class="ani-1-div">
-                <div class="topdiv">
-                    <h1 id="toptext" class="toptextdiv">
-                        <span>LỰA CHỌN TỐI ƯU</span><br />
-                        <span>CHO QUẢNG CÁO</span>
-                    </h1>
-                    <h4>
-                        Đối tác uy tín, nhân viên chuyên nghiệp
-                    </h4>
+            <div id="banner" class="position_rdiv">
+                <div class="vonghia"></div>
+                <div class="head-bg-seo"></div>
+                <div id="ani-1" class="ani-1-div">
+                    <div class="topdiv">
+                        <h1 id="toptext" class="toptextdiv">
+                         <span class="gg-ad-mobile">LỰA CHỌN TỐI ƯU</span><br />
+                         <span class="gg-ad-mobile">CHO QUẢNG CÁO</span>
+                        </h1>
+                        <h4>
+                            Đối tác uy tín, nhân viên chuyên nghiệp
+                        </h4>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    
     
     
     
