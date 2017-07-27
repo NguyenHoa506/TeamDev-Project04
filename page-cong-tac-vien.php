@@ -23,13 +23,13 @@
 
 <div class="col-md-12 thong-diep-ctv">
     <div class="container ">
-        <div class="quote">
-            <div class="my-blockquote">
-                <div>
+        <!-- <div class="quote"> -->
+            <!-- <div class="my-blockquote"> -->
+                <p id="noi-dung-thong-diep">
                     <i class="fa fa-fw fa-quote-left" aria-hidden="true"></i> Bán hàng không phải là mồi chài.Bán hàng là truyền tải thông điệp của mình đến đúng đối tượng, làm cho đối tượng thực hiện theo hành vi mà mình mong muốn, với mục tiêu tạo ra giá trị cho cả hai bên <i class="fa fa-fw fa-quote-right" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
+                </p>
+            <!-- </div> -->
+        <!-- </div> -->
     </div>
 </div>
 <div class="col-md-12 dao-tao-ctv">

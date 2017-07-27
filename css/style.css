@@ -1400,15 +1400,23 @@ div.col-md-4.col-sm-4.frame {
 }
 
 .thong-diep-ctv{
-    padding: 0em 10em; 
+    padding: 0; 
     background-color:#45a16b;
-    color:#fff;
-}
+    color: #fff;
+    margin-top: 0px;
+    text-align: center;
+    width: all;
 
-.container .thong-diep-ctv{
-    max-width:600px
 }
-
+#noi-dung-thong-diep{
+    text-align: center;
+    padding: 40px 25px;
+    font-size: 14pt;
+}
+/*.container .thong-diep-ctv{
+    max-width:600px;
+}
+*/
 .dao-tao-ctv{
     padding: 0px; 
     background-color:#eee;
@@ -1463,14 +1471,28 @@ div.col-md-4.col-sm-4.frame {
 }
 #banner-cau-hoi{
     padding: 0px;
-    position:relative
+    position:relative;
 }
 .noi-dung-banner-cau-hoi{
     position: absolute; 
-    left: 0;
     color: #fff; 
     z-index: 200;
     top:0;
+}
+@media screen (max-width: 480px) {
+    .noi-dung-banner-cau-hoi span{
+        left: 10;
+    }
+
+    .toptext-about-us span{
+        position: relative; 
+        padding-left: 20px;
+        width: 100px;
+        font-size: 17pt;
+    }
+}
+.noi-dung-banner-cau-hoi span{
+    left: -25%;
 }
 #toptext-cau-hoi{
     position: relative; 
@@ -1484,6 +1506,7 @@ div.col-md-4.col-sm-4.frame {
     padding: 0px;
     position:relative;
 }
+
 .content-banner-about-us{
     position: absolute; 
     left: 0;
@@ -1491,9 +1514,9 @@ div.col-md-4.col-sm-4.frame {
     z-index: 200;
     top:0;
 }
-#toptext-about-us{
+.toptext-about-us{
     position: relative; 
-    left: -25%;
+    left: -5%;
     top : -20%;
 }
 #content-abour-us{
