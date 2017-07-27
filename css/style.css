@@ -37,7 +37,7 @@ body{
     list-style:none;
 }
 .cat-site li a{
-        display: block;
+    display: block;
     padding: 5px 15px;
     background-color: #fff;
     color: #5b5b5b;
@@ -524,61 +524,65 @@ footer{
     background-repeat: no-repeat;
     background-position: 70% 50%;
 }*/
-    #achievement{
-        padding: 75px 0 0 0; 
-        height:400px; 
-        color:#fff; 
-        background-image: url('../image/successful.png');
-        background-size:contain;
-    }
-        .achive{
-        text-align:center;padding:40px;
-    }
+#achievement{
+    padding: 75px 0 0 0; 
+    height:400px; 
+    color:#fff; 
+    background-image: url('../image/successful.png');
+    background-size:contain;
+}
+.achive{
+    text-align:center;padding:40px;
+}
 
-        .package{
-            text-align:center;
-        }
-        .callToAction{
-            position:fixed;
-            font-size:16px;
-            width: 250px;
-            right:10px;
-            bottom:10px;
-            z-index:108;
-            background-color:#6ab139;
-            color:#fff;
-            padding:10px;
-            border-radius:4px;
-        }
-        .top-hotline{
-            background-color: #6ab139;
-            color:#fff;
-            font-size:14px;
-            padding: 7px 10px;
-            border-radius:40px;
-        }
-            .should-margin-bottom{
-        margin-bottom:15px;
+.package{
+    text-align:center;
+}
+.callToAction{
+    position:fixed;
+    font-size:16px;
+    width: 250px;
+    right:10px;
+    bottom:10px;
+    z-index:108;
+    background-color:#6ab139;
+    color:#fff;
+    padding:10px;
+    border-radius:4px;
+}
+.top-hotline{
+    background-color: #6ab139;
+    color:#fff;
+    font-size:14px;
+    padding: 7px 10px;
+    border-radius:40px;
+}
+.should-margin-bottom{
+    margin-bottom:15px;
 
-    }
-            .nav > li > a{
-                padding: 6px 15px;
-                line-height:10px;
-            }
-            .eduu-navbar .navbar-nav > li > a:hover{
-                color: #e96656 !important;     
-            }
+}
+.nav > li > a{
+    padding: 6px 15px;
+    line-height:10px;
+}
+.eduu-navbar .navbar-nav > li > a:hover{
+    color: #e96656 !important;     
+}
 .mini-logo{
     float:left;padding-top:15px;margin-left:15px;
     display:none;
 }
-    .block{
-        min-height:500px;
-    }        
+.block{
+    min-height:500px;
+}        
 ul.arr {
     padding: 0 1em;
     list-style: none;
 }
+.provision {
+    margin-bottom: 3.5em;
+}
+
 ul.arr li:before { 
     content: "";
     border-color: transparent #999;
@@ -1865,7 +1869,7 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
 }
 .testimonialdiv2{
     background-color:#fff;
-    padding-top:10px;
+    padding-top:30px;
 }
 .usdiv2{
     text-align:center;
@@ -1881,6 +1885,17 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     position:relative;
 }
 /*............END-HEADER..........*/
+
+/*............FOOTER..............*/
+.div-footer {
+    background-color:#fff; 
+    padding-top:50px;
+}
+.color-fff {
+    color: #fff;
+}
+
+/*...........END-FOOTER..........*/
 
 /*............INDEX...............*/
 .form-support {
@@ -2043,43 +2058,47 @@ div#strength.col-md-12.our-power {
 
 
 .head-bg{
-            background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
-    }
-    .benefit{
-        background-color:transparent;
-    }
-    #feature{
-     background-image: url("../image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
+    background-image: url("../image/mainbn.jpg")/*tpa=http://magica.top/Imgs/mainbn.jpg*/;
 }
-    .strength{
-        background-color:#fff;
-        padding:15px;
-        font-size:17px;
-        position:relative;
-            box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
-    }
-    .strength:hover  .hidden-content{
-        display:block;
-    }
-    .hidden-content{
-        background-color:#000;
-        color:#fff;
-        opacity:0.9;
-        position:absolute;
-        width:100%;
-        display:none;
-        height:100%;
-        top: 0;
-        left: 0;
-        font-size:13px;
-        padding:15px;
-    }
+.benefit{
+    background-color:transparent;
+}
+#feature{
+   background-image: url("../image/services.jpg")/*tpa=http://magica.top/Imgs/services.jpg*/;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position:relative;
+}
+.strength{
+    background-color:#fff;
+    padding:15px;
+    font-size:17px;
+    position:relative;
+    box-shadow: 0 5px 5px -5px #333,-5px 5px 5px -5px #333,5px 5px 5px -5px #333;
+}
+.strength:hover  .hidden-content{
+    display:block;
+}
+.hidden-content{
+    background-color:#000;
+    color:#fff;
+    opacity:0.9;
+    position:absolute;
+    width:100%;
+    display:none;
+    height:100%;
+    top: 0;
+    left: 0;
+    font-size:13px;
+    padding:15px;
+}
+.audit-index-div {
+    position: relative; 
+    z-index:200;
+}
 
 /*............END-INDEX...........*/
 
@@ -2371,5 +2390,16 @@ div.body.child-content {
 }
 .text-right {
     text-align: right;
+}
+
+#alignment-div {
+    padding: 30px 15px 30px 15px ;
+}
+
+.size-img-30 {
+    height: 30px;
+}
+.size-img-70 {
+    height: 70px;
 }
 /*...........END-THIET-KE-WEBSITE.....*/

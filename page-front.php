@@ -11,12 +11,7 @@
 <style>
     
 </style>
-<script>
-    $(document).ready(function () {
-        $("#banner2").css("height", $(window).height());
-        $("#toptext2").css("margin-top", $(window).height() * 0.4);
-    });
-</script>
+
 
 <!-- Hoa start -->
     <div>

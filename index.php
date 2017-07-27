@@ -13,10 +13,7 @@
     
 </style>
 <script>
-    $(document).ready(function () {
-        $("#banner2").css("height", $(window).height());
-        $("#toptext2").css("margin-top", $(window).height() * 0.4);
-    });
+    
 </script>
 
 <!-- Hoa start -->
@@ -48,7 +45,7 @@
 
      <div id="feature" class="col-md-12" style="color:#fff;  position:relative">
         <div class="banner-image"></div>
-        <div style="position: relative; z-index:200">
+        <div class="audit-index-div">
             <div class="margin-detail col-md-12">
                 <h2>Các Dịch Vụ</h2>
             </div>
@@ -244,10 +241,10 @@
                     </div>
                    
                     <div class="textcenter">
-                        <img style="height:70px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block1.jpg" tppabs="http://magica.top/Imgs/block1.jpg" />
+                        <img class="size-img-70" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block1.jpg" tppabs="http://magica.top/Imgs/block1.jpg" />
                     </div>
                     <div class="textcenter">
-                        <img style="height:30px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block6.jpg" tppabs="http://magica.top/Imgs/block6.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block6.jpg" tppabs="http://magica.top/Imgs/block6.jpg" />
                     </div>
                     <div class="textcenter">
                         <div class="hasHidden">
@@ -264,7 +261,7 @@
                         </div>
                     </div>
                     <div class="textcenter">
-                        <img style="height:30px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
                     </div>
                     <div class="textcenter">
                         <div class="hasHidden">
@@ -284,7 +281,7 @@
 
 
                     <div class="textcenter">
-                        <img style="height:30px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
                     </div>
                     <div class="textcenter">
                         <div class="hasHidden">
@@ -301,10 +298,10 @@
                         </div>
                     </div>
                     <div class="textcenter">
-                        <img style="height:30px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
                     </div>
                     <div class="textcenter">
-                        <img style="height:70px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block5.jpg" tppabs="http://magica.top/Imgs/block5.jpg" />
+                        <img class="size-img-70" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block5.jpg" tppabs="http://magica.top/Imgs/block5.jpg" />
                     </div>
                 </div>
                 <div class="col-lg-4" style="color:#537ca0">

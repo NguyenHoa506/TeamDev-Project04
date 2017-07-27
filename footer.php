@@ -1,4 +1,4 @@
-        <div id="customer" class="col-md-12 col-sm-12 col-md-12" style="background-color:#fff; padding-top:50px; ">
+        <div id="customer" class="col-md-12 col-sm-12 col-md-12 div-footer">
             <div class="margin-detail col-md-12">
                 <h2 style="color:#6ab139">Khách Hàng Của Chúng Tôi</h2>
             </div>
@@ -330,10 +330,10 @@
                             </div>
                             <div class="col-md-6">
                                 <ul class="arr">
-                                    <li><a style="color:#fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/lien-he">Liên hệ</a></li>
-                                    <li><a style="color:#fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/cau-hoi-thuong-gap">Câu hỏi thường gặp</a></li>
-                                    <li><a style="color:#fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/ve-chung-toi">Về chúng tôi</a></li>
-                                    <li><a style="color:#fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/dieu-khoan-su-dung">Điều khoản sử dụng</a></li>
+                                    <li><a class="color-fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/lien-he">Liên hệ</a></li>
+                                    <li><a class="color-fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/cau-hoi-thuong-gap">Câu hỏi thường gặp</a></li>
+                                    <li><a class="color-fff" href="<?php echo esc_url( home_url( '/' ) ); ?>/ve-chung-toi">Về chúng tôi</a></li>
+                                    <li class="provision"><a class="color-fff " href="<?php echo esc_url( home_url( '/' ) ); ?>/dieu-khoan-su-dung">Điều khoản sử dụng</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -378,60 +378,3 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
-
-<script type="text/javascript">
-
-    function validatePhone(str) {
-        var isphone = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g.test(str);
-        return isphone;
-    }
-
-     function validateURL(site){
-      // var issite = /\\b(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]/;
-       var issite = /\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/;
-        return issite.test(site);
-    }
-
-    function resetInput() {
-        $('input').val('');
-        $('input').removeClass("has-error-input");
-        $('input').parent().removeClass("has-error");
-        $(".error").css("visibility", "hidden");
-    }
-
-    $('.mhn').click(function() {
-        $('input').removeClass("has-error-input");
-        $('input').parent().removeClass("has-error");
-        $(".error").css("visibility", "hidden");
-        var names = $('#names').val().trim();
-        var site = $('#site').val().trim();
-        var phone = $('#phone').val().trim();
-        var message = $('#note').val().trim();
-        var test = true;
-
-        if (names == "") {
-            $(".error").css("visibility", "visible");
-            $("#names").addClass("has-error-input");
-            test = false;
-        }
-
-        if (!validatePhone(phone)) {
-            $(".error").css("visibility", "visible");
-            $("#phone").addClass("has-error-input");
-            test = false;
-        }
-
-        if (!validateURL(site)) {
-            $(".error").css("visibility", "visible");
-            $("#site").addClass("has-error-input");
-            test = false;
-        }
-
-        if (!test) {
-           alert('error');
-           return false;
-        }
-    });
-</script>
-    
