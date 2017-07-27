@@ -1154,12 +1154,13 @@ div.col-md-4.col-sm-4.frame {
 
 /* Hoa */
 .div-head{
+    padding: 30px 0;
     background: #63c1af;
     color: white;
     z-index: 3;
 }
 .div-cach{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .div-imgh{
     width: 100px;

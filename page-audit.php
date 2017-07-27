@@ -39,13 +39,13 @@
         </div>
 
         <div class="col-md-12 col-xs-12 div-head">
-            <div class="row div-cach" align="center">
+            <div class="row" align="center">
                 <h2>Mục Đích</h2>
             </div>
             <div class="row div-cach">
                 <div class="col-md-10 col-md-offset-1 col-xs-12">
                     <div class="col-md-12 col-xs-12">
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12 space-div-talk">
                             <div class="col-md-12">
                                 <div class="circleimg2">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
@@ -56,7 +56,7 @@
                             </div>
                         </div>  
 
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12  space-div-talk">
                             <div class="col-md-12">
                                 <div class="circleimg2">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="col-md-4 col-sm-4 col-xs-12 space-div-talk">
                             <div class="col-md-12">
                                 <div class="circleimg2">
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
@@ -87,9 +87,9 @@
 
     
     <!-- Huong start 1-->
-    <div id="whyus" class="col-md-12" >
+    <div  class="col-md-12" >
         <div class="col-md-12" id="doi-tuong-audit">
-            <h2 id="h2-doi-tuong">Đối tượng áp dụng</h2>
+            <h2 class="text-center" style="padding-top: 30px;" >Đối tượng áp dụng</h2>
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
