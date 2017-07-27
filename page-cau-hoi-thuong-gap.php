@@ -11,8 +11,8 @@
             <div id="banner">
                 <div class="head-bg-cau-hoi"></div>
                 <div id="ani-1" class="noi-dung-banner-cau-hoi">
-                    <div >
-                        <h1 id="toptext-about-us">
+                    <div id="toptext">
+                        <h1 class="toptext-cau-hoi">
                             <span>Câu hỏi thường gặp</span>
                         </h1>                
                     </div>
