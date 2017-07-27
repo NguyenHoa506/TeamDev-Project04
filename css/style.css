@@ -2451,6 +2451,10 @@ div.body.child-content {
     #action-banner {
         display: block;
     }
-} 
+}
+
+.menu-mobile-text{
+    padding: 5px;
+}
 /*...........END-THIET-KE-WEBSITE.....*/
 
