@@ -815,7 +815,7 @@ ul.arr li:before {
     }
     #flow, #price{
 
-         padding: 20px 10px;
+         padding: 30px 10px;
     }
 
     .margin-detail{
@@ -900,7 +900,7 @@ ul.arr li:before {
 }
 
 .title-audit {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .lg-screen {
@@ -1085,7 +1085,6 @@ div.col-md-4.col-sm-4.frame {
 
     .title-audit {
         margin-bottom: 1em;
-        margin-top: 1em;
     }
 
     .image-size-lam {
@@ -1155,13 +1154,13 @@ div.col-md-4.col-sm-4.frame {
 /* Hoa */
 .div-head{
     padding: 30px 0;
-    background: #63c1af;
+    background-color: #63c1af;
     color: white;
-    z-index: 3;
 }
-.div-cach{
-    margin-top: 20px;
+.div-content-mucdich {
+    background-color: #63c1af; 
 }
+
 .div-imgh{
     width: 100px;
     margin: 10px;
@@ -1576,7 +1575,7 @@ div.col-md-4.col-sm-4.frame {
     padding:30px 15px;
 }
 #doi-tuong-audit{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 #h2-doi-tuong{
     text-align:center; 
@@ -1771,7 +1770,7 @@ div#inspire.col-md-12.inspirediv2{
     background-image: url(../image/glad.jpg); 
     background-repeat:no-repeat; 
     background-size:cover;
-    padding-top:50px;
+    padding-top:30px;
 }
 .nopadldiv{
     padding-left: 0;
@@ -1879,7 +1878,6 @@ div#whyus.col-md-12.block.bgrdus{
 }
 .centmargdiv{
     text-align:center; 
-    margin:15px 0;
 }
 .centmargdiv2{
     text-align:center; 
@@ -1937,19 +1935,17 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
 }
 
 .circleimg2{
-    margin:0 auto ;
     border-radius:50%; 
     background-color:white; 
     height:150px; width:150px; 
-    padding:15px; color:#fff; 
-    position:relative;
+    padding:15px; color:#fff;
 }
 /*............END-HEADER..........*/
 
 /*............FOOTER..............*/
 .div-footer {
     background-color:#fff; 
-    padding-top:50px;
+    padding-top:30px;
 }
 .color-fff {
     color: #fff;

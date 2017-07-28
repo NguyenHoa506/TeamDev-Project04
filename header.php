@@ -69,7 +69,7 @@
                                 <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/magic/seo">SEO</a></li>
                                 <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/google-ads">QUẢNG CÁO GOOGLE</a></li>
                                 <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/thiet-ke-website">THIẾT KẾ WEBSITE</a></li>
-                                <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEB</a></li>
+                                <li class="padding-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/audit">AUDIT WEBSITE</a></li>
                             </ul>
                         </li>
 
