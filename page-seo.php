@@ -40,13 +40,14 @@
     <div id="price" class="col-md-12 block bgrdfff">
         <div class="col-md-12 centdiv">
             <h2 class="marginbtdiv2">Các gói dịch vụ</h2>
-            <div>
                 <div class="row">
                     <div class="container">
                         <div class="col-md-12 no-padding">
-                            <div class="col-md-9 no-padding">
+                        <div class="row">
+                            <div class="col-md-9 col-sm-12">
                                 <h3>SEO Từ Khóa</h3>
-                                <div class="col-md-4 package should-margin-bottom">
+                                <div class="row">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom">
                                     <div class="border-round">
                                         <div class="header1">
                                             <h3>Gói 1</h3>
@@ -61,7 +62,7 @@
                                     </div>
 
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom">
                                     <div class="border-round">
                                         <div class="header2">
                                             <h3>Gói 2</h3>
@@ -76,7 +77,7 @@
                                     </div>
 
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom">
                                     <div class="border-round">
                                         <div class="header3">
                                             <h3>Gói 3</h3>
@@ -92,7 +93,9 @@
                                     </div>
 
                                 </div>
+                                </div>
                             </div>
+
                             <div class="col-md-3 no-padding">
                                 <h3>SEO Tổng Thể</h3>
                                 <div class="col-md-12 package should-margin-bottom border-l">
@@ -108,13 +111,15 @@
 
                                 </div>
                             </div>
+                        </div>
+                            
+                            
 
                         </div>
                     </div>
 
 
                 </div>
-            </div>
 
         </div>
 
@@ -292,7 +297,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
-                        <div class="col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -339,7 +344,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -387,7 +392,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -437,7 +442,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
