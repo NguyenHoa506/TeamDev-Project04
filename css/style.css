@@ -908,6 +908,9 @@ ul.arr li:before {
     }
 }
 
+.back-text-format {
+    padding-top: 0; color: white;
+}
 .title-audit {
     margin-top: 0;
     margin-bottom: 1em;
@@ -1074,7 +1077,9 @@ div.col-md-4.col-sm-4.frame {
 
 /*Mobile*/
 @media screen and (max-width: 480px) {
-
+    .audit-mobile {
+        background-color: #efe4b0; padding-top: 1em; padding-bottom: 1em;
+    }
     div.myClass {
         overflow-x: scroll;
         overflow-y: hidden;
@@ -1773,7 +1778,6 @@ div#flow.col-md-12.bgrd63c1af{
     width:100%;
     text-align:center;
     font-size:21px;
-    margin-top: 15px;
 }
 div#inspire.col-md-12.inspirediv{
     height:500px; 

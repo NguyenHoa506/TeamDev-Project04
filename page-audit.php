@@ -257,7 +257,7 @@
 
                                 </div>
                                 <div class="back keyword">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <p class="back-text back-text-format">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
                                     </p>
                                 </div>
@@ -283,7 +283,7 @@
 
                                 </div>
                                 <div class="back keyword">
-                                    <p class="back-text" style="padding-top: 0; color: white;">
+                                    <p class="back-text back-text-format">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
                                     </p>
                                 </div>
@@ -306,7 +306,7 @@
 
                                 </div>
                                 <div class="back keyword">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <p class="back-text back-text-format">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
                                     </p>
                                 </div>
@@ -330,7 +330,7 @@
 
                                 </div>
                                 <div class="back keyword">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <p class="back-text back-text-format">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
                                     </p>
                                 </div>
@@ -353,7 +353,7 @@
 
                                 </div>
                                 <div class="back keyword">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <p class="back-text back-text-format">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
                                     </p>
                                 </div>
@@ -377,7 +377,7 @@
 
                                 </div>
                                 <div class="back keyword">
-                                <p class="back-text" style="padding-top: 0; color: white;">
+                                <p class="back-text back-text-format">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
                                     </p>
                                 </div>
@@ -393,7 +393,7 @@
         </div>
 
 
-        <div style="background-color: #efe4b0; padding-top: 1em; padding-bottom: 1em;" class="text-center mobile-screen">
+        <div class="text-center mobile-screen audit-mobile">
             <h2 class="title-audit">Các hạng mục audit</h2>
             <div class="myClass  text-center" style="padding-left: 1em; padding-right: 1em;">
 
@@ -410,7 +410,7 @@
 
                         </div>
                         <div class="back keyword">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                            <p class="back-text back-text-format">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
                             </p>
                         </div>
@@ -430,7 +430,7 @@
 
                         </div>
                         <div class="back keyword">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                            <p class="back-text back-text-format">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
                             </p>
                         </div>
@@ -451,7 +451,7 @@
 
                         </div>
                         <div class="back keyword">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                            <p class="back-text back-text-format">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
                             </p>
                         </div>
@@ -471,7 +471,7 @@
 
                         </div>
                         <div class="back keyword">
-                            <p class="back-text" style="padding-top: 0; color: white;">
+                            <p class="back-text" style="">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
                             </p>
                         </div>
@@ -491,7 +491,7 @@
 
                     </div>
                     <div class="back keyword">
-                        <p class="back-text" style="padding-top: 0; color: white;">
+                        <p class="back-text back-text-format">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
                         </p>
                     </div>
@@ -511,7 +511,7 @@
 
                     </div>
                     <div class="back keyword">
-                        <p class="back-text" style="padding-top: 0; color: white;">
+                        <p class="back-text back-text-format">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
                         </p>
                     </div>

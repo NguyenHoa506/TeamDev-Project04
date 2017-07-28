@@ -128,7 +128,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-10 col-md-offset-1">
-                        <div class="col-md-4 should-margin-bottom centdiv">
+                        <div class="col-md-4 col-sm-4 should-margin-bottom centdiv">
                             <div class="benefit bg-color-fff">
                                 <div class="marginbtdiv">
                                     
@@ -163,7 +163,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-4 should-margin-bottom centdiv">
+                        <div class="col-md-4 col-sm-4 should-margin-bottom centdiv">
                             <div class="benefit bg-color-fff">
                                 <div class="marginbtdiv">
                                     <!-- <img style="height:150px" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/tuvan.png" tppabs="http://magica.top/Imgs/tuvan.png" /> -->
@@ -199,7 +199,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-4 should-margin-bottom centdiv">
+                        <div class="col-md-4 col-sm-4 should-margin-bottom centdiv">
                             <div class="benefit bg-color-fff">
                                 <div class="marginbtdiv">
                                     <!-- <img style="height:150px" alt="Hình ảnh" src="<?php// bloginfo('template_directory');?>/image/topseo.png" tppabs="http://magica.top/Imgs/topseo.png" /> -->
@@ -292,7 +292,7 @@
             <div class="row">
                 <div class="container">
                     <div class="col-md-12 no-padding">
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -339,7 +339,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -387,7 +387,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -437,7 +437,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding nopaddiv">
                                 <div class="spoint">
                                     <div class="flip-container">
@@ -525,7 +525,7 @@
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
                     <div class="col-md-12 no-padding marginbtdiv">
-                        <div class="col-md-6 col-sm-12 nopadldiv space-div-talk">
+                        <div class="col-md-6 col-sm-6 nopadldiv space-div-talk">
                             <div class="info info1">
                                 <div class="cnt">
                                     <p>SEO hiện đại phải dẫn khách hàng đến sản phẩm, gian hàng của bạn, không phải dẫn đến bài viết hay blog </p>
@@ -535,7 +535,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12 nopadrdiv space-div-talk">
+                        <div class="col-md-6 col-sm-6 nopadrdiv space-div-talk">
                             <div class="info marginbtdiv3">
                                 <div class="img-i2">
                                     <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf2.png" tppabs="http://magica.top/Imgs/inf2.png" />
@@ -548,7 +548,7 @@
 
                     </div>
                     <div class="col-md-12 no-padding">
-                        <div class="col-md-6 nopadldiv space-div-talk">
+                        <div class="col-md-6 col-sm-6 nopadldiv space-div-talk">
                             <div class="info info1">
                                 <div class="cnt">
                                     <p>Thành công lâu dài, bền vững của SEO phải đến từ cách trình bày website, cách tổ chức sản phẩm, gian hàng, chứ không phải đến từ kỹ thuật spam</p>
@@ -558,7 +558,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 nopadrdiv space-div-talk">
+                        <div class="col-md-6 col-sm-6 nopadrdiv space-div-talk">
                             <div class="info">
                                 <div class="img-i2">
                                     <img class="widthdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/inf4.png" tppabs="http://magica.top/Imgs/inf4.png" />
