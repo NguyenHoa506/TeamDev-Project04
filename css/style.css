@@ -279,6 +279,7 @@ textarea {
 }
 .no-padding{
     padding:0!important;
+    padding-bottom: 0;
 }
 h1{
     font-size: 4.5rem;
@@ -1519,7 +1520,8 @@ div.col-md-4.col-sm-4.frame {
     .toptext-cau-hoi {
         margin-left: 30px;
         padding-left: 80px;
-        width: 500px;
+        padding-right: 0;
+        width: 100px;
         font-size: 10pt;
     }
 }
