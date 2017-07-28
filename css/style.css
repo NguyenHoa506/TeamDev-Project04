@@ -901,6 +901,7 @@ ul.arr li:before {
 }
 
 .title-audit {
+    margin-top: 0;
     margin-bottom: 1em;
 }
 
@@ -1000,7 +1001,7 @@ div.col-md-4.col-sm-4.frame {
         display: none;
     }
     .title-audit {
-        margin-bottom: 0em;
+        margin-bottom: 1em;
     }
 
     .keyword {
@@ -1937,6 +1938,7 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
 }
 
 .circleimg2{
+    margin: 0 auto;
     border-radius:50%; 
     background-color:white; 
     height:150px; width:150px; 
