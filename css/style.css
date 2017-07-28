@@ -104,7 +104,7 @@ body{
     margin: 0 auto;
 }
 .hasHidden:hover .child-ct{
-    display:block;
+    display:.;
 }
 .hasHidden:hover .ind-f1{
     height:100%;
@@ -677,7 +677,7 @@ ul.arr li:before {
         padding-bottom:0;
     }
     .staff-des{
-        margin-top:80px;
+        margin-top:60px;
     }
     #action-banner{
         display:none;
@@ -700,11 +700,15 @@ ul.arr li:before {
   
 /* tablet */
 @media all and (max-width: 1024px) {
+
     body{
         padding-bottom:0;
     }
     .staff-des{
-        margin-top:80px;
+        margin-top:60px;
+    }
+    .staff-img {
+        margin-top: 60px;
     }
     .sub-text{
         padding: 80px 0;
@@ -726,6 +730,7 @@ ul.arr li:before {
     .justdiv{
         text-align: center;
     }
+
 }
 
 
@@ -898,6 +903,9 @@ ul.arr li:before {
     .mobile-screen {
         display: none;
     }
+    .ctv-mobile {
+        display: none;
+    }
 }
 
 .title-audit {
@@ -1008,7 +1016,7 @@ div.col-md-4.col-sm-4.frame {
         height: 15em;
         width: 15em;
         margin: 0 auto;
-        margin-top: 2em;
+        
         padding-top: 1em;
         border-radius: 10%;
         padding-right: 1em;
@@ -1150,6 +1158,11 @@ div.col-md-4.col-sm-4.frame {
     .back p {
         display: table-cell;
         vertical-align: middle;
+    }
+    /*CONG TAC VIEN*/
+
+    .ctv-lg {
+        display: none;
     }
 }
 
@@ -2470,6 +2483,9 @@ div.body.child-content {
 @media (min-width: 768px) and (max-width: 1024px) {
     #action-banner {
         display: block;
+    }
+    .ctv-mobile {
+        display: none;
     }
 }
 

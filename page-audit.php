@@ -82,14 +82,15 @@
                 </div>         
             </div>
         </div>
+
+
     </div>
     
     <!-- Hoa end -->
 
     
     <!-- Huong start 1-->
-    <div  class="col-md-12" >
-        <div class="col-md-12" id="doi-tuong-audit" style="background: #eee">
+    <div  class="col-md-12" id="doi-tuong-audit" style="background: #eee">
             <h2 class="text-center title-audit" >Đối tượng áp dụng</h2>
             <div class="row">
                 <div class="container">
@@ -233,7 +234,6 @@
                 </div>
             </div>
         </div>
-    </div>
 <!-- huong end 1-->
 
     <div id="customer" class="col-md-12 text-center lg-screen alignment-div">
@@ -526,9 +526,9 @@
     
     
 <!-- huong start 2-->
-    <div id="price" class="col-md-12 block" >
+    <div id="price" class="col-md-12" >
         <div class="col-md-12" >
-            <h2 class="text-center">Chi tiết dịch vụ</h2>
+            <h2 class="title-audit text-center">Chi tiết dịch vụ</h2>
         </div>
         <div class="col-md-12" >
             <h3 class="h3-huong">

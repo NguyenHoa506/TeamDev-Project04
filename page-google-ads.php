@@ -224,7 +224,7 @@
             <h2 class="centmargdiv">Tại Sao Lại Chọn Chúng Tôi?</h2>
             <div class="row">
                 <div class="col-md-10 col-lg-offset-1">
-                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                    <div class="col-lg-6 col-md-6 col-sm-6 hover-c-ads position_rdiv">
                         <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-usd" aria-hidden="true"></i>
                         </div>
@@ -233,7 +233,7 @@
                             <p>Nhờ kinh nghiệm lâu năm, khả năng thấu hiểu khách hàng để quảng cáo đúng mục tiêu, khả năng xử lý dữ liệu lớn của Google</p>
                         </div>                       
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                    <div class="col-lg-6 col-md-6 col-sm-6 hover-c-ads position_rdiv">
                         <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-line-chart" aria-hidden="true"></i>
                         </div>
@@ -242,7 +242,7 @@
                             <p>Không đơn thuần là quảng cáo Google, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để quảng cáo Google phải đồng bộ với chiến lược kinh doanh của bạn</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                    <div class="col-lg-6 col-md-6 col-sm-6 hover-c-ads position_rdiv">
                         <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-random" aria-hidden="true"></i>
                         </div>
@@ -251,7 +251,7 @@
                             <p>Không đơn thuần là quảng cáo Google, chúng tôi còn tìm hiểu về đặc thù ngành và chiến lược công ty bạn để quảng cáo Google phải đồng bộ với chiến lược kinh doanh của bạn</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c-ads position_rdiv">
+                    <div class="col-lg-6 col-md-6 col-sm-6 hover-c-ads position_rdiv">
                         <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-cogs" aria-hidden="true"></i>
                         </div>
@@ -260,7 +260,7 @@
                             <p>Với kinh nghiệm lâu năm làm việc cùng Google và đội ngũ chuyên gia với các chuyên ngành công nghệ, toán, kỹ thuật, chúng tôi liên tục đưa ra những phương pháp mới để tối ưu hóa hệ thống dữ liệu khổng lồ đến từ Google. Hãy cho chúng tôi xem cách thức quảng cáo của bạn, chúng tôi sẽ chia sẻ với bạn những gì bạn cần cải tiến.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hover-c-ads leftrdiv"">
+                    <div class="col-lg-6 col-md-6 col-sm-6 hover-c-ads leftrdiv"">
                         <div class="col-md-3 centmargdiv2">
                             <i class="fa fa-fw fa-4x fa-users" aria-hidden="true"></i>
                         </div>
@@ -307,7 +307,7 @@
                     <div class="col-md-10 col-md-offset-1">
                         <div class="row">
                             <div class="col-md-12 no-padding">
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -326,7 +326,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -344,7 +344,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -366,7 +366,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 no-padding">
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>
@@ -384,7 +384,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 package should-margin-bottom should-margin-bottom">
+                                <div class="col-md-4 col-sm-4 package should-margin-bottom should-margin-bottom">
                                     <div class="step-contain">
                                         <div class="step1 step">
                                             <div>

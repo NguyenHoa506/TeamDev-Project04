@@ -91,28 +91,65 @@ Chỉ cần tiếp cận được đúng khách hàng đang có nhu cầu, thờ
         <div class="margin-detail col-md-12">
             <h2>Nhân viên sales là ai?</h2>
         </div>
-        <div class="container max-width-sale">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-pr">
-                <div class="staff-des">
-                    Khách hàng luôn là đối tượng quan trọng nhất, là dòng máu để nuôi công ty. Nên phòng sales luôn đóng vai trò quan trọng bật nhất cho bất kỳ công ty, ngành nghề nào, và người bán hàng trở thành một mắt xích vô cùng quan trọng trong công ty. 
+        <div class="container max-width-sale ctv-lg">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-pr">
+                    <div class="staff-des">
+                        Khách hàng luôn là đối tượng quan trọng nhất, là dòng máu để nuôi công ty. Nên phòng sales luôn đóng vai trò quan trọng bật nhất cho bất kỳ công ty, ngành nghề nào, và người bán hàng trở thành một mắt xích vô cùng quan trọng trong công ty. 
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="noi-dung-sale">
+                        <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/staff_img.png" tppabs="http://magica.top/Imgs/staff_img.png" />
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="noi-dung-sale">
-                    <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/staff_img.png" tppabs="http://magica.top/Imgs/staff_img.png" />
+            
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="noi-dung-sale staff-img">
+                        <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/keysuccess.png" tppabs="http://magica.top/Imgs/keysuccess.png" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-pl">
+                    <div class="staff-des">
+                        Kỹ năng sales không còn là một kỹ năng chuyên môn, mà nó áp dụng rộng khắp ở tất cả mọi nơi, bạn muốn khách hàng mua hàng, bạn muốn xin việc, bạn muốn theo đuổi một cô gái, bạn muốn vay một khoảng tiền để đầu tư, ... Một người có khả năng sales tốt vì thế rất dễ thành công ở rất nhiều các lĩnh vực
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="noi-dung-sale">
-                    <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/keysuccess.png" tppabs="http://magica.top/Imgs/keysuccess.png" />
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-pl">
-                <div class="staff-des">
-                    Kỹ năng sales không còn là một kỹ năng chuyên môn, mà nó áp dụng rộng khắp ở tất cả mọi nơi, bạn muốn khách hàng mua hàng, bạn muốn xin việc, bạn muốn theo đuổi một cô gái, bạn muốn vay một khoảng tiền để đầu tư, ... Một người có khả năng sales tốt vì thế rất dễ thành công ở rất nhiều các lĩnh vực
-                </div>
-            </div>
+            
         </div>
+
+        <div class="container max-width-sale ctv-mobile">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="noi-dung-sale">
+                        <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/staff_img.png" tppabs="http://magica.top/Imgs/staff_img.png" />
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="staff-des">
+                        Khách hàng luôn là đối tượng quan trọng nhất, là dòng máu để nuôi công ty. Nên phòng sales luôn đóng vai trò quan trọng bật nhất cho bất kỳ công ty, ngành nghề nào, và người bán hàng trở thành một mắt xích vô cùng quan trọng trong công ty. 
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                <div class="noi-dung-sale">
+                        <img class="img-nhan-vien-sale"  src="<?php bloginfo('template_directory');?>/image/keysuccess.png" tppabs="http://magica.top/Imgs/keysuccess.png" />
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="staff-des">
+                        Kỹ năng sales không còn là một kỹ năng chuyên môn, mà nó áp dụng rộng khắp ở tất cả mọi nơi, bạn muốn khách hàng mua hàng, bạn muốn xin việc, bạn muốn theo đuổi một cô gái, bạn muốn vay một khoảng tiền để đầu tư, ... Một người có khả năng sales tốt vì thế rất dễ thành công ở rất nhiều các lĩnh vực
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
     </div>
 </div>
 
