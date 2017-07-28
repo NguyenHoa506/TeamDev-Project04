@@ -11,7 +11,8 @@
     
     
     <!-- Hoa start -->
-    <div class="container">
+
+    <div class="row">
         
         <div id="mini-action" class="callToAction">
            <div onclick="ShowAction()" class="minidiv"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
@@ -88,7 +89,7 @@
     
     <!-- Huong start 1-->
     <div  class="col-md-12" >
-        <div class="col-md-12" id="doi-tuong-audit">
+        <div class="col-md-12" id="doi-tuong-audit" style="background: #eee">
             <h2 class="text-center title-audit" >Đối tượng áp dụng</h2>
             <div class="row">
                 <div class="container">
