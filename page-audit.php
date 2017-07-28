@@ -11,7 +11,7 @@
     
     
     <!-- Hoa start -->
-    <div>
+    <div class="container">
         
         <div id="mini-action" class="callToAction">
            <div onclick="ShowAction()" class="minidiv"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
