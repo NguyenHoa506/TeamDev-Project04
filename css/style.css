@@ -439,7 +439,7 @@ div.benefit.bg-color-fff {
     padding:10px;
     background-color:#fff;
 
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
 }
 .package .body p{
     margin-bottom:0;
