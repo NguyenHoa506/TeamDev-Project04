@@ -1972,6 +1972,15 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
 .color-fff {
     color: #fff;
 }
+.modal.in .modal-dialog {
+    transform: translate(-50%, -50%);
+}
+.modal-dialog {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    right: auto;
+}
 
 /*...........END-FOOTER..........*/
 
