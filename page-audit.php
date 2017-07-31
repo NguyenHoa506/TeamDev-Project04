@@ -52,7 +52,23 @@
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
                                 </div>
                                 <div class="div-cach justdiv">
-                                    <h5>Có cái nhìn khách quan từ bên ngoài về tình trạng SEO hiện tại</h5>
+                                    <h5>
+                                        <?php 
+                                            $id = null;
+                                            if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                            }
+                                            else{
+                                             $id = null;                                        
+                                            }
+                                                global $wp_query;  
+                                            $page = $wp_query->page;
+                                            $addr = get_field('purpose_1', $id); 
+                                            if ($addr) {
+                                                echo $addr;
+                                            }
+                                        ?>
+                                    </h5>
                                 </div>
                             </div>
                         </div>  
@@ -63,7 +79,23 @@
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
                                 </div>
                                 <div class="div-cach justdiv">
-                                     <h5>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h5>                       
+                                     <h5>
+                                         <?php 
+                                            $id = null;
+                                            if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                            }
+                                            else{
+                                             $id = null;                                        
+                                            }
+                                                global $wp_query;  
+                                            $page = $wp_query->page;
+                                            $addr = get_field('purpose_2', $id); 
+                                            if ($addr) {
+                                                echo $addr;
+                                            }
+                                        ?>
+                                     </h5>                       
                                 </div>
                             </div>
                         </div>
@@ -74,7 +106,23 @@
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
                                 </div>
                                 <div class="div-cach justdiv">
-                                    <h5>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h5>
+                                    <h5>
+                                        <?php 
+                                            $id = null;
+                                            if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                            }
+                                            else{
+                                             $id = null;                                        
+                                            }
+                                                global $wp_query;  
+                                            $page = $wp_query->page;
+                                            $addr = get_field('purpose_3', $id); 
+                                            if ($addr) {
+                                                echo $addr;
+                                            }
+                                        ?>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +179,21 @@
                                             </div>
                                             <div class="back">
                                                 <p class="noi-dung-doi-tuong">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis nobis rerum sunt, optio suscipit! Consequatur, molestias consequuntur. Possimus, obcaecati quisquam dolores ab.
+                                                    <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_1', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                                 </p>
                                             </div>
                                         </div>
@@ -176,7 +238,21 @@
                                             </div>
                                             <div class="back">
                                                 <p class="noi-dung-doi-tuong">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni dignissimos quae sint praesentium nam doloribus, autem adipisci expedita asperiores nostrum sunt, in minima. Placeat.
+                                                    <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_2', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                                 </p>
                                             </div>
                                         </div>
@@ -222,7 +298,21 @@
                                             </div>
                                             <div class="back">
                                                 <p class="noi-dung-doi-tuong">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptate repellat doloremque aperiam aliquid necessitatibus vero id est dolorem eius?
+                                                    <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                                 </p>
                                             </div>
                                         </div>
@@ -258,7 +348,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
 
@@ -284,7 +388,21 @@
                                 </div>
                                 <div class="back keyword">
                                     <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -307,7 +425,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -331,7 +463,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                       <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -354,7 +500,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -378,7 +538,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -411,7 +585,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text back-text-format">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_1', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -431,7 +619,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text back-text-format">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_2', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -452,7 +654,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text back-text-format">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -472,7 +688,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text" style="">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_4', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -492,7 +722,21 @@
                     </div>
                     <div class="back keyword">
                         <p class="back-text back-text-format">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                           <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_5', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                         </p>
                     </div>
                 </div>
@@ -512,7 +756,21 @@
                     </div>
                     <div class="back keyword">
                         <p class="back-text back-text-format">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                            <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_6', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                         </p>
                     </div>
                 </div>
