@@ -56,13 +56,13 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-            <div  class="navbar-collapse collapse" style="padding-top: 12px;">
+            <div  class="navbar-collapse collapse">
                 <div>
                     <div class="big-logo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img style="height:40px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" />
                         </a>
                     </div>
-                    <ul class="nav navbar-nav pull-right" >
+                    <ul class="nav navbar-nav pull-right" style="padding-top: 12px;">
                         <li class="dropdown tb-show">
                             <a class="hasSub">DỊCH VỤ</a>
                             <ul class="dropdown-menu">
