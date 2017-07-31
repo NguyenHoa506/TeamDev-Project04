@@ -133,8 +133,8 @@
             <h2 class="title-index">Vấn đề hiện tại trên thị trường </h2>
             <div class="row">
                 <div class="container">
-                    <div class="col-md-12 no-padding">
-                        <div class="col-sm-3">
+                    <div class="col-md-12  no-padding">
+                        <div class="col-md-3 col-sm-6 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -155,7 +155,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -176,7 +176,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -197,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">

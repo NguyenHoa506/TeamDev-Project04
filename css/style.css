@@ -378,7 +378,7 @@ div.benefit.bg-color-fff {
     height: 31px;
     width: 31px;
     border-radius: 50%;
-    font-weight: bold;z-index:1000;
+    font-weight: bold;z-index:500;
     font-size: 20px;border: 2px solid #63c1af;
 }
 .step-num span{
@@ -731,6 +731,10 @@ ul.arr li:before {
     .justdiv{
         text-align: center;
     }
+    img.img-vd-hientai {
+        height: auto;
+        width: 50%;
+    }
 
 }
 
@@ -1073,6 +1077,10 @@ div.col-md-4.col-sm-4.frame {
     }
     .back-text {
         padding-top: 0;
+    }
+    img.img-vd-hientai {
+        height: auto;
+        width: 50%;
     }
 }
 
@@ -2063,10 +2071,6 @@ h2.title-index {
     margin-top: 15px;
 }
 
-img.img-vd-hientai {
-    height: 100%;
-}
-
 p.text-back-index {
     padding-top:20px;
 }
@@ -2316,7 +2320,6 @@ div#strength.col-md-12.our-power {
     width:100%;
     text-align:center;
     font-size:21px;
-    margin-top: 15px;
 }
 .img-front {
     height: 100%;

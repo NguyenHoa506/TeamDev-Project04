@@ -388,12 +388,6 @@
         return isphone;
     }
 
-     function validateURL(site){
-      // var issite = /\\b(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]/;
-       var issite = /\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/;
-        return issite.test(site);
-    }
-
     function resetInput() {
         $('input').val('');
         $('input').removeClass("has-error-input");
@@ -411,6 +405,9 @@
         }
   
     $('.mhn').click(function() {
+		$("#err_hoten").css("display","none");
+		 $("#err_sdt").css("display","none");
+
         $('input').removeClass("has-error-input");
         $('input').parent().removeClass("has-error");
         $(".error").css("visibility", "hidden");
@@ -419,8 +416,8 @@
         var phone = $('#phone').val().trim();
         var message = $('#note').val().trim();
         var test = true;
-        
 
+        
         if (names == "") {
             $("#err_hoten").css("display","block");
             test = false;
@@ -428,11 +425,6 @@
 
         if (!validatePhone(phone)) {
             $("#err_sdt").css("display","block");
-            test = false;
-        }
-
-        if (!validateURL(site)) {
-            $("#err_website").css("display","block");
             test = false;
         }
 

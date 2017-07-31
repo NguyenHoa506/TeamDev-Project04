@@ -391,7 +391,7 @@
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                                <img src="<?php echo $thumb; ?>" class="image-size-lam" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= "<?php echo $height; ?>"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -465,7 +465,7 @@
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                               <img src="<?php echo $thumb; ?>" class="image-size-lam" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= "<?php echo $height; ?>"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -536,7 +536,7 @@
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                               <img src="<?php echo $thumb; ?>" class="image-size-lam" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= "<?php echo $height; ?>"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -608,7 +608,7 @@
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                               <img src="<?php echo $thumb; ?>" class="image-size-lam" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= "<?php echo $height; ?>"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -679,7 +679,7 @@
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                                <img src="<?php echo $thumb; ?>" class="image-size-lam" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= "<?php echo $height; ?>"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -751,7 +751,7 @@
                                                 <div class="wp-caption">
                                             <?php endif; ?>
                                             <a   title="<?php echo $title; ?>">
-                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                               <img src="<?php echo $thumb; ?>" class="image-size-lam" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= "<?php echo $height; ?>"/>
                                             </a>
                                             <?php if( $caption ): ?>
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
@@ -1029,7 +1029,7 @@
                 <div class="row">
                     <div class="container">
                         <div class="col-md-12 no-padding">
-                            <div class="col-md-6 no-padding">
+                            <div class="col-md-6 col-sm-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
                                         <div class="header41">
@@ -1088,7 +1088,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-md-6 no-padding">
+                            <div class="col-md-6 col-sm-6 no-padding">
                                 <div class="col-md-12 package should-margin-bottom border-l">
                                     <div class="border-round">
                                         <div class="header42">

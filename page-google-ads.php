@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="col-md-10 col-md-offset-1 padtdiv">
-                            <div class="col-md-4 package should-margin-bottom">
+                            <div class="col-md-4 col-sm-12 package should-margin-bottom">
                                 <div class="border-round">
                                     <div class="header1">
                                         <h3 class="margintdiv2">Theo ngân sách</h3>
@@ -74,7 +74,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 package should-margin-bottom">
+                            <div class="col-md-4 col-sm-12 package should-margin-bottom">
                                 <div class="border-round">
                                     <div class="header2">
                                         <h3 class="margintdiv2">Theo từ khóa</h3>
@@ -94,7 +94,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 package should-margin-bottom">
+                            <div class="col-md-4 col-sm-12 package should-margin-bottom">
                                 <div class="border-round">
                                     <div class="header3">
                                         <h3 class="margintdiv2">Theo số click (CPC)</h3>
@@ -174,7 +174,7 @@
                 <div class="col-md-12">
                     <div id="parentB" class="col-md-10 col-md-offset-1">
                         <div class="row">
-                            <div class="col-md-4 should-margin-bottom centdiv">
+                            <div class="col-md-4 col-sm-4 should-margin-bottom centdiv">
                                 <div class="benefit bg-color-fff">
                                     <div class="help1">
                                         <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g1.png" tppabs="http://magica.top/Imgs/g1.png" />
@@ -184,7 +184,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 should-margin-bottom centdiv">
+                            <div class="col-md-4 col-sm-4 should-margin-bottom centdiv">
                                 <div class="benefit bg-color-fff">
                                     <div class="help1">
                                         <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g2.png" tppabs="http://magica.top/Imgs/g2.png" />
@@ -194,7 +194,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 should-margin-bottom centdiv">
+                            <div class="col-md-4 col-sm-4 should-margin-bottom centdiv">
                                 <div class="benefit bg-color-fff">
                                     <div class="help1">
                                         <img class="heightdiv" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/g3.png" tppabs="http://magica.top/Imgs/g3.png" />

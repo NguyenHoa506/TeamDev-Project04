@@ -9,9 +9,12 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js" tppabs="http://magica.top/Scripts/main.js"></script>
 
 <style>
+   
     
 </style>
-
+<script>
+    
+</script>
 
 <!-- Hoa start -->
     <div>
@@ -42,7 +45,7 @@
 
      <div id="feature" class="col-md-12" style="color:#fff;  position:relative">
         <div class="banner-image"></div>
-        <div style="position: relative; z-index:200">
+        <div class="audit-index-div">
             <div class="margin-detail col-md-12">
                 <h2>Các Dịch Vụ</h2>
             </div>
@@ -130,8 +133,8 @@
             <h2 class="title-index">Vấn đề hiện tại trên thị trường </h2>
             <div class="row">
                 <div class="container">
-                    <div class="col-md-12 no-padding">
-                        <div class="col-sm-3">
+                    <div class="col-md-12  no-padding">
+                        <div class="col-md-3 col-sm-6 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -152,7 +155,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -173,7 +176,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -194,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="col-sm-12 col-md-12 no-padding vd-hientai">
                                 <div class="spoint">
                                     <div class="flip-container height-vd-hientai">
@@ -238,10 +241,10 @@
                     </div>
                    
                     <div class="textcenter">
-                        <img style="height:70px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block1.jpg" tppabs="http://magica.top/Imgs/block1.jpg" />
+                        <img class="size-img-70" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block1.jpg" tppabs="http://magica.top/Imgs/block1.jpg" />
                     </div>
                     <div class="textcenter">
-                        <img style="height:30px" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block6.jpg" tppabs="http://magica.top/Imgs/block6.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block6.jpg" tppabs="http://magica.top/Imgs/block6.jpg" />
                     </div>
                     <div class="textcenter">
                         <div class="hasHidden">
@@ -258,7 +261,7 @@
                         </div>
                     </div>
                     <div class="textcenter">
-                        <img style="height:30px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
                     </div>
                     <div class="textcenter">
                         <div class="hasHidden">
@@ -278,7 +281,7 @@
 
 
                     <div class="textcenter">
-                        <img style="height:30px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
                     </div>
                     <div class="textcenter">
                         <div class="hasHidden">
@@ -295,10 +298,10 @@
                         </div>
                     </div>
                     <div class="textcenter">
-                        <img style="height:30px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
+                        <img class="size-img-30" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block7.jpg" tppabs="http://magica.top/Imgs/block7.jpg" />
                     </div>
                     <div class="textcenter">
-                        <img style="height:70px;" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block5.jpg" tppabs="http://magica.top/Imgs/block5.jpg" />
+                        <img class="size-img-70" alt="Hình ảnh" src="<?php bloginfo('template_directory');?>/image/block5.jpg" tppabs="http://magica.top/Imgs/block5.jpg" />
                     </div>
                 </div>
                 <div class="col-lg-4" style="color:#537ca0">
