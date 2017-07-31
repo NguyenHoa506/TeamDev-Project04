@@ -161,7 +161,8 @@
                                                     <p class="wp-caption-text"><?php echo $caption; ?></p>
                                                 </div>
                                             <?php endif; ?>
-                                    <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                                 </div>
                                 <h3>Hiểu về SEO</h3>
                                 <p class="pdiv">Giúp bạn hiểu được SEO, tầm quan trọng và xây dựng chiến lược cho doanh nghiệp</p>
