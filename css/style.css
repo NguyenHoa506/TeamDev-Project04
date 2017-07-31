@@ -1982,6 +1982,16 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     right: auto;
 }
 
+#err_hoten {
+    display: none;
+}
+#err_sdt {
+    display: none;
+}
+#err_website {
+    display: none;
+}
+
 /*...........END-FOOTER..........*/
 
 /*............INDEX...............*/

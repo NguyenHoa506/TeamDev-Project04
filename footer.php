@@ -261,6 +261,7 @@
                                 <div class="row">
                                     <img style="height:60px" src="<?php bloginfo('template_directory');?>/image/LogoMagic.png" />
                                     <p>Mở cánh cửa đến với khách hàng</p>
+                                    <button  class="btn btn-default modal-btn" data-toggle="modal" data-target="#myModal1" style="display:none"></button>
                                 </div>
                              
                             </div>                            
@@ -371,7 +372,7 @@
               <button class="close" type="button" data-dismiss="modal">×</button>
                   <h4 class="modal-title">SUCESS</h4>
           </div>
-          <div class="modal-body">Thank you for your messsage. It has been Sent.</div>
+          <div class="modal-body">Tin nhắn đã được gửi. Cảm ơn bạn.</div>
           <div class="modal-footer">
             <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
           </div>
@@ -399,6 +400,13 @@
         $(".error").css("visibility", "hidden");
     }
 
+        var check = $(location).attr('href').indexOf('wpcf7');
+        if (check>0) {
+         $('.modal-btn').click();
+        window.history.pushState('page', 'Title', '/');
+    
+        }
+  
     $('.mhn').click(function() {
         $('input').removeClass("has-error-input");
         $('input').parent().removeClass("has-error");
@@ -408,10 +416,12 @@
         var phone = $('#phone').val().trim();
         var message = $('#note').val().trim();
         var test = true;
+        
 
         if (names == "") {
             $(".error").css("visibility", "visible");
             $("#names").addClass("has-error-input");
+            $("#err_hoten").css("display","block");
             test = false;
         }
 
@@ -428,7 +438,6 @@
         }
 
         if (!test) {
-           alert('error');
            return false;
         }
     });

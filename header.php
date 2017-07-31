@@ -41,7 +41,12 @@
             /* ]]> */
     </script>
     <script type="text/javascript" src="http://trainee.magica.top/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7.11.1"></script>
-
+    <script type="text/javascript">
+        $ check = $(location).attr('href').indexOf('wpcf7');
+        if ($ check>0) {
+            $('#myModal1').addClass('in');
+        }
+    </script>
 </head>
 <body>
 <div class="navbar-inverse eduu-navbar navbar-fixed-top">
