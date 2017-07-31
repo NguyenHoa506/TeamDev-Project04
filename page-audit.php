@@ -151,7 +151,16 @@
                                             <div class="front">
                                                 <div class="img-doi-tuong">
                                                     <?php 
-                                                        $image = get_field('doanh-nghiep1');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('doanh-nghiep1',$id);
                                                         if( !empty($image) ): 
                                                             $url = $image['url'];
                                                             $title = $image['hinhanh'];
@@ -209,7 +218,16 @@
                                             <div class="front">
                                                 <div class="img-doi-tuong">
                                                     <?php 
-                                                        $image = get_field('team-seo');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('team-seo', $id);
                                                         if( !empty($image) ): 
                                                             $url = $image['url'];
                                                             $title = $image['hinhanh'];
@@ -268,7 +286,16 @@
                                             <div class="front">
                                                 <div class="img-doi-tuong">
                                                     <?php 
-                                                        $image = get_field('doanh-nghiep2');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('doanh-nghiep2',$id);
                                                         if( !empty($image) ): 
                                                             // vars
                                                             $url = $image['url'];
@@ -1007,7 +1034,16 @@
                                     <div class="border-round">
                                         <div class="header41">
                                             <?php 
-                                                $image = get_field('dich-vu1');
+                                                $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                $image = get_field('dich-vu1',$id);
                                                 if( !empty($image) ): 
                                                 $url = $image['url'];
                                                 $title = $image['dichvu1'];
@@ -1057,7 +1093,16 @@
                                     <div class="border-round">
                                         <div class="header42">
                                             <?php 
-                                                $image = get_field('dich-vu2');
+                                                $id = null;
+                                                if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                                }
+                                                else{
+                                                 $id = null;                                        
+                                                }
+                                                global $wp_query;  
+                                                $page = $wp_query->page;
+                                                $image = get_field('dich-vu2',$id);
                                                 if( !empty($image) ): 
                                                 $url = $image['url'];
                                                 $title = $image['hinhanh'];
