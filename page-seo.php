@@ -139,7 +139,16 @@
                                     
 
                                     <?php 
-                                        $image = get_field('hieu-ve-seo');
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hieu-ve-seo', $id);
                                         if( !empty($image) ): 
                                             // vars
                                             $url = $image['url'];
@@ -175,7 +184,16 @@
                                     <!-- <img style="height:150px" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/tuvan.png" tppabs="http://magica.top/Imgs/tuvan.png" /> -->
 
                                     <?php 
-                                        $image = get_field('xay-dung-chien-luoc');
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('xay-dung-chien-luoc', $id);
                                         if( !empty($image) ): 
                                             // vars
                                             $url = $image['url'];
@@ -211,7 +229,16 @@
                                     <!-- <img style="height:150px" alt="Hình ảnh" src="<?php// bloginfo('template_directory');?>/image/topseo.png" tppabs="http://magica.top/Imgs/topseo.png" /> -->
 
                                     <?php 
-                                        $image = get_field('toi-uu-roi1');
+                                    $id = null;
+                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('toi-uu-roi1', $id);
                                         if( !empty($image) ): 
                                             // vars
                                             $url = $image['url'];
@@ -308,7 +335,16 @@
                                                     <!-- <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/target.jpg" tppabs="http://magica.top/Imgs/target.jpg" /> -->
 
                                                     <?php 
-                                                        $image = get_field('tiep-can-dung-kh');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                        global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('tiep-can-dung-kh', $id);
                                                         if( !empty($image) ): 
                                                             // vars
                                                             $url = $image['url'];
@@ -356,7 +392,16 @@
 
 
                                                     <?php 
-                                                        $image = get_field('chien-luoc-kinh-doanh');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                        global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('chien-luoc-kinh-doanh',$id);
                                                         if( !empty($image) ): 
                                                             // vars
                                                             $url = $image['url'];
@@ -403,7 +448,16 @@
                                                    <!--  <img style="height:100%;" alt="Hình ảnh" src="<?php //bloginfo('template_directory');?>/image/cheap.jpg" tppabs="http://magica.top/Imgs/cheap.jpg" /> -->
 
                                                     <?php 
-                                                        $image = get_field('toi-uu-roi2');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                        global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('toi-uu-roi2',$id);
                                                         if( !empty($image) ): 
                                                             // vars
                                                             $url = $image['url'];
@@ -454,7 +508,16 @@
 
 
                                                     <?php 
-                                                        $image = get_field('dich-vu-chuyen-nghiep');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'seo', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                        global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('dich-vu-chuyen-nghiep',$id);
                                                         if( !empty($image) ): 
                                                             // vars
                                                             $url = $image['url'];
