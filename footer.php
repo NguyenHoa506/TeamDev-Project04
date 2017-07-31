@@ -340,20 +340,21 @@
                         </div>
 
 
-<div id="modal-success" class="modal modal-message modal-success fade" style="display: none;" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <i class="glyphicon glyphicon-check"></i>
-                </div>
-                <div class="modal-title">Chúng tôi đã nhận được tin nhắn của bạn và sẽ liên lạc trong thời gian sớm nhất.</div>
-            
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-dismiss="modal">OK</button>
-                </div>
-            </div> <!-- / .modal-content -->
-        </div> <!-- / .modal-dialog -->
-    </div>
+ <!-- Modal -->
+    <div id="myModal1" class="modal fade" tabindex="-1">
+      <div class="modal-dialog" style="margin-left: 0">
+        <div class="modal-content">
+          <div class="modal-header">
+              <button class="close" type="button" data-dismiss="modal">×</button>
+                  <h4 class="modal-title">SUCESS</h4>
+          </div>
+          <div class="modal-body">Thank you for your messsage. It has been Sent.</div>
+          <div class="modal-footer">
+            <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
 
 

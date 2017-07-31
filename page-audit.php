@@ -52,7 +52,23 @@
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/graph-analysis.png">
                                 </div>
                                 <div class="div-cach justdiv">
-                                    <h5>Có cái nhìn khách quan từ bên ngoài về tình trạng SEO hiện tại</h5>
+                                    <h5>
+                                        <?php 
+                                            $id = null;
+                                            if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                            }
+                                            else{
+                                             $id = null;                                        
+                                            }
+                                                global $wp_query;  
+                                            $page = $wp_query->page;
+                                            $addr = get_field('purpose_1', $id); 
+                                            if ($addr) {
+                                                echo $addr;
+                                            }
+                                        ?>
+                                    </h5>
                                 </div>
                             </div>
                         </div>  
@@ -63,7 +79,23 @@
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/refresh-button.png">
                                 </div>
                                 <div class="div-cach justdiv">
-                                     <h5>Cập nhập những thay đổi mới nhất từ Google & cải tiến hệ thống SEO hiện tại</h5>                       
+                                     <h5>
+                                         <?php 
+                                            $id = null;
+                                            if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                            }
+                                            else{
+                                             $id = null;                                        
+                                            }
+                                                global $wp_query;  
+                                            $page = $wp_query->page;
+                                            $addr = get_field('purpose_2', $id); 
+                                            if ($addr) {
+                                                echo $addr;
+                                            }
+                                        ?>
+                                     </h5>                       
                                 </div>
                             </div>
                         </div>
@@ -74,7 +106,23 @@
                                     <img class="div-imgh" src="<?php bloginfo('template_directory');?>/image/person-of-a-call-center-in-communication-with-headphones.png">
                                 </div>
                                 <div class="div-cach justdiv">
-                                    <h5>Được hỗ trợ tư vấn chuyên sâu về từng vấn đề của SEO mà ít có team nào có thể bao quát hết được</h5>
+                                    <h5>
+                                        <?php 
+                                            $id = null;
+                                            if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                            }
+                                            else{
+                                             $id = null;                                        
+                                            }
+                                                global $wp_query;  
+                                            $page = $wp_query->page;
+                                            $addr = get_field('purpose_3', $id); 
+                                            if ($addr) {
+                                                echo $addr;
+                                            }
+                                        ?>
+                                    </h5>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +151,16 @@
                                             <div class="front">
                                                 <div class="img-doi-tuong">
                                                     <?php 
-                                                        $image = get_field('doanh-nghiep1');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('doanh-nghiep1',$id);
                                                         if( !empty($image) ): 
                                                             $url = $image['url'];
                                                             $title = $image['hinhanh'];
@@ -131,7 +188,21 @@
                                             </div>
                                             <div class="back">
                                                 <p class="noi-dung-doi-tuong">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis nobis rerum sunt, optio suscipit! Consequatur, molestias consequuntur. Possimus, obcaecati quisquam dolores ab.
+                                                    <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_1', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                                 </p>
                                             </div>
                                         </div>
@@ -147,7 +218,16 @@
                                             <div class="front">
                                                 <div class="img-doi-tuong">
                                                     <?php 
-                                                        $image = get_field('team-seo');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('team-seo', $id);
                                                         if( !empty($image) ): 
                                                             $url = $image['url'];
                                                             $title = $image['hinhanh'];
@@ -176,7 +256,21 @@
                                             </div>
                                             <div class="back">
                                                 <p class="noi-dung-doi-tuong">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni dignissimos quae sint praesentium nam doloribus, autem adipisci expedita asperiores nostrum sunt, in minima. Placeat.
+                                                    <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_2', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                                 </p>
                                             </div>
                                         </div>
@@ -192,7 +286,16 @@
                                             <div class="front">
                                                 <div class="img-doi-tuong">
                                                     <?php 
-                                                        $image = get_field('doanh-nghiep2');
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $image = get_field('doanh-nghiep2',$id);
                                                         if( !empty($image) ): 
                                                             // vars
                                                             $url = $image['url'];
@@ -222,7 +325,21 @@
                                             </div>
                                             <div class="back">
                                                 <p class="noi-dung-doi-tuong">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis voluptate repellat doloremque aperiam aliquid necessitatibus vero id est dolorem eius?
+                                                    <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                                 </p>
                                             </div>
                                         </div>
@@ -247,7 +364,41 @@
                         <div class="flip-container border-flip">
                             <div class="flipper">
                                 <div class="front keyword content ">
-                                        <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/attach.png">
+                                        <!-- <img class="image-size-lam" alt="keyword" src="<?php //bloginfo('template_directory');?>/image/attach.png"> -->
+                                        <?php 
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hang-muc-1',$id);
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a   title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                                         <h3 class="h3-lam">Hệ thống content</h3>
                                 </div>
                                 <div class="back keyword back-img">
@@ -258,7 +409,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
 
@@ -273,7 +438,41 @@
                     <div class="flip-container border-flip">
                         <div class="flipper">
                             <div class="front keyword backlink ">
-                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/settings.png">
+                                <!-- <img class="image-size-lam" alt="keyword" src="<?php //bloginfo('template_directory');?>/image/settings.png"> -->
+                                <?php 
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hang-muc-2',$id);
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a   title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                                 <h3 class="h3-lam">Hệ thống backlink</h3>
                             </div>
                             <div class="back keyword back-img">
@@ -284,7 +483,21 @@
                                 </div>
                                 <div class="back keyword">
                                     <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -296,7 +509,41 @@
                     <div class="flip-container border-flip">
                         <div class="flipper">
                             <div class="front keyword keyword-landing">
-                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/analysis.png">
+                                <!-- <img class="image-size-lam" alt="keyword" src="<?php// bloginfo('template_directory');?>/image/analysis.png"> -->
+                                <?php 
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hang-muc-3',$id);
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a   title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                                 <h3 class="h3-lam">Keyword</h3>
                                 <h3 class="h3-lam">Landing page</h3>
                             </div>
@@ -307,7 +554,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -320,7 +581,41 @@
                     <div class="flip-container border-flip">
                         <div class="flipper">
                             <div class="front keyword ux ">
-                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/photo-camera.png">
+                                <!-- <img class="image-size-lam" alt="keyword" src="<?php //bloginfo('template_directory');?>/image/photo-camera.png"> -->
+                                <?php 
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hang-muc-4',$id);
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a   title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                                 <h3 class="h3-lam">UX</h3>
                             </div>
                             <div class="back keyword back-img">
@@ -331,7 +626,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                       <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -343,7 +652,41 @@
                     <div class="flip-container border-flip">
                         <div class="flipper">
                             <div class="front keyword onpage">
-                               <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/search.png">
+                               <!-- <img class="image-size-lam" alt="keyword" src="<?php// bloginfo('template_directory');?>/image/search.png"> -->
+                               <?php 
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hang-muc-5',$id);
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a   title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                         <h3 class="h3-lam">Onpage</h3>
                             </div>
                             <div class="back keyword back-img">
@@ -354,7 +697,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -367,7 +724,41 @@
                     <div class="flip-container border-flip">
                         <div class="flipper">
                             <div class="front keyword link">
-                                <img class="image-size-lam" alt="keyword" src="<?php bloginfo('template_directory');?>/image/sitemap.png">
+                                <!-- <img class="image-size-lam" alt="keyword" src="<?php// bloginfo('template_directory');?>/image/sitemap.png"> -->
+                                <?php 
+                                        $id = null;
+                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                            $id = $page->ID;
+                                        }
+                                        else{
+                                         $id = null;                                        
+                                        }
+                                        global $wp_query;  
+                                        $page = $wp_query->page;
+                                        $image = get_field('hang-muc-6',$id);
+                                        if( !empty($image) ): 
+                                            // vars
+                                            $url = $image['url'];
+                                            $title = $image['hinhanh'];
+                                            $alt = $image['alt'];
+                                            $caption = $image['caption'];
+                                            // thumbnail
+                                            $size = 'thumbnail';
+                                            $thumb = $image['sizes'][ $size ];
+                                            $width = $image['150px'][ $size . '-width' ];
+                                            $height = $image['sizes'][ $size . '-height' ];
+                                            if( $caption ): ?>
+                                                <div class="wp-caption">
+                                            <?php endif; ?>
+                                            <a   title="<?php echo $title; ?>">
+                                                <img src="<?php echo $thumb; ?>" alt="<?php echo $alt; ?>" width="<?php echo $width; ?>" height= 170px />
+                                            </a>
+                                            <?php if( $caption ): ?>
+                                                    <p class="wp-caption-text"><?php echo $caption; ?></p>
+                                                </div>
+                                            <?php endif; ?>
+                                        <?php endif; 
+                                    ?>
                         <h3 class="h3-lam">Cấu trúc liên kết link </h3>
                             </div>
                             <div class="back keyword back-img">
@@ -378,7 +769,21 @@
                                 </div>
                                 <div class="back keyword">
                                 <p class="back-text back-text-format">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi!
+                                        <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('object_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                     </p>
                                 </div>
                         </div>
@@ -411,7 +816,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text back-text-format">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_1', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -431,7 +850,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text back-text-format">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_2', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -452,7 +885,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text back-text-format">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_3', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -472,7 +919,21 @@
                         </div>
                         <div class="back keyword">
                             <p class="back-text" style="">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_4', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                             </p>
                         </div>
                     </div>
@@ -492,7 +953,21 @@
                     </div>
                     <div class="back keyword">
                         <p class="back-text back-text-format">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                           <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_5', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                         </p>
                     </div>
                 </div>
@@ -512,7 +987,21 @@
                     </div>
                     <div class="back keyword">
                         <p class="back-text back-text-format">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eaque dicta aperiam, soluta laboriosam veritatis quis tenetur magnam voluptates nobis temporibus nisi quidem commodi, necessitatibus!
+                            <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('items_6', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                         </p>
                     </div>
                 </div>
@@ -545,7 +1034,16 @@
                                     <div class="border-round">
                                         <div class="header41">
                                             <?php 
-                                                $image = get_field('dich-vu1');
+                                                $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                $image = get_field('dich-vu1',$id);
                                                 if( !empty($image) ): 
                                                 $url = $image['url'];
                                                 $title = $image['dichvu1'];
@@ -569,7 +1067,21 @@
                                         </div>
                                         <div class="body noi-dung-dich-vu-audit" >
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque facilis veritatis beatae molestiae, a dignissimos? Et, exercitationem, natus. Asperiores est accusamus voluptate, ducimus distinctio nobis!
+                                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('service_1', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                             </p>
                                         </div>
                                     </div>
@@ -581,7 +1093,16 @@
                                     <div class="border-round">
                                         <div class="header42">
                                             <?php 
-                                                $image = get_field('dich-vu2');
+                                                $id = null;
+                                                if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                $id = $page->ID;
+                                                }
+                                                else{
+                                                 $id = null;                                        
+                                                }
+                                                global $wp_query;  
+                                                $page = $wp_query->page;
+                                                $image = get_field('dich-vu2',$id);
                                                 if( !empty($image) ): 
                                                 $url = $image['url'];
                                                 $title = $image['hinhanh'];
@@ -605,7 +1126,21 @@
                                         </div>
                                         <div class="body noi-dung-dich-vu-audit">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit placeat sint voluptatum rem, magni in ad veniam eveniet cupiditate natus quas incidunt suscipit, earum quis?
+                                                <?php 
+                                                        $id = null;
+                                                        if ( $page = get_page_by_path( 'audit', OBJECT, 'page' ) ){
+                                                            $id = $page->ID;
+                                                        }
+                                                        else{
+                                                         $id = null;                                        
+                                                        }
+                                                            global $wp_query;  
+                                                        $page = $wp_query->page;
+                                                        $addr = get_field('service_2', $id); 
+                                                        if ($addr) {
+                                                            echo $addr;
+                                                        }
+                                                    ?>
                                             </p>
                                         </div>
                                     </div>
