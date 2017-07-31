@@ -348,7 +348,7 @@
               <button class="close" type="button" data-dismiss="modal">×</button>
                   <h4 class="modal-title">SUCESS</h4>
           </div>
-          <div class="modal-body">Thank you for your messsage. It has been Sent.</div>
+          <div class="modal-body" style = "color: black;">Tin nhắn đã được gửi. Cảm ơn bạn.</div>
           <div class="modal-footer">
             <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
           </div>
@@ -404,7 +404,9 @@
         var check = $(location).attr('href').indexOf('wpcf7');
         if (check>0) {
          $('.modal-btn').click();
-        window.history.pushState('page', 'Title', '/');
+        var url =  $(location).attr('href');
+        
+       window.history.pushState('page', 'Title',  url.slice(0,url.indexOf('wpcf7')-1));
     
         }
   
@@ -420,21 +422,17 @@
         
 
         if (names == "") {
-            $(".error").css("visibility", "visible");
-            $("#names").addClass("has-error-input");
             $("#err_hoten").css("display","block");
             test = false;
         }
 
         if (!validatePhone(phone)) {
-            $(".error").css("visibility", "visible");
-            $("#phone").addClass("has-error-input");
+            $("#err_sdt").css("display","block");
             test = false;
         }
 
         if (!validateURL(site)) {
-            $(".error").css("visibility", "visible");
-            $("#site").addClass("has-error-input");
+            $("#err_website").css("display","block");
             test = false;
         }
 

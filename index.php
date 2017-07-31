@@ -23,7 +23,7 @@
             <div onclick="ShowAction()" class = "eModal-1" style="text-align:center; font-size:20px; cursor:pointer"><i class="fa fa-comments" aria-hidden="true"></i> Miễn phí tư vấn</div>
         </div>
 
-		<?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="309" title="Form-tu-van"]'); ?>
 
 
     <div class="col-md-12" style="padding: 0px">

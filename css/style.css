@@ -1981,15 +1981,22 @@ i.fa.fa-bar-chart.fa-stack-1x.workdiv2{
     top: 50%;
     right: auto;
 }
+body.modal-open {
+    padding-right: 0;
+    margin-right: 0;
+}
 
 #err_hoten {
     display: none;
+    color: red;
 }
 #err_sdt {
     display: none;
+    color: red;
 }
 #err_website {
     display: none;
+    color: red;
 }
 
 /*...........END-FOOTER..........*/
